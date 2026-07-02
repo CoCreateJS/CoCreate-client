@@ -4,7 +4,6 @@ const CoCreateConfig = require("./CoCreate.config");
 const {
 	ModuleGenerator,
 	FileUploader,
-	SymlinkCreator,
 	UnicodeLoader
 } = require("@cocreate/webpack");
 
@@ -38,7 +37,6 @@ module.exports = async (env, argv) => {
 		plugins: [
 			new ModuleGenerator(CoCreateConfig.modules),
 			new FileUploader(env, argv),
-			// new SymlinkCreator(),
 			
 			// <-- ADDED: The Surgical Fix for npm link -->
 			// Forcefully redirects any dynamic import of "CoCreate.config.js" 
