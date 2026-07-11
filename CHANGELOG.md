@@ -1,3 +1,25 @@
+# [1.78.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.77.1...v1.78.0) (2026-07-11)
+
+
+### Bug Fixes
+
+* add plugin definitions for external libraries to CoCreate.config.js ([20e411b](https://github.com/CoCreate-app/CoCreateJS/commit/20e411b641031326f2abe91217eb57ac9673f064))
+* clean up package.json by removing unused devDependencies and adding allowScripts ([e46c080](https://github.com/CoCreate-app/CoCreateJS/commit/e46c080a7a83f0c6a8f5c267dbcec7259e60b5ea))
+* comment out SymlinkCreator in webpack config to prevent issues with dynamic imports ([8940b7a](https://github.com/CoCreate-app/CoCreateJS/commit/8940b7aa901d24ec1001d1266bc36dfd85462fa5))
+* remove deprecated CoCreateCSS plugin reference from configuration files ([cbc9bc8](https://github.com/CoCreate-app/CoCreateJS/commit/cbc9bc8f9ab93b10bfe30198770a2972d6943413))
+* remove NPM_TOKEN from workflows to streamline environment variables ([c29993f](https://github.com/CoCreate-app/CoCreateJS/commit/c29993fe63d84f941157c950bcf5e1f14e7e093e))
+* remove postinstall script from package.json ([354a3f1](https://github.com/CoCreate-app/CoCreateJS/commit/354a3f170dc37609834bbe651a7343c6346a16c7))
+* remove SymlinkCreator from webpack config to resolve dynamic import issues ([87d1560](https://github.com/CoCreate-app/CoCreateJS/commit/87d156088ec52b88251136ce841be9205e372080))
+* removed $relativePath ([1a9912c](https://github.com/CoCreate-app/CoCreateJS/commit/1a9912c0b21f9489c4e147a4e0da3f563d141a48))
+* update branch name from main to master in release configuration ([2463a29](https://github.com/CoCreate-app/CoCreateJS/commit/2463a29a3b421358487ddee544c5dac2f7a2eafe))
+* update branch name from master to main in release.config.js ([c2c44aa](https://github.com/CoCreate-app/CoCreateJS/commit/c2c44aa14d9cfa9363ef3f23cff1a541ff71b520))
+* update dependencies in package.json to latest versions ([28b40a7](https://github.com/CoCreate-app/CoCreateJS/commit/28b40a7b0d73c287689838b39bfe0d9dbe2c040b))
+
+
+### Features
+
+* simplify webpack commands in package.json and update @cocreate/cli dependency ([02ff296](https://github.com/CoCreate-app/CoCreateJS/commit/02ff29659beaa75ebb379566e68690be3bb7cf62))
+
 ## [1.77.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.77.0...v1.77.1) (2026-03-06)
 
 
