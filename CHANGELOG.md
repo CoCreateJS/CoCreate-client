@@ -1,3 +1,10 @@
+# [1.79.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.78.0...v1.79.0) (2026-07-17)
+
+
+### Features
+
+* update automated workflow and release configuration for improved semantic release handling ([a94ea78](https://github.com/CoCreate-app/CoCreateJS/commit/a94ea7866278abdbb439c9bed41b9db16372c428))
+
 # [1.78.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.77.1...v1.78.0) (2026-07-11)
 
 
