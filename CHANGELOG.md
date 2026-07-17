@@ -1,3 +1,10 @@
+## [1.79.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.79.0...v1.79.1) (2026-07-17)
+
+
+### Bug Fixes
+
+* update dependencies and devDependencies to latest versions ([75a3d46](https://github.com/CoCreate-app/CoCreateJS/commit/75a3d4600b6ef0267c93e6b0c0efa707ccf381f2))
+
 # [1.79.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.78.0...v1.79.0) (2026-07-17)
 
 
