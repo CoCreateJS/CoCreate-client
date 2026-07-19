@@ -1,3 +1,10 @@
+## [1.79.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.79.2...v1.79.3) (2026-07-19)
+
+
+### Bug Fixes
+
+* update path for indexeddb module to reflect new directory structure ([af029ab](https://github.com/CoCreate-app/CoCreateJS/commit/af029ab00085cee0de29ab5ab3203b5012ad0fb9))
+
 ## [1.79.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.79.1...v1.79.2) (2026-07-19)
 
 
