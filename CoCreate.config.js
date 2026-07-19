@@ -3,7 +3,7 @@ module.exports = {
     key: "",
     host: {
         $branch: {
-            master: "wss://cocreate.app",
+            main: "wss://cocreate.app",
             dev: "wss://dev.cocreate.app",
             test: "wss://test.cocreate.app"
         }
