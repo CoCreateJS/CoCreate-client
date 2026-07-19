@@ -1,3 +1,10 @@
+## [1.79.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.79.1...v1.79.2) (2026-07-19)
+
+
+### Bug Fixes
+
+* update workflow and configuration to use 'main' branch instead of 'master' ([3cf928f](https://github.com/CoCreate-app/CoCreateJS/commit/3cf928f299a9d276217c1574e07333c9890abf06))
+
 ## [1.79.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.79.0...v1.79.1) (2026-07-17)
 
 
