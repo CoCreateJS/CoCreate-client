@@ -104,7 +104,7 @@ module.exports = {
         indexeddb: {
             import: "@cocreate/indexeddb",
             selector: "[storage*='indexeddb']",
-            path: "../CoCreate-modules/CoCreate-indexeddb",
+            path: "../CoCreate-databases/CoCreate-indexeddb",
             repo: "github.com/CoCreate-app/CoCreate-indexeddb.git"
         },
         localstorage: {
