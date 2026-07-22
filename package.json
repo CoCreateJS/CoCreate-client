@@ -115,7 +115,6 @@
     "@cocreate/unique": "^1.21.0",
     "@cocreate/users": "^1.40.0",
     "@cocreate/utils": "^1.44.0",
-    "@cocreate/uuid": "^1.12.4",
     "@cocreate/validation": "^1.17.0",
     "@cocreate/vdom": "^1.14.0"
   },
@@ -189,7 +188,6 @@
     "@cocreate/unique@1.20.5": true,
     "@cocreate/users@1.39.4": true,
     "@cocreate/utils@1.42.2": true,
-    "@cocreate/uuid@1.12.4": true,
     "@cocreate/validation@1.16.4": true,
     "@cocreate/vdom@1.13.4": true,
     "@cocreate/webpack@1.4.3": true,

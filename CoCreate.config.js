@@ -288,12 +288,6 @@ module.exports = {
             path: "../CoCreate-modules/CoCreate-industry",
             repo: "github.com/CoCreate-app/CoCreate-industry.git"
         },
-        uuid: {
-            import: "@cocreate/uuid",
-            selector: "[uuid]",
-            path: "../CoCreate-modules/CoCreate-uuid",
-            repo: "github.com/CoCreate-app/CoCreate-uuid.git"
-        },
         search: {
             import: "@cocreate/search",
             selector: "[search_id]",
