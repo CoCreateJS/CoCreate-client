@@ -70,7 +70,7 @@ module.exports = {
      * @description Defines the destination file path where the build system (e.g., ModuleGenerator Webpack plugin) 
      * will save the dynamically generated module entry file. This file contains the automated import and lazy-loading logic.
      */
-    moduleOutputPath: "./CoCreate.modules.js",
+    moduleOutputPath: "./CoCreate.index.js",
 
     /**
      * @namespace modules
