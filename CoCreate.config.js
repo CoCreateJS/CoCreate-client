@@ -744,9 +744,9 @@ module.exports = {
             repo: "github.com/CoCreate-app/CoCreateJS.git",
             exclude: ["git"]
         },
-        admin: {
-            path: "../CoCreate-admin",
-            repo: "github.com/CoCreate-app/CoCreate-admin.git",
+        app: {
+            path: "../CoCreate-app",
+            repo: "github.com/CoCreate-app/CoCreate-app.git",
             exclude: ["git"]
         },
         website: {
