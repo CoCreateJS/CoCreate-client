@@ -420,36 +420,6 @@ module.exports = {
             path: "../CoCreate-modules/CoCreate-notification",
             repo: "github.com/CoCreate-app/CoCreate-notification.git"
         },
-        aos: {
-            import: "@cocreate/aos",
-            selector: "[data-aos]",
-            path: "../CoCreate-plugins/CoCreate-aos",
-            repo: "github.com/CoCreate-app/CoCreate-aos.git"
-        },
-        pickr: {
-            import: "@cocreate/pickr",
-            selector: ".color-picker",
-            path: "../CoCreate-plugins/CoCreate-pickr",
-            repo: "github.com/CoCreate-app/CoCreate-pickr.git"
-        },
-        marked: {
-            import: "@cocreate/marked",
-            selector: "[marked], [actions*='marked'], .markdown-body",
-            path: "../CoCreate-plugins/CoCreate-marked",
-            repo: "github.com/CoCreate-app/CoCreate-marked.git"
-        },
-        prism: {
-            import: "@cocreate/prism",
-            selector: "[class*='language-']",
-            path: "../CoCreate-plugins/CoCreate-prism",
-            repo: "github.com/CoCreate-app/CoCreate-prism.git"
-        },
-        "google-maps": {
-            import: "@cocreate/google-maps",
-            selector: "[google-maps]",
-            path: "../CoCreate-plugins/CoCreate-google-maps",
-            repo: "github.com/CoCreate-app/CoCreate-google-maps.git"
-        },
         cli: {
             path: "../CoCreate-modules/CoCreate-cli",
             repo: "github.com/CoCreate-app/CoCreate-cli.git",
@@ -466,87 +436,6 @@ module.exports = {
         "overlay-scroll": {
             path: "../CoCreate-modules/CoCreate-overlay-scroll",
             repo: "github.com/CoCreate-app/CoCreate-overlay-scroll.git"
-        },
-        charts: {
-            path: "../CoCreate-plugins/CoCreate-charts",
-            repo: "github.com/CoCreate-app/CoCreate-charts.git"
-        },
-        croppie: {
-            path: "../CoCreate-plugins/CoCreate-croppie",
-            repo: "github.com/CoCreate-app/CoCreate-croppie.git"
-        },
-        domain: {
-            path: "../CoCreate-plugins/CoCreate-domain",
-            repo: "github.com/CoCreate-app/CoCreate-domain.git"
-        },
-        fabric: {
-            path: "../CoCreate-plugins/CoCreate-fabric",
-            repo: "github.com/CoCreate-app/CoCreate-fabric.git"
-        },
-        facebook: {
-            path: "../CoCreate-plugins/CoCreate-facebook",
-            repo: "github.com/CoCreate-app/CoCreate-facebook.git"
-        },
-        ffmpeg: {
-            path: "../CoCreate-plugins/CoCreate-ffmpeg",
-            repo: "github.com/CoCreate-app/CoCreate-ffmpeg.git",
-            exclude: ["fs/webpack"]
-        },
-        fullcalendar: {
-            path: "../CoCreate-plugins/CoCreate-fullcalendar",
-            repo: "github.com/CoCreate-app/CoCreate-fullcalendar.git"
-        },
-        "google-auth": {
-            path: "../CoCreate-plugins/CoCreate-google-auth",
-            repo: "github.com/CoCreate-app/CoCreate-google-auth.git"
-        },
-        instagram: {
-            path: "../CoCreate-plugins/CoCreate-instagram",
-            repo: "github.com/CoCreate-app/CoCreate-instagram.git"
-        },
-        lighthouse: {
-            path: "../CoCreate-plugins/CoCreate-lighthouse",
-            repo: "github.com/CoCreate-app/CoCreate-lighthouse.git"
-        },
-        linkedin: {
-            path: "../CoCreate-plugins/CoCreate-linkedin",
-            repo: "github.com/CoCreate-app/CoCreate-linkedin.git"
-        },
-        openai: {
-            path: "../CoCreate-plugins/CoCreate-openai",
-            repo: "github.com/CoCreate-app/CoCreate-openai.git"
-        },
-        pinterest: {
-            path: "../CoCreate-plugins/CoCreate-pinterest",
-            repo: "github.com/CoCreate-app/CoCreate-pinterest.git"
-        },
-        plaid: {
-            path: "../CoCreate-plugins/CoCreate-plaid",
-            repo: "github.com/CoCreate-app/CoCreate-plaid.git"
-        },
-        rollup: {
-            path: "../CoCreate-plugins/CoCreate-rollup",
-            repo: "github.com/CoCreate-app/CoCreate-rollup.git"
-        },
-        sendgrid: {
-            path: "../CoCreate-plugins/CoCreate-sendgrid",
-            repo: "github.com/CoCreate-app/CoCreate-sendgrid.git"
-        },
-        shipengine: {
-            path: "../CoCreate-plugins/CoCreate-shipengine",
-            repo: "github.com/CoCreate-app/CoCreate-shipengine.git"
-        },
-        stripe: {
-            path: "../CoCreate-plugins/CoCreate-stripe",
-            repo: "github.com/CoCreate-app/CoCreate-stripe.git"
-        },
-        twilio: {
-            path: "../CoCreate-plugins/CoCreate-twilio",
-            repo: "github.com/CoCreate-app/CoCreate-twilio.git"
-        },
-        twitter: {
-            path: "../CoCreate-plugins/CoCreate-twitter",
-            repo: "github.com/CoCreate-app/CoCreate-twitter.git"
         },
         webpack: {
             path: "../CoCreate-plugins/CoCreate-webpack",
@@ -747,32 +636,7 @@ module.exports = {
         app: {
             path: "../CoCreate-app",
             repo: "github.com/CoCreate-app/CoCreate-app.git",
-            // exclude: ["git"]
-        },
-        website: {
-            path: "../CoCreate-website",
-            repo: "github.com/CoCreate-app/CoCreate-website.git",
-            // exclude: ["git"]
-        },
-        builder: {
-            path: "../CoCreate-apps/CoCreate-builder",
-            repo: "github.com/CoCreate-app/CoCreate-builder.git"
-        },
-        dashboard: {
-            path: "../CoCreate-apps/CoCreate-dashboard",
-            repo: "github.com/CoCreate-app/CoCreate-dashboard.git"
-        },
-        datatable: {
-            path: "../CoCreate-apps/CoCreate-datatable",
-            repo: "github.com/CoCreate-app/CoCreate-datatable.git"
-        },
-        kanban: {
-            path: "../CoCreate-apps/CoCreate-kanban",
-            repo: "github.com/CoCreate-app/CoCreate-kanban.git"
-        },
-        sandbox: {
-            path: "../CoCreate-apps/CoCreate-sandbox",
-            repo: "github.com/CoCreate-app/CoCreate-sandbox.git"
+            exclude: ["git"]
         }
     }
 };
