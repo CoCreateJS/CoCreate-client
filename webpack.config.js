@@ -65,18 +65,6 @@ export default async (env, argv) => {
                 "buffer": false
             }
         },
-
-        externals: {
-            // Treat these dependencies as browser globals rather than bundling them
-            "marked": "marked",
-            "github-markdown-css/github-markdown.css": "var Object",
-            "@simonwep/pickr": "Pickr",
-            "@simonwep/pickr/dist/themes/monolith.min.css": "var Object",
-            "prismjs": "Prism",
-            "prismjs/components/prism-css-extras.js": "var Object",
-            "prismjs/plugins/line-numbers/prism-line-numbers.js": "var Object",
-            "prismjs/plugins/line-numbers/prism-line-numbers.css": "var Object"
-        },
         
         plugins: [
             new ModuleGenerator(CoCreateConfig),
@@ -96,15 +84,7 @@ export default async (env, argv) => {
             ),
 
             new MiniCssExtractPlugin({
-                filename: isProduction ? "[name].min.css" : "[name].css",
-                chunkFilename: (pathData) => {
-                    if (pathData.chunk.name === "CoCreateCSS") {
-                        return isProduction
-                            ? "CoCreate.min.css"
-                            : "CoCreate.css";
-                    }
-                    return isProduction ? "[name].min.css" : "[name].css";
-                }
+                filename: isProduction ? "[name].css" : "[name].css",
             })
         ],
 
