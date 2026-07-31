@@ -453,7 +453,7 @@ module.exports = {
         cli: {
             path: "../CoCreate-modules/CoCreate-cli",
             repo: "github.com/CoCreate-app/CoCreate-cli.git",
-            exclude: ["git"]
+            // exclude: ["git"]
         },
         docs: {
             path: "../CoCreate-modules/CoCreate-docs",
@@ -747,12 +747,12 @@ module.exports = {
         app: {
             path: "../CoCreate-app",
             repo: "github.com/CoCreate-app/CoCreate-app.git",
-            exclude: ["git"]
+            // exclude: ["git"]
         },
         website: {
             path: "../CoCreate-website",
             repo: "github.com/CoCreate-app/CoCreate-website.git",
-            exclude: ["git"]
+            // exclude: ["git"]
         },
         builder: {
             path: "../CoCreate-apps/CoCreate-builder",
