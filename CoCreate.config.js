@@ -282,12 +282,6 @@ module.exports = {
             path: "../CoCreate-modules/CoCreate-unique",
             repo: "github.com/CoCreate-app/CoCreate-unique.git"
         },
-        industry: {
-            import: "@cocreate/industry",
-            selector: "[actions*='createIndustry'], [actions*='runIndustry'], [actions*='deleteIndustry'], [actions*='deleteIndustries']",
-            path: "../CoCreate-modules/CoCreate-industry",
-            repo: "github.com/CoCreate-app/CoCreate-industry.git"
-        },
         search: {
             import: "@cocreate/search",
             selector: "[search_id]",
