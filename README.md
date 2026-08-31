@@ -83,7 +83,7 @@ const result = await crud.send({
     method: "object.read",
     array: "contacts",
     storage: ["indexeddb", "mongodb"],
-    $filter: {
+    filter: {
         query: { status: "active" },
         limit: 25,
         sort: { "modified.on": -1 }
