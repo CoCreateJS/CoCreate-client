@@ -12,6 +12,27 @@ import CoCreateConfig from "./CoCreate.config.js";
 import cocreateWebpack from "@cocreate/webpack";
 const { ModuleGenerator, FileUploader, UnicodeLoader } = cocreateWebpack;
 
+const workspaceAliases = Object.values(CoCreateConfig.modules || {}).reduce(
+    (aliases, moduleConfig) => {
+        if (moduleConfig.import && moduleConfig.path) {
+            aliases[`${moduleConfig.import}$`] = path.resolve(
+                __dirname,
+                moduleConfig.path
+            );
+        }
+        return aliases;
+    },
+    {}
+);
+const utilsModule = Object.values(CoCreateConfig.modules || {}).find(
+    moduleConfig => moduleConfig.import === "@cocreate/utils"
+);
+const utilsBrowserEntry = path.resolve(
+    __dirname,
+    utilsModule?.path || "node_modules/@cocreate/utils",
+    "src/browser.js"
+);
+
 export default async (env, argv) => {
     const isProduction = argv.mode === "production";
     
@@ -42,8 +63,10 @@ export default async (env, argv) => {
             conditionNames: ["browser", "import", "require"],
             
             alias: {
+                // Resolve every configured CoCreate dependency to one workspace module
+                ...workspaceAliases,
                 // Force @cocreate/utils to resolve directly to the browser entry point
-                "@cocreate/utils$": path.resolve(__dirname, "node_modules/@cocreate/utils/src/browser.js")
+                "@cocreate/utils$": utilsBrowserEntry
             },
 
             fallback: {
@@ -140,6 +163,7 @@ export default async (env, argv) => {
             minimizer: [
                 new EsbuildPlugin({
                     target: "es2017",
+                    minify: true,
                     css: true,
                     charset: "utf8" // Prevents esbuild from stripping/mangling unicode escapes
                 })
