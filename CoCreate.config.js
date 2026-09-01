@@ -553,7 +553,10 @@ module.exports = {
             ]
         },
         Prism: {
-            js: [{ src: "https://cdn.jsdelivr.net/npm/prismjs/prism.min.js", crossOrigin: "anonymous" }],
+            js: [
+                { src: "https://cdn.jsdelivr.net/npm/prismjs/prism.min.js", crossOrigin: "anonymous" },
+                { src: "https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js", crossOrigin: "anonymous" }
+            ],
             css: ["https://cdn.jsdelivr.net/npm/prismjs/themes/prism.min.css"]
         },
         Isotope: {

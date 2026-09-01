@@ -268,6 +268,10 @@ if (typeof window !== 'undefined') {
             {
                 "src": "https://cdn.jsdelivr.net/npm/prismjs/prism.min.js",
                 "crossOrigin": "anonymous"
+            },
+            {
+                "src": "https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js",
+                "crossOrigin": "anonymous"
             }
         ],
         "css": [
