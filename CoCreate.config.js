@@ -427,9 +427,9 @@ module.exports = {
             path: "../CoCreate-modules/CoCreate-lazy-loader",
             repo: "gitlab.com/cocreatejs/CoCreate-lazy-loader.git"
         },
-        "overlay-scroll": {
-            path: "../CoCreate-modules/CoCreate-overlay-scroll",
-            repo: "gitlab.com/cocreatejs/CoCreate-overlay-scroll.git"
+        "scrollbar": {
+            path: "../CoCreate-modules/CoCreate-scrollbar",
+            repo: "gitlab.com/cocreatejs/CoCreate-scrollbar.git"
         },
         webpack: {
             path: "../CoCreate-plugins/CoCreate-webpack",
