@@ -336,12 +336,6 @@ module.exports = {
             path: "../CoCreate-modules/CoCreate-codearea",
             repo: "gitlab.com/cocreatejs/CoCreate-codearea.git"
         },
-        floatingLabel: {
-            import: "@cocreate/floating-label",
-            selector: "floating-label, .floating-label",
-            path: "../CoCreate-modules/CoCreate-floating-label",
-            repo: "gitlab.com/cocreatejs/CoCreate-floating-label.git"
-        },
         clipboard: {
             import: "@cocreate/clipboard",
             selector: "[actions*='clipboard'], [clipboard-query]",
@@ -359,12 +353,6 @@ module.exports = {
             selector: "[fullscreen]",
             path: "../CoCreate-modules/CoCreate-fullscreen",
             repo: "gitlab.com/cocreatejs/CoCreate-fullscreen.git"
-        },
-        modal: {
-            import: "@cocreate/modal",
-            selector: "[actions*='Modal']",
-            path: "../CoCreate-modules/CoCreate-modal",
-            repo: "gitlab.com/cocreatejs/CoCreate-modal.git"
         },
         parallax: {
             import: "@cocreate/parallax",
@@ -451,10 +439,6 @@ module.exports = {
             js: [{ src: "https://cdn.jsdelivr.net/npm/toastify-js", crossOrigin: "anonymous" }],
             css: ["https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"]
         },
-        Choices: {
-            js: [{ src: "https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js", crossOrigin: "anonymous" }],
-            css: ["https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"]
-        },
         flatpickr: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/flatpickr", crossOrigin: "anonymous" }],
             css: ["https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"]
@@ -470,14 +454,6 @@ module.exports = {
         ClassicEditor: {
             js: [{ src: "https://cdn.ckeditor.com/ckeditor5/41.2.0/classic/ckeditor.js", crossOrigin: "anonymous" }]
         },
-        Dropzone: {
-            js: [{ src: "https://unpkg.com/dropzone@5/dist/min/dropzone.min.js", crossOrigin: "anonymous" }],
-            css: ["https://unpkg.com/dropzone@5/dist/min/dropzone.min.css"]
-        },
-        SimpleBar: {
-            js: [{ src: "https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js", crossOrigin: "anonymous" }],
-            css: ["https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"]
-        },
         GLightbox: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js", crossOrigin: "anonymous" }],
             css: ["https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"]
@@ -492,9 +468,6 @@ module.exports = {
             js: [{ src: "https://cdn.jsdelivr.net/npm/node-waves/dist/waves.min.js", crossOrigin: "anonymous" }],
             css: ["https://cdn.jsdelivr.net/npm/node-waves/dist/waves.min.css"]
         },
-        feather: {
-            js: [{ src: "https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js", crossOrigin: "anonymous" }]
-        },
         ApexCharts: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/apexcharts", crossOrigin: "anonymous" }]
         },
@@ -508,12 +481,6 @@ module.exports = {
         Swiper: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js", crossOrigin: "anonymous" }],
             css: ["https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"]
-        },
-        List: {
-            js: [
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js", crossOrigin: "anonymous" },
-                { src: "https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.min.js", crossOrigin: "anonymous" }
-            ]
         },
         Swal: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/sweetalert2@11", crossOrigin: "anonymous" }],
@@ -531,13 +498,6 @@ module.exports = {
         },
         wNumb: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/wnumb/wNumb.min.js", crossOrigin: "anonymous" }]
-        },
-        Grid: {
-            js: [
-                { src: "https://unpkg.com/gridjs/dist/gridjs.umd.js", crossOrigin: "anonymous" },
-                { src: "https://unpkg.com/gridjs/plugins/selection/dist/selection.umd.js", crossOrigin: "anonymous" }
-            ],
-            css: ["https://unpkg.com/gridjs/dist/theme/mermaid.min.css"]
         },
         FilePond: {
             js: [
@@ -565,10 +525,6 @@ module.exports = {
         particlesJS: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js", crossOrigin: "anonymous" }]
         },
-        dragula: {
-            js: [{ src: "https://cdn.jsdelivr.net/npm/dragula/dist/dragula.min.js", crossOrigin: "anonymous" }],
-            css: ["https://cdn.jsdelivr.net/npm/dragula/dist/dragula.min.css"]
-        },
         DomAutoscroller: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/dom-autoscroller", crossOrigin: "anonymous" }]
         },
@@ -580,10 +536,6 @@ module.exports = {
         },
         echarts: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js", crossOrigin: "anonymous" }]
-        },
-        Multi: {
-            js: [{ src: "https://cdn.jsdelivr.net/npm/multi.js/dist/multi.min.js", crossOrigin: "anonymous" }],
-            css: ["https://cdn.jsdelivr.net/npm/multi.js/dist/multi.min.css"]
         },
         autoComplete: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/autoComplete.min.js", crossOrigin: "anonymous" }],
