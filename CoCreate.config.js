@@ -378,12 +378,6 @@ module.exports = {
             path: "../CoCreate-modules/CoCreate-social-share",
             repo: "gitlab.com/cocreatejs/CoCreate-social-share.git"
         },
-        select: {
-            import: "@cocreate/select",
-            selector: "cocreate-select",
-            path: "../CoCreate-modules/CoCreate-select",
-            repo: "gitlab.com/cocreatejs/CoCreate-select.git"
-        },
         toolbar: {
             import: "@cocreate/toolbar",
             selector: "[toolbar-query]",
