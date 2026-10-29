@@ -96,11 +96,6 @@ module.exports = {
             path: "../CoCreate-modules/CoCreate-observer",
             repo: "gitlab.com/cocreatejs/CoCreate-observer.git"
         },
-        utils: {
-            import: "@cocreate/utils",
-            path: "../CoCreate-modules/CoCreate-utils",
-            repo: "gitlab.com/cocreatejs/CoCreate-utils.git"
-        },
         indexeddb: {
             import: "@cocreate/indexeddb",
             selector: "[storage*='indexeddb']",
@@ -222,23 +217,11 @@ module.exports = {
             path: "../CoCreate-modules/CoCreate-plugins",
             repo: "gitlab.com/cocreatejs/CoCreate-plugins.git"
         },
-        dnd: {
-            import: "@cocreate/dnd",
-            selector: "[sortable], [cloneables], [draggable], [droppable], [cloneable]",
-            path: "../CoCreate-modules/CoCreate-dnd",
-            repo: "gitlab.com/cocreatejs/CoCreate-dnd.git"
-        },
         position: {
             import: "@cocreate/position",
             selector: "[positionable], [moveable]",
             path: "../CoCreate-modules/CoCreate-position",
             repo: "gitlab.com/cocreatejs/CoCreate-position.git"
-        },
-        conditionalLogic: {
-            import: "@cocreate/conditional-logic",
-            selector: "[show], [hide]",
-            path: "../CoCreate-modules/CoCreate-conditional-logic",
-            repo: "gitlab.com/cocreatejs/CoCreate-conditional-logic.git"
         },
         scroll: {
             import: "@cocreate/scroll",
@@ -251,24 +234,6 @@ module.exports = {
             selector: "[resize], [height='auto']",
             path: "../CoCreate-modules/CoCreate-resize",
             repo: "gitlab.com/cocreatejs/CoCreate-resize.git"
-        },
-        clone: {
-            import: "@cocreate/clone",
-            selector: "[actions*='clone']",
-            path: "../CoCreate-modules/CoCreate-clone",
-            repo: "gitlab.com/cocreatejs/CoCreate-clone.git"
-        },
-        remove: {
-            import: "@cocreate/remove",
-            selector: "[actions*='remove']",
-            path: "../CoCreate-modules/CoCreate-remove",
-            repo: "gitlab.com/cocreatejs/CoCreate-remove.git"
-        },
-        attributes: {
-            import: "@cocreate/attributes",
-            selector: "[attribute]",
-            path: "../CoCreate-modules/CoCreate-attributes",
-            repo: "gitlab.com/cocreatejs/CoCreate-attributes.git"
         },
         users: {
             import: "@cocreate/users",
@@ -306,35 +271,17 @@ module.exports = {
             path: "../CoCreate-modules/CoCreate-calculate",
             repo: "gitlab.com/cocreatejs/CoCreate-calculate.git"
         },
-        selection: {
-            import: "@cocreate/selection",
-            selector: "input, textarea, [contenteditable]",
-            path: "../CoCreate-modules/CoCreate-selection",
-            repo: "gitlab.com/cocreatejs/CoCreate-selection.git"
-        },
         cursors: {
             import: "@cocreate/cursors",
             selector: "input, textarea, [contenteditable]",
             path: "../CoCreate-modules/CoCreate-cursors",
             repo: "gitlab.com/cocreatejs/CoCreate-cursors.git"
         },
-        text: {
-            import: "@cocreate/text",
-            selector: "input, textarea, [contenteditable]",
-            path: "../CoCreate-modules/CoCreate-text",
-            repo: "gitlab.com/cocreatejs/CoCreate-text.git"
-        },
-        "rich-text": {
-            import: "@cocreate/rich-text",
-            selector: "[actions*='nodeName'], [actions*='cloneElement'], [actions*='deleteElement'], [node-name]",
-            path: "../CoCreate-modules/CoCreate-rich-text",
-            repo: "gitlab.com/cocreatejs/CoCreate-rich-text.git"
-        },
-        codearea: {
-            import: "@cocreate/codearea",
-            selector: "[type='code']",
-            path: "../CoCreate-modules/CoCreate-codearea",
-            repo: "gitlab.com/cocreatejs/CoCreate-codearea.git"
+        editor: {
+            import: "@cocreate/editor",
+            selector: "[editor], code[language], [contenteditable]:not([contenteditable=\"false\"]), input[crdt=\"true\"], textarea[crdt=\"true\"], iframe[crdt=\"true\"]",
+            path: "../CoCreate-modules/CoCreate-editor",
+            repo: "gitlab.com/cocreatejs/CoCreate-editor.git"
         },
         clipboard: {
             import: "@cocreate/clipboard",
@@ -377,18 +324,6 @@ module.exports = {
             selector: "[share-network]",
             path: "../CoCreate-modules/CoCreate-social-share",
             repo: "gitlab.com/cocreatejs/CoCreate-social-share.git"
-        },
-        toolbar: {
-            import: "@cocreate/toolbar",
-            selector: "[toolbar-query]",
-            path: "../CoCreate-modules/CoCreate-toolbar",
-            repo: "gitlab.com/cocreatejs/CoCreate-toolbar.git"
-        },
-        vdom: {
-            import: "@cocreate/vdom",
-            selector: "[vdom-query], [vdom-id]",
-            path: "../CoCreate-modules/CoCreate-vdom",
-            repo: "gitlab.com/cocreatejs/CoCreate-vdom.git"
         },
         notification: {
             import: "@cocreate/notification",
@@ -436,17 +371,6 @@ module.exports = {
         flatpickr: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/flatpickr", crossOrigin: "anonymous" }],
             css: ["https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"]
-        },
-        Quill: {
-            js: [{ src: "https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.min.js", crossOrigin: "anonymous" }],
-            css: [
-                "https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.core.css",
-                "https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css",
-                "https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.bubble.css"
-            ]
-        },
-        ClassicEditor: {
-            js: [{ src: "https://cdn.ckeditor.com/ckeditor5/41.2.0/classic/ckeditor.js", crossOrigin: "anonymous" }]
         },
         GLightbox: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js", crossOrigin: "anonymous" }],
@@ -519,9 +443,6 @@ module.exports = {
         particlesJS: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js", crossOrigin: "anonymous" }]
         },
-        DomAutoscroller: {
-            js: [{ src: "https://cdn.jsdelivr.net/npm/dom-autoscroller", crossOrigin: "anonymous" }]
-        },
         Card: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/card/dist/card.js", crossOrigin: "anonymous" }]
         },
@@ -552,9 +473,6 @@ module.exports = {
         },
         Masonry: {
             js: [{ src: "https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js", crossOrigin: "anonymous" }]
-        },
-        raterJs: {
-            js: [{ src: "https://cdn.jsdelivr.net/npm/rater-js/index.js", crossOrigin: "anonymous" }]
         },
         Anime: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js", crossOrigin: "anonymous" }]
