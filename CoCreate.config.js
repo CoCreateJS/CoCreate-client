@@ -265,12 +265,6 @@ module.exports = {
             path: "../CoCreate-modules/CoCreate-validation",
             repo: "gitlab.com/cocreatejs/CoCreate-validation.git"
         },
-        calculate: {
-            import: "@cocreate/calculate",
-            selector: "[calculate]",
-            path: "../CoCreate-modules/CoCreate-calculate",
-            repo: "gitlab.com/cocreatejs/CoCreate-calculate.git"
-        },
         cursors: {
             import: "@cocreate/cursors",
             selector: "input, textarea, [contenteditable]",
