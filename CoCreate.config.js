@@ -142,11 +142,6 @@ module.exports = {
             path: "../CoCreate-modules/CoCreate-state",
             repo: "github.com/cocreatejs/CoCreate-state.git"
         },
-        link: {
-            import: "@cocreate/link",
-            path: "../CoCreate-modules/CoCreate-link",
-            repo: "github.com/cocreatejs/CoCreate-link.git"
-        },
         aria: {
             import: "@cocreate/aria",
             selector: "[aria-controls], [aria-selected]",
@@ -288,12 +283,6 @@ module.exports = {
             selector: "[fullscreen]",
             path: "../CoCreate-modules/CoCreate-fullscreen",
             repo: "github.com/cocreatejs/CoCreate-fullscreen.git"
-        },
-        socialShare: {
-            import: "@cocreate/social-share",
-            selector: "[share-network]",
-            path: "../CoCreate-modules/CoCreate-social-share",
-            repo: "github.com/cocreatejs/CoCreate-social-share.git"
         },
         notification: {
             import: "@cocreate/notification",
