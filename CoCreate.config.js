@@ -241,12 +241,6 @@ module.exports = {
             path: "../CoCreate-modules/CoCreate-users",
             repo: "gitlab.com/cocreatejs/CoCreate-users.git"
         },
-        unique: {
-            import: "@cocreate/unique",
-            selector: "[unique]",
-            path: "../CoCreate-modules/CoCreate-unique",
-            repo: "gitlab.com/cocreatejs/CoCreate-unique.git"
-        },
         search: {
             import: "@cocreate/search",
             selector: "[search_id]",
@@ -294,24 +288,6 @@ module.exports = {
             selector: "[fullscreen]",
             path: "../CoCreate-modules/CoCreate-fullscreen",
             repo: "gitlab.com/cocreatejs/CoCreate-fullscreen.git"
-        },
-        parallax: {
-            import: "@cocreate/parallax",
-            selector: "[parallax-src]",
-            path: "../CoCreate-modules/CoCreate-parallax",
-            repo: "gitlab.com/cocreatejs/CoCreate-parallax.git"
-        },
-        progress: {
-            import: "@cocreate/progress",
-            selector: "[data-progress]",
-            path: "../CoCreate-modules/CoCreate-progress",
-            repo: "gitlab.com/cocreatejs/CoCreate-progress.git"
-        },
-        randomColor: {
-            import: "@cocreate/random-color",
-            selector: "[background-color]",
-            path: "../CoCreate-modules/CoCreate-random-color",
-            repo: "gitlab.com/cocreatejs/CoCreate-random-color.git"
         },
         socialShare: {
             import: "@cocreate/social-share",
@@ -491,6 +467,11 @@ module.exports = {
         app: {
             path: "../CoCreate-app",
             repo: "gitlab.com/cocreatejs/CoCreate-app.git",
+            exclude: ["git"]
+        },
+        website: {
+            path: "../CoCreate-website",
+            repo: "github.com/CoCreate-app/CoCreate-website.git",
             exclude: ["git"]
         }
     }
