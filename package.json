@@ -12,13 +12,13 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "homepage": "https://cocreate.app",
+  "homepage": "https://CoCreateJS.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoCreate-app/CoCreateJS.git"
+    "url": "git+https://github.com/CoCreateJS/CoCreateJS.git"
   },
   "bugs": {
-    "url": "https://github.com/CoCreate-app/CoCreateJS/issues"
+    "url": "https://github.com/CoCreateJS/CoCreateJS/issues"
   },
   "author": "CoCreate LLC",
   "license": "AGPL-3.0",

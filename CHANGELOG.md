@@ -1,3206 +1,3206 @@
-## [1.79.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.79.2...v1.79.3) (2026-07-19)
+## [1.79.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.79.2...v1.79.3) (2026-07-19)
 
 
 ### Bug Fixes
 
-* update path for indexeddb module to reflect new directory structure ([af029ab](https://github.com/CoCreate-app/CoCreateJS/commit/af029ab00085cee0de29ab5ab3203b5012ad0fb9))
+* update path for indexeddb module to reflect new directory structure ([af029ab](https://github.com/CoCreateJS/CoCreateJS/commit/af029ab00085cee0de29ab5ab3203b5012ad0fb9))
 
-## [1.79.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.79.1...v1.79.2) (2026-07-19)
+## [1.79.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.79.1...v1.79.2) (2026-07-19)
 
 
 ### Bug Fixes
 
-* update workflow and configuration to use 'main' branch instead of 'master' ([3cf928f](https://github.com/CoCreate-app/CoCreateJS/commit/3cf928f299a9d276217c1574e07333c9890abf06))
+* update workflow and configuration to use 'main' branch instead of 'master' ([3cf928f](https://github.com/CoCreateJS/CoCreateJS/commit/3cf928f299a9d276217c1574e07333c9890abf06))
 
-## [1.79.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.79.0...v1.79.1) (2026-07-17)
+## [1.79.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.79.0...v1.79.1) (2026-07-17)
 
 
 ### Bug Fixes
 
-* update dependencies and devDependencies to latest versions ([75a3d46](https://github.com/CoCreate-app/CoCreateJS/commit/75a3d4600b6ef0267c93e6b0c0efa707ccf381f2))
+* update dependencies and devDependencies to latest versions ([75a3d46](https://github.com/CoCreateJS/CoCreateJS/commit/75a3d4600b6ef0267c93e6b0c0efa707ccf381f2))
 
-# [1.79.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.78.0...v1.79.0) (2026-07-17)
+# [1.79.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.78.0...v1.79.0) (2026-07-17)
 
 
 ### Features
 
-* update automated workflow and release configuration for improved semantic release handling ([a94ea78](https://github.com/CoCreate-app/CoCreateJS/commit/a94ea7866278abdbb439c9bed41b9db16372c428))
+* update automated workflow and release configuration for improved semantic release handling ([a94ea78](https://github.com/CoCreateJS/CoCreateJS/commit/a94ea7866278abdbb439c9bed41b9db16372c428))
 
-# [1.78.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.77.1...v1.78.0) (2026-07-11)
+# [1.78.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.77.1...v1.78.0) (2026-07-11)
 
 
 ### Bug Fixes
 
-* add plugin definitions for external libraries to CoCreate.config.js ([20e411b](https://github.com/CoCreate-app/CoCreateJS/commit/20e411b641031326f2abe91217eb57ac9673f064))
-* clean up package.json by removing unused devDependencies and adding allowScripts ([e46c080](https://github.com/CoCreate-app/CoCreateJS/commit/e46c080a7a83f0c6a8f5c267dbcec7259e60b5ea))
-* comment out SymlinkCreator in webpack config to prevent issues with dynamic imports ([8940b7a](https://github.com/CoCreate-app/CoCreateJS/commit/8940b7aa901d24ec1001d1266bc36dfd85462fa5))
-* remove deprecated CoCreateCSS plugin reference from configuration files ([cbc9bc8](https://github.com/CoCreate-app/CoCreateJS/commit/cbc9bc8f9ab93b10bfe30198770a2972d6943413))
-* remove NPM_TOKEN from workflows to streamline environment variables ([c29993f](https://github.com/CoCreate-app/CoCreateJS/commit/c29993fe63d84f941157c950bcf5e1f14e7e093e))
-* remove postinstall script from package.json ([354a3f1](https://github.com/CoCreate-app/CoCreateJS/commit/354a3f170dc37609834bbe651a7343c6346a16c7))
-* remove SymlinkCreator from webpack config to resolve dynamic import issues ([87d1560](https://github.com/CoCreate-app/CoCreateJS/commit/87d156088ec52b88251136ce841be9205e372080))
-* removed $relativePath ([1a9912c](https://github.com/CoCreate-app/CoCreateJS/commit/1a9912c0b21f9489c4e147a4e0da3f563d141a48))
-* update branch name from main to master in release configuration ([2463a29](https://github.com/CoCreate-app/CoCreateJS/commit/2463a29a3b421358487ddee544c5dac2f7a2eafe))
-* update branch name from master to main in release.config.js ([c2c44aa](https://github.com/CoCreate-app/CoCreateJS/commit/c2c44aa14d9cfa9363ef3f23cff1a541ff71b520))
-* update dependencies in package.json to latest versions ([28b40a7](https://github.com/CoCreate-app/CoCreateJS/commit/28b40a7b0d73c287689838b39bfe0d9dbe2c040b))
+* add plugin definitions for external libraries to CoCreate.config.js ([20e411b](https://github.com/CoCreateJS/CoCreateJS/commit/20e411b641031326f2abe91217eb57ac9673f064))
+* clean up package.json by removing unused devDependencies and adding allowScripts ([e46c080](https://github.com/CoCreateJS/CoCreateJS/commit/e46c080a7a83f0c6a8f5c267dbcec7259e60b5ea))
+* comment out SymlinkCreator in webpack config to prevent issues with dynamic imports ([8940b7a](https://github.com/CoCreateJS/CoCreateJS/commit/8940b7aa901d24ec1001d1266bc36dfd85462fa5))
+* remove deprecated CoCreateCSS plugin reference from configuration files ([cbc9bc8](https://github.com/CoCreateJS/CoCreateJS/commit/cbc9bc8f9ab93b10bfe30198770a2972d6943413))
+* remove NPM_TOKEN from workflows to streamline environment variables ([c29993f](https://github.com/CoCreateJS/CoCreateJS/commit/c29993fe63d84f941157c950bcf5e1f14e7e093e))
+* remove postinstall script from package.json ([354a3f1](https://github.com/CoCreateJS/CoCreateJS/commit/354a3f170dc37609834bbe651a7343c6346a16c7))
+* remove SymlinkCreator from webpack config to resolve dynamic import issues ([87d1560](https://github.com/CoCreateJS/CoCreateJS/commit/87d156088ec52b88251136ce841be9205e372080))
+* removed $relativePath ([1a9912c](https://github.com/CoCreateJS/CoCreateJS/commit/1a9912c0b21f9489c4e147a4e0da3f563d141a48))
+* update branch name from main to master in release configuration ([2463a29](https://github.com/CoCreateJS/CoCreateJS/commit/2463a29a3b421358487ddee544c5dac2f7a2eafe))
+* update branch name from master to main in release.config.js ([c2c44aa](https://github.com/CoCreateJS/CoCreateJS/commit/c2c44aa14d9cfa9363ef3f23cff1a541ff71b520))
+* update dependencies in package.json to latest versions ([28b40a7](https://github.com/CoCreateJS/CoCreateJS/commit/28b40a7b0d73c287689838b39bfe0d9dbe2c040b))
 
 
 ### Features
 
-* simplify webpack commands in package.json and update @cocreate/cli dependency ([02ff296](https://github.com/CoCreate-app/CoCreateJS/commit/02ff29659beaa75ebb379566e68690be3bb7cf62))
+* simplify webpack commands in package.json and update @cocreate/cli dependency ([02ff296](https://github.com/CoCreateJS/CoCreateJS/commit/02ff29659beaa75ebb379566e68690be3bb7cf62))
 
-## [1.77.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.77.0...v1.77.1) (2026-03-06)
+## [1.77.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.77.0...v1.77.1) (2026-03-06)
 
 
 ### Bug Fixes
 
-* CoCreate.modules.js refrencing ([f2f2b18](https://github.com/CoCreate-app/CoCreateJS/commit/f2f2b1816d9ad2867a342d9e3370badb6b74f141))
+* CoCreate.modules.js refrencing ([f2f2b18](https://github.com/CoCreateJS/CoCreateJS/commit/f2f2b1816d9ad2867a342d9e3370badb6b74f141))
 
-# [1.77.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.76.0...v1.77.0) (2026-02-07)
+# [1.77.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.76.0...v1.77.0) (2026-02-07)
 
 
 ### Features
 
-* build use config ([6e6b218](https://github.com/CoCreate-app/CoCreateJS/commit/6e6b218ef7110fac93aa4c326320eeb12b5545cd))
+* build use config ([6e6b218](https://github.com/CoCreateJS/CoCreateJS/commit/6e6b218ef7110fac93aa4c326320eeb12b5545cd))
 
-# [1.76.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.75.1...v1.76.0) (2026-02-06)
+# [1.76.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.75.1...v1.76.0) (2026-02-06)
 
 
 ### Bug Fixes
 
-* add @cocreate/aria ([9b76f49](https://github.com/CoCreate-app/CoCreateJS/commit/9b76f49d951e91dbc2f9fcfe4a22528c5492f6ca))
-* add google-maps ([1468e15](https://github.com/CoCreate-app/CoCreateJS/commit/1468e1516a6afa52dd6ad8ecb680b023e0c6cde8))
-* add selectors for storage and state modules in CoCreate.config.js ([485c4f6](https://github.com/CoCreate-app/CoCreateJS/commit/485c4f6ad4091bf3ba93af38221c017c64df3baa))
-* correct asset paths in menu.html ([d9e3108](https://github.com/CoCreate-app/CoCreateJS/commit/d9e31089bc8492fea2e7894e23390de45641b215))
+* add @cocreate/aria ([9b76f49](https://github.com/CoCreateJS/CoCreateJS/commit/9b76f49d951e91dbc2f9fcfe4a22528c5492f6ca))
+* add google-maps ([1468e15](https://github.com/CoCreateJS/CoCreateJS/commit/1468e1516a6afa52dd6ad8ecb680b023e0c6cde8))
+* add selectors for storage and state modules in CoCreate.config.js ([485c4f6](https://github.com/CoCreateJS/CoCreateJS/commit/485c4f6ad4091bf3ba93af38221c017c64df3baa))
+* correct asset paths in menu.html ([d9e3108](https://github.com/CoCreateJS/CoCreateJS/commit/d9e31089bc8492fea2e7894e23390de45641b215))
 
 
 ### Features
 
-* add plugins module ([cebe84d](https://github.com/CoCreate-app/CoCreateJS/commit/cebe84d8e753e96eb89bb1d567d86c04ba5240ae))
+* add plugins module ([cebe84d](https://github.com/CoCreateJS/CoCreateJS/commit/cebe84d8e753e96eb89bb1d567d86c04ba5240ae))
 
-## [1.75.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.75.0...v1.75.1) (2025-05-01)
+## [1.75.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.75.0...v1.75.1) (2025-05-01)
 
 
 ### Bug Fixes
 
-* update [@cocreate](https://github.com/cocreate) dependencies ([786087d](https://github.com/CoCreate-app/CoCreateJS/commit/786087dca0669384aebaf521e657a559324ff959))
+* update [@cocreate](https://github.com/cocreate) dependencies ([786087d](https://github.com/CoCreateJS/CoCreateJS/commit/786087dca0669384aebaf521e657a559324ff959))
 
-# [1.75.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.74.0...v1.75.0) (2025-04-30)
+# [1.75.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.74.0...v1.75.0) (2025-04-30)
 
 
 ### Bug Fixes
 
-* {{path}} replaced with $relativePath ([41c202a](https://github.com/CoCreate-app/CoCreateJS/commit/41c202a79e8fb5ae8b3fd1a7d01982feb677c402))
-* added browserslist to config ([05ec143](https://github.com/CoCreate-app/CoCreateJS/commit/05ec143dd14086762c4399ba5d8e350c30e92418))
-* added css-loader ([826fe9f](https://github.com/CoCreate-app/CoCreateJS/commit/826fe9f5f20b6c861ec1677803988ba319ad257a))
-* added performance to config ([5844a9e](https://github.com/CoCreate-app/CoCreateJS/commit/5844a9e2a6d6820cf325ea18a6e200d4dd014f83))
-* demos ([3c29a5e](https://github.com/CoCreate-app/CoCreateJS/commit/3c29a5e230d2bdd4d62f99eca11d7dd892e2f113))
-* renamed CoCreate-components to CoCreate-modules ([dc325a8](https://github.com/CoCreate-app/CoCreateJS/commit/dc325a8704783841a5f0a96f3b46179cdfd86b9a))
-* update filter-query-key ([454351c](https://github.com/CoCreate-app/CoCreateJS/commit/454351c109b02c7e78381cd1f54a56a6fe4c1d23))
-* update query selector attributes to *-query ([8c59c14](https://github.com/CoCreate-app/CoCreateJS/commit/8c59c14d8e51c3118af19ffd86b9b43e56e31f42))
-* update selector operators ([69ef5df](https://github.com/CoCreate-app/CoCreateJS/commit/69ef5dfe5d189aee266b08612c9749797112a92f))
-* updated cocreate module versions ([7e0780a](https://github.com/CoCreate-app/CoCreateJS/commit/7e0780a041baf063f358575560a20062fa6b74f7))
-* webpack and dev packages ([b4703dd](https://github.com/CoCreate-app/CoCreateJS/commit/b4703dd8e65a6042ddb1f431faf304ff0767dc4a))
-* webpack.config and devdependencies ([6b4cfa6](https://github.com/CoCreate-app/CoCreateJS/commit/6b4cfa6a32413f52c7caf19c42910c2899d1fdea))
+* {{path}} replaced with $relativePath ([41c202a](https://github.com/CoCreateJS/CoCreateJS/commit/41c202a79e8fb5ae8b3fd1a7d01982feb677c402))
+* added browserslist to config ([05ec143](https://github.com/CoCreateJS/CoCreateJS/commit/05ec143dd14086762c4399ba5d8e350c30e92418))
+* added css-loader ([826fe9f](https://github.com/CoCreateJS/CoCreateJS/commit/826fe9f5f20b6c861ec1677803988ba319ad257a))
+* added performance to config ([5844a9e](https://github.com/CoCreateJS/CoCreateJS/commit/5844a9e2a6d6820cf325ea18a6e200d4dd014f83))
+* demos ([3c29a5e](https://github.com/CoCreateJS/CoCreateJS/commit/3c29a5e230d2bdd4d62f99eca11d7dd892e2f113))
+* renamed CoCreate-components to CoCreate-modules ([dc325a8](https://github.com/CoCreateJS/CoCreateJS/commit/dc325a8704783841a5f0a96f3b46179cdfd86b9a))
+* update filter-query-key ([454351c](https://github.com/CoCreateJS/CoCreateJS/commit/454351c109b02c7e78381cd1f54a56a6fe4c1d23))
+* update query selector attributes to *-query ([8c59c14](https://github.com/CoCreateJS/CoCreateJS/commit/8c59c14d8e51c3118af19ffd86b9b43e56e31f42))
+* update selector operators ([69ef5df](https://github.com/CoCreateJS/CoCreateJS/commit/69ef5dfe5d189aee266b08612c9749797112a92f))
+* updated cocreate module versions ([7e0780a](https://github.com/CoCreateJS/CoCreateJS/commit/7e0780a041baf063f358575560a20062fa6b74f7))
+* webpack and dev packages ([b4703dd](https://github.com/CoCreateJS/CoCreateJS/commit/b4703dd8e65a6042ddb1f431faf304ff0767dc4a))
+* webpack.config and devdependencies ([6b4cfa6](https://github.com/CoCreateJS/CoCreateJS/commit/6b4cfa6a32413f52c7caf19c42910c2899d1fdea))
 
 
 ### Features
 
-* added google-maps ([b128cb1](https://github.com/CoCreate-app/CoCreateJS/commit/b128cb132d393f5157185a7f81f58454457a29aa))
+* added google-maps ([b128cb1](https://github.com/CoCreateJS/CoCreateJS/commit/b128cb132d393f5157185a7f81f58454457a29aa))
 
-# [1.74.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.73.0...v1.74.0) (2024-12-14)
+# [1.74.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.73.0...v1.74.0) (2024-12-14)
 
 
 ### Bug Fixes
 
-* add prettier config file ([6233307](https://github.com/CoCreate-app/CoCreateJS/commit/623330720e96163062934f5f55c6c9b89bc704ad))
-* auto resize selector height="auto" ([319f309](https://github.com/CoCreate-app/CoCreateJS/commit/319f3097dd2f81981cc4adbdc0f190ac19b55071))
-* formating ([34ce4a2](https://github.com/CoCreate-app/CoCreateJS/commit/34ce4a278530543a4449abf80711f367c996cf4b))
-* instagram url ([01cf4cb](https://github.com/CoCreate-app/CoCreateJS/commit/01cf4cb35ced5b4534498def5e1b71b647e81d95))
+* add prettier config file ([6233307](https://github.com/CoCreateJS/CoCreateJS/commit/623330720e96163062934f5f55c6c9b89bc704ad))
+* auto resize selector height="auto" ([319f309](https://github.com/CoCreateJS/CoCreateJS/commit/319f3097dd2f81981cc4adbdc0f190ac19b55071))
+* formating ([34ce4a2](https://github.com/CoCreateJS/CoCreateJS/commit/34ce4a278530543a4449abf80711f367c996cf4b))
+* instagram url ([01cf4cb](https://github.com/CoCreateJS/CoCreateJS/commit/01cf4cb35ced5b4534498def5e1b71b647e81d95))
 
 
 ### Features
 
-* Added @cocreate/clipboard ([0161d2e](https://github.com/CoCreate-app/CoCreateJS/commit/0161d2e777e8b35a37a2fefd752dcbf4f4b18012))
-* Added CoCreate-print ([32e66e9](https://github.com/CoCreate-app/CoCreateJS/commit/32e66e924624a5e036decf08a64493b31331c2c7))
+* Added @cocreate/clipboard ([0161d2e](https://github.com/CoCreateJS/CoCreateJS/commit/0161d2e777e8b35a37a2fefd752dcbf4f4b18012))
+* Added CoCreate-print ([32e66e9](https://github.com/CoCreateJS/CoCreateJS/commit/32e66e924624a5e036decf08a64493b31331c2c7))
 
-# [1.73.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.72.0...v1.73.0) (2024-11-03)
+# [1.73.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.72.0...v1.73.0) (2024-11-03)
 
 
 ### Bug Fixes
 
-* scroll selectors ([51579a0](https://github.com/CoCreate-app/CoCreateJS/commit/51579a0d0c6a9fd5aa50fe1862e022032f3339e0))
+* scroll selectors ([51579a0](https://github.com/CoCreateJS/CoCreateJS/commit/51579a0d0c6a9fd5aa50fe1862e022032f3339e0))
 
 
 ### Features
 
-* scroll-to attribute to set scroll to top, bottom, left, right ([0cc2e6f](https://github.com/CoCreate-app/CoCreateJS/commit/0cc2e6f9a00d549353fdcee2e7d2e73ddb9897b5))
+* scroll-to attribute to set scroll to top, bottom, left, right ([0cc2e6f](https://github.com/CoCreateJS/CoCreateJS/commit/0cc2e6f9a00d549353fdcee2e7d2e73ddb9897b5))
 
-# [1.72.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.71.0...v1.72.0) (2024-11-02)
+# [1.72.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.71.0...v1.72.0) (2024-11-02)
 
 
 ### Bug Fixes
 
-* scroll selectors ([47471b3](https://github.com/CoCreate-app/CoCreateJS/commit/47471b3602ac77832d3c6b13741f2e40081054df))
+* scroll selectors ([47471b3](https://github.com/CoCreateJS/CoCreateJS/commit/47471b3602ac77832d3c6b13741f2e40081054df))
 
 
 ### Features
 
-* scroll-to attribute to set scroll to top, bottom, left, right ([dc7ec8b](https://github.com/CoCreate-app/CoCreateJS/commit/dc7ec8bf3127ee08b57a9d604717c960bc60b5fc))
+* scroll-to attribute to set scroll to top, bottom, left, right ([dc7ec8b](https://github.com/CoCreateJS/CoCreateJS/commit/dc7ec8bf3127ee08b57a9d604717c960bc60b5fc))
 
-# [1.71.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.70.0...v1.71.0) (2024-08-08)
+# [1.71.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.70.0...v1.71.0) (2024-08-08)
 
 
 ### Features
 
-* palyground component ([a7bb2ea](https://github.com/CoCreate-app/CoCreateJS/commit/a7bb2ea64b22c53ad761e6c9279e2d3a970d17c6))
+* palyground component ([a7bb2ea](https://github.com/CoCreateJS/CoCreateJS/commit/a7bb2ea64b22c53ad761e6c9279e2d3a970d17c6))
 
-# [1.70.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.69.0...v1.70.0) (2024-08-01)
+# [1.70.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.69.0...v1.70.0) (2024-08-01)
 
 
 ### Bug Fixes
 
-* update docs ([4647d0b](https://github.com/CoCreate-app/CoCreateJS/commit/4647d0bd451c11c5a0ed379525605cf4333a08a5))
-* use same name for production and dev ([169295b](https://github.com/CoCreate-app/CoCreateJS/commit/169295bd1c4aad9d85fec2edcaa344cc41687b73))
+* update docs ([4647d0b](https://github.com/CoCreateJS/CoCreateJS/commit/4647d0bd451c11c5a0ed379525605cf4333a08a5))
+* use same name for production and dev ([169295b](https://github.com/CoCreateJS/CoCreateJS/commit/169295bd1c4aad9d85fec2edcaa344cc41687b73))
 
 
 ### Features
 
-* add @cocreate/aos ([8495586](https://github.com/CoCreate-app/CoCreateJS/commit/84955865023853587fee2e7d1be25f0a9d04c7b0))
+* add @cocreate/aos ([8495586](https://github.com/CoCreateJS/CoCreateJS/commit/84955865023853587fee2e7d1be25f0a9d04c7b0))
 
-# [1.69.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.68.0...v1.69.0) (2024-07-05)
+# [1.69.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.68.0...v1.69.0) (2024-07-05)
 
 
 ### Bug Fixes
 
-* add [node-name] selector ([2330d42](https://github.com/CoCreate-app/CoCreateJS/commit/2330d42187532f4194f806e001320251b37e2d33))
-* Add host for development lifecycle management ([052a7f7](https://github.com/CoCreate-app/CoCreateJS/commit/052a7f72fdd964e28a2dbb0378de628f86a01001))
-* add marked to repositories ([7d4b0e1](https://github.com/CoCreate-app/CoCreateJS/commit/7d4b0e1b38865e66c01eec860440eba2fb08ef14))
-* bump cocreate dependencies ([da54935](https://github.com/CoCreate-app/CoCreateJS/commit/da549350118b77ba667e899574089dfc62390820))
-* bumped cocreate dependencies ([1af03cb](https://github.com/CoCreate-app/CoCreateJS/commit/1af03cb7c6bc0ead67415f1a930ee03e24113549))
-* fabric typo ([3bab112](https://github.com/CoCreate-app/CoCreateJS/commit/3bab112ff0523a5769c509d598aeb6c6973e99f7))
-* load file before elements ([85ef755](https://github.com/CoCreate-app/CoCreateJS/commit/85ef7550262ecf7927a9c352dfd3319aabd5dbbc))
-* localstorage-key replaced with operatopr $user_id ([8aadd39](https://github.com/CoCreate-app/CoCreateJS/commit/8aadd39586c8abd27d6b2e2166239e7064a1df00))
-* moved element-prototype to the top of dependency loads ([bb5f3ca](https://github.com/CoCreate-app/CoCreateJS/commit/bb5f3ca9990ca9e38a0b65e4c0fb3755d10067da))
-* removed @cocreate/stripe handled dynamically by CoCreateApi ([87643e9](https://github.com/CoCreate-app/CoCreateJS/commit/87643e995599f986824c30650adb277e45f4aabb))
-* removed openai form module build. now handeled dynamically ([638b835](https://github.com/CoCreate-app/CoCreateJS/commit/638b8356074cfeab9af48d93048b4162f254c234))
-* removed stripe client handled dynamically ([3110c76](https://github.com/CoCreate-app/CoCreateJS/commit/3110c76704684f751c633225ce8366ca1ffd1065))
-* removed tui editor plugin ([57293db](https://github.com/CoCreate-app/CoCreateJS/commit/57293db132b9fb9d329672602c78cd9c1f5ffcc2))
-* svg icon class ([d2ec1b5](https://github.com/CoCreate-app/CoCreateJS/commit/d2ec1b5d02cceac7b62c0b987fcb08e1cfbd388d))
-* validate selector ([7b13f70](https://github.com/CoCreate-app/CoCreateJS/commit/7b13f70911935159e865f984e2514ff7e98aecca))
+* add [node-name] selector ([2330d42](https://github.com/CoCreateJS/CoCreateJS/commit/2330d42187532f4194f806e001320251b37e2d33))
+* Add host for development lifecycle management ([052a7f7](https://github.com/CoCreateJS/CoCreateJS/commit/052a7f72fdd964e28a2dbb0378de628f86a01001))
+* add marked to repositories ([7d4b0e1](https://github.com/CoCreateJS/CoCreateJS/commit/7d4b0e1b38865e66c01eec860440eba2fb08ef14))
+* bump cocreate dependencies ([da54935](https://github.com/CoCreateJS/CoCreateJS/commit/da549350118b77ba667e899574089dfc62390820))
+* bumped cocreate dependencies ([1af03cb](https://github.com/CoCreateJS/CoCreateJS/commit/1af03cb7c6bc0ead67415f1a930ee03e24113549))
+* fabric typo ([3bab112](https://github.com/CoCreateJS/CoCreateJS/commit/3bab112ff0523a5769c509d598aeb6c6973e99f7))
+* load file before elements ([85ef755](https://github.com/CoCreateJS/CoCreateJS/commit/85ef7550262ecf7927a9c352dfd3319aabd5dbbc))
+* localstorage-key replaced with operatopr $user_id ([8aadd39](https://github.com/CoCreateJS/CoCreateJS/commit/8aadd39586c8abd27d6b2e2166239e7064a1df00))
+* moved element-prototype to the top of dependency loads ([bb5f3ca](https://github.com/CoCreateJS/CoCreateJS/commit/bb5f3ca9990ca9e38a0b65e4c0fb3755d10067da))
+* removed @cocreate/stripe handled dynamically by CoCreateApi ([87643e9](https://github.com/CoCreateJS/CoCreateJS/commit/87643e995599f986824c30650adb277e45f4aabb))
+* removed openai form module build. now handeled dynamically ([638b835](https://github.com/CoCreateJS/CoCreateJS/commit/638b8356074cfeab9af48d93048b4162f254c234))
+* removed stripe client handled dynamically ([3110c76](https://github.com/CoCreateJS/CoCreateJS/commit/3110c76704684f751c633225ce8366ca1ffd1065))
+* removed tui editor plugin ([57293db](https://github.com/CoCreateJS/CoCreateJS/commit/57293db132b9fb9d329672602c78cd9c1f5ffcc2))
+* svg icon class ([d2ec1b5](https://github.com/CoCreateJS/CoCreateJS/commit/d2ec1b5d02cceac7b62c0b987fcb08e1cfbd388d))
+* validate selector ([7b13f70](https://github.com/CoCreateJS/CoCreateJS/commit/7b13f70911935159e865f984e2514ff7e98aecca))
 
 
 ### Features
 
-* added "@cocreate/markdown" ([c7b9ced](https://github.com/CoCreate-app/CoCreateJS/commit/c7b9ced649cb4678fcedf925d3603e0a0ec543d4))
-* Added Component "@cocreate/fabric" ([4a36cc8](https://github.com/CoCreate-app/CoCreateJS/commit/4a36cc8ddae781646b9077555038778f2599e1d0))
+* added "@cocreate/markdown" ([c7b9ced](https://github.com/CoCreateJS/CoCreateJS/commit/c7b9ced649cb4678fcedf925d3603e0a0ec543d4))
+* Added Component "@cocreate/fabric" ([4a36cc8](https://github.com/CoCreateJS/CoCreateJS/commit/4a36cc8ddae781646b9077555038778f2599e1d0))
 
-# [1.68.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.67.5...v1.68.0) (2024-04-26)
+# [1.68.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.67.5...v1.68.0) (2024-04-26)
 
 
 ### Bug Fixes
 
-* syntax ([6d133dd](https://github.com/CoCreate-app/CoCreateJS/commit/6d133ddc2c834489e0daa9500576b1e6a4a618d8))
-* to support lazy loading ffmpeg as module ([f2138c5](https://github.com/CoCreate-app/CoCreateJS/commit/f2138c594afb9056e233310f7f8ad043e96b2baf))
+* syntax ([6d133dd](https://github.com/CoCreateJS/CoCreateJS/commit/6d133ddc2c834489e0daa9500576b1e6a4a618d8))
+* to support lazy loading ffmpeg as module ([f2138c5](https://github.com/CoCreateJS/CoCreateJS/commit/f2138c594afb9056e233310f7f8ad043e96b2baf))
 
 
 ### Features
 
-* add ffmpeg for clientside video processing ([0085fe1](https://github.com/CoCreate-app/CoCreateJS/commit/0085fe18b64d583e061c5f1ddf1acaee839b8a84))
+* add ffmpeg for clientside video processing ([0085fe1](https://github.com/CoCreateJS/CoCreateJS/commit/0085fe18b64d583e061c5f1ddf1acaee839b8a84))
 
-## [1.67.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.67.4...v1.67.5) (2024-02-05)
+## [1.67.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.67.4...v1.67.5) (2024-02-05)
 
 
 ### Bug Fixes
 
-* Removed https://cdn.cocreate.app/latest/CoCreate.min.css ([4c8dbb7](https://github.com/CoCreate-app/CoCreateJS/commit/4c8dbb714b377078acb39653e795667def927a3e))
+* Removed https://cdn.CoCreateJS.com/latest/CoCreate.min.css ([4c8dbb7](https://github.com/CoCreateJS/CoCreateJS/commit/4c8dbb714b377078acb39653e795667def927a3e))
 
-## [1.67.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.67.3...v1.67.4) (2024-02-03)
+## [1.67.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.67.3...v1.67.4) (2024-02-03)
 
 
 ### Bug Fixes
 
-* add stripe module ([6c62c8e](https://github.com/CoCreate-app/CoCreateJS/commit/6c62c8e32b48be3df5934b377e8018ea1fc0dfb0))
+* add stripe module ([6c62c8e](https://github.com/CoCreateJS/CoCreateJS/commit/6c62c8e32b48be3df5934b377e8018ea1fc0dfb0))
 
-## [1.67.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.67.2...v1.67.3) (2024-01-30)
+## [1.67.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.67.2...v1.67.3) (2024-01-30)
 
 
 ### Bug Fixes
 
-* removed resize-observer from repositories ([6d454d2](https://github.com/CoCreate-app/CoCreateJS/commit/6d454d209a31ea8ddd6c6693aafb0514fca2df6e))
-* resize-observer removed as its logic is now handled by CoCreate-events ([0a10e83](https://github.com/CoCreate-app/CoCreateJS/commit/0a10e83ebb4e5cc532e9c03c8b75d6aaceb23eef))
+* removed resize-observer from repositories ([6d454d2](https://github.com/CoCreateJS/CoCreateJS/commit/6d454d209a31ea8ddd6c6693aafb0514fca2df6e))
+* resize-observer removed as its logic is now handled by CoCreate-events ([0a10e83](https://github.com/CoCreateJS/CoCreateJS/commit/0a10e83ebb4e5cc532e9c03c8b75d6aaceb23eef))
 
-## [1.67.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.67.1...v1.67.2) (2024-01-28)
+## [1.67.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.67.1...v1.67.2) (2024-01-28)
 
 
 ### Bug Fixes
 
-* resize-observer removed as its logic is now handled by CoCreate-events ([426f9e9](https://github.com/CoCreate-app/CoCreateJS/commit/426f9e90f26cbf80b113eb993408f08ab013ac46))
+* resize-observer removed as its logic is now handled by CoCreate-events ([426f9e9](https://github.com/CoCreateJS/CoCreateJS/commit/426f9e90f26cbf80b113eb993408f08ab013ac46))
 
-## [1.67.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.67.0...v1.67.1) (2024-01-17)
+## [1.67.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.67.0...v1.67.1) (2024-01-17)
 
 
 ### Bug Fixes
 
-* removed dead code ([d5abbe2](https://github.com/CoCreate-app/CoCreateJS/commit/d5abbe2f9c789698dd9ef37cd89fa2b5b06a4b03))
-* removed dead code ([a950f5d](https://github.com/CoCreate-app/CoCreateJS/commit/a950f5dde281c5fb0a1ab0228f819ec076827bf9))
-* update fileUploader to pascalCase FileUploader ([762f2b9](https://github.com/CoCreate-app/CoCreateJS/commit/762f2b934ae13b98b7b43300f4fc4a5a1e85dc99))
+* removed dead code ([d5abbe2](https://github.com/CoCreateJS/CoCreateJS/commit/d5abbe2f9c789698dd9ef37cd89fa2b5b06a4b03))
+* removed dead code ([a950f5d](https://github.com/CoCreateJS/CoCreateJS/commit/a950f5dde281c5fb0a1ab0228f819ec076827bf9))
+* update fileUploader to pascalCase FileUploader ([762f2b9](https://github.com/CoCreateJS/CoCreateJS/commit/762f2b934ae13b98b7b43300f4fc4a5a1e85dc99))
 
-# [1.67.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.66.2...v1.67.0) (2023-12-28)
+# [1.67.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.66.2...v1.67.0) (2023-12-28)
 
 
 ### Bug Fixes
 
-* added webpack and rollup to repositories ([7a63835](https://github.com/CoCreate-app/CoCreateJS/commit/7a63835a4324b87e9a14f4d54897b33e1cac9dfa))
-* menu path ([0a96fdf](https://github.com/CoCreate-app/CoCreateJS/commit/0a96fdf420c2a2abff3e43bcbae1f20b21d62700))
+* added webpack and rollup to repositories ([7a63835](https://github.com/CoCreateJS/CoCreateJS/commit/7a63835a4324b87e9a14f4d54897b33e1cac9dfa))
+* menu path ([0a96fdf](https://github.com/CoCreateJS/CoCreateJS/commit/0a96fdf420c2a2abff3e43bcbae1f20b21d62700))
 
 
 ### Features
 
-* add "@cocreate/stripe" ([522b26a](https://github.com/CoCreate-app/CoCreateJS/commit/522b26aad2ebaf836b62b4a204cc49d9b86738ec))
-* added @cocreate/webpack to access plugins ([85817ac](https://github.com/CoCreate-app/CoCreateJS/commit/85817acea96c80efebcbd6299ffb926df7459518))
-* generate modules.js file using CoCreate.config ([d67566f](https://github.com/CoCreate-app/CoCreateJS/commit/d67566f3bfa13970045a5188f3e66f817e731f6f))
-* plugins loaded from @cocreate/webpack ([ef53407](https://github.com/CoCreate-app/CoCreateJS/commit/ef53407c9e9402cceade713798b1271b80b0a45f))
+* add "@cocreate/stripe" ([522b26a](https://github.com/CoCreateJS/CoCreateJS/commit/522b26aad2ebaf836b62b4a204cc49d9b86738ec))
+* added @cocreate/webpack to access plugins ([85817ac](https://github.com/CoCreateJS/CoCreateJS/commit/85817acea96c80efebcbd6299ffb926df7459518))
+* generate modules.js file using CoCreate.config ([d67566f](https://github.com/CoCreateJS/CoCreateJS/commit/d67566f3bfa13970045a5188f3e66f817e731f6f))
+* plugins loaded from @cocreate/webpack ([ef53407](https://github.com/CoCreateJS/CoCreateJS/commit/ef53407c9e9402cceade713798b1271b80b0a45f))
 
-## [1.66.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.66.1...v1.66.2) (2023-11-26)
+## [1.66.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.66.1...v1.66.2) (2023-11-26)
 
 
 ### Bug Fixes
 
-* renamed calculation to calculate ([29b283d](https://github.com/CoCreate-app/CoCreateJS/commit/29b283da05d0839bac5900e27f67ffbc50f9a355))
+* renamed calculation to calculate ([29b283d](https://github.com/CoCreateJS/CoCreateJS/commit/29b283da05d0839bac5900e27f67ffbc50f9a355))
 
-## [1.66.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.66.0...v1.66.1) (2023-11-26)
+## [1.66.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.66.0...v1.66.1) (2023-11-26)
 
 
 ### Bug Fixes
 
-* license path ([3c88f5b](https://github.com/CoCreate-app/CoCreateJS/commit/3c88f5ba08a4266bb38e0e8510d47cac59d87d79))
+* license path ([3c88f5b](https://github.com/CoCreateJS/CoCreateJS/commit/3c88f5ba08a4266bb38e0e8510d47cac59d87d79))
 
-# [1.66.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.65.0...v1.66.0) (2023-11-25)
+# [1.66.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.65.0...v1.66.0) (2023-11-25)
 
 
 ### Bug Fixes
 
-* renamed pass to state ([a63bc04](https://github.com/CoCreate-app/CoCreateJS/commit/a63bc04c43d25aa375dfc0a0d9e0a827d8fee151))
-* update licensing details ([5837da1](https://github.com/CoCreate-app/CoCreateJS/commit/5837da1b40850a37d8c9ea6c2f385cfc8ee268db))
-* update nav, edit button and css path ([c242203](https://github.com/CoCreate-app/CoCreateJS/commit/c24220367915c2f59c1bd308d7d187dffe434610))
-* upgraded "@cocreate/state" to its latest version ([6e466dc](https://github.com/CoCreate-app/CoCreateJS/commit/6e466dc743e91891ec0c11688e0c6d3e682aa738))
+* renamed pass to state ([a63bc04](https://github.com/CoCreateJS/CoCreateJS/commit/a63bc04c43d25aa375dfc0a0d9e0a827d8fee151))
+* update licensing details ([5837da1](https://github.com/CoCreateJS/CoCreateJS/commit/5837da1b40850a37d8c9ea6c2f385cfc8ee268db))
+* update nav, edit button and css path ([c242203](https://github.com/CoCreateJS/CoCreateJS/commit/c24220367915c2f59c1bd308d7d187dffe434610))
+* upgraded "@cocreate/state" to its latest version ([6e466dc](https://github.com/CoCreateJS/CoCreateJS/commit/6e466dc743e91891ec0c11688e0c6d3e682aa738))
 
 
 ### Features
 
-* upgrade dependencies for latest features and fixes ([cfa5b4a](https://github.com/CoCreate-app/CoCreateJS/commit/cfa5b4a23c7de417a6d0b76a7825b17f5dc42731))
-* upgrade dependencies for latest features and fixes ([14c518b](https://github.com/CoCreate-app/CoCreateJS/commit/14c518b629dda79db73f5581c0484fe7278725aa))
+* upgrade dependencies for latest features and fixes ([cfa5b4a](https://github.com/CoCreateJS/CoCreateJS/commit/cfa5b4a23c7de417a6d0b76a7825b17f5dc42731))
+* upgrade dependencies for latest features and fixes ([14c518b](https://github.com/CoCreateJS/CoCreateJS/commit/14c518b629dda79db73f5581c0484fe7278725aa))
 
-# [1.65.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.64.0...v1.65.0) (2023-11-19)
+# [1.65.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.64.0...v1.65.0) (2023-11-19)
 
 
 ### Bug Fixes
 
-* add actions=openai selector ([d06a22f](https://github.com/CoCreate-app/CoCreateJS/commit/d06a22f8ac6358331b98c400bdcb3c3be8d250be))
-* filter-name renamed to filter-key ([40e3765](https://github.com/CoCreate-app/CoCreateJS/commit/40e376539bd0253add23657e8faa178dbd2df218))
-* update openai plugin ([ac2f9f6](https://github.com/CoCreate-app/CoCreateJS/commit/ac2f9f6101368d841b4ceac9a454cc66bb06f298))
+* add actions=openai selector ([d06a22f](https://github.com/CoCreateJS/CoCreateJS/commit/d06a22f8ac6358331b98c400bdcb3c3be8d250be))
+* filter-name renamed to filter-key ([40e3765](https://github.com/CoCreateJS/CoCreateJS/commit/40e376539bd0253add23657e8faa178dbd2df218))
+* update openai plugin ([ac2f9f6](https://github.com/CoCreateJS/CoCreateJS/commit/ac2f9f6101368d841b4ceac9a454cc66bb06f298))
 
 
 ### Features
 
-* update cocreate dependencies for the latest features ([6b75cd2](https://github.com/CoCreate-app/CoCreateJS/commit/6b75cd2aa65e2ff765984130f730ae29b26ad5b6))
+* update cocreate dependencies for the latest features ([6b75cd2](https://github.com/CoCreateJS/CoCreateJS/commit/6b75cd2aa65e2ff765984130f730ae29b26ad5b6))
 
-# [1.64.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.63.0...v1.64.0) (2023-11-12)
+# [1.64.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.63.0...v1.64.0) (2023-11-12)
 
 
 ### Bug Fixes
 
-* meta name typo ([9f37013](https://github.com/CoCreate-app/CoCreateJS/commit/9f370135a8c819584aae32e9cf5d99df3286122a))
+* meta name typo ([9f37013](https://github.com/CoCreateJS/CoCreateJS/commit/9f370135a8c819584aae32e9cf5d99df3286122a))
 
 
 ### Features
 
-* update "[@cocreate](https://github.com/cocreate)" dependencies ([437c378](https://github.com/CoCreate-app/CoCreateJS/commit/437c378c4e51c4435626272bf71cd50d24f663f1))
+* update "[@cocreate](https://github.com/cocreate)" dependencies ([437c378](https://github.com/CoCreateJS/CoCreateJS/commit/437c378c4e51c4435626272bf71cd50d24f663f1))
 
-# [1.63.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.62.5...v1.63.0) (2023-11-04)
+# [1.63.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.62.5...v1.63.0) (2023-11-04)
 
 
 ### Bug Fixes
 
-* added CoCreate-cache ([b2dcb22](https://github.com/CoCreate-app/CoCreateJS/commit/b2dcb22ff6604485ab1871990bc3f23bd8377a18))
-* bumped dependencies ([fa6fbce](https://github.com/CoCreate-app/CoCreateJS/commit/fa6fbcee50b302aa5d616d0abda225e110696d28))
+* added CoCreate-cache ([b2dcb22](https://github.com/CoCreateJS/CoCreateJS/commit/b2dcb22ff6604485ab1871990bc3f23bd8377a18))
+* bumped dependencies ([fa6fbce](https://github.com/CoCreateJS/CoCreateJS/commit/fa6fbcee50b302aa5d616d0abda225e110696d28))
 
 
 ### Features
 
-* update dependencies to the latest versions ([ff0f15c](https://github.com/CoCreate-app/CoCreateJS/commit/ff0f15cc038b0dfc6069e7c76e145e2ba6fd4885))
+* update dependencies to the latest versions ([ff0f15c](https://github.com/CoCreateJS/CoCreateJS/commit/ff0f15cc038b0dfc6069e7c76e145e2ba6fd4885))
 
-## [1.62.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.62.4...v1.62.5) (2023-10-22)
+## [1.62.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.62.4...v1.62.5) (2023-10-22)
 
 
 ### Bug Fixes
 
-* add template as a selector ([6f0f638](https://github.com/CoCreate-app/CoCreateJS/commit/6f0f638771c7bb8c1f4ea2cc42fa4d8025baf0bb))
-* update render lazyload selectors ([dd01f05](https://github.com/CoCreate-app/CoCreateJS/commit/dd01f05661b1b0602f9d825d101f6f344b81fdc0))
+* add template as a selector ([6f0f638](https://github.com/CoCreateJS/CoCreateJS/commit/6f0f638771c7bb8c1f4ea2cc42fa4d8025baf0bb))
+* update render lazyload selectors ([dd01f05](https://github.com/CoCreateJS/CoCreateJS/commit/dd01f05661b1b0602f9d825d101f6f344b81fdc0))
 
-## [1.62.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.62.3...v1.62.4) (2023-10-19)
+## [1.62.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.62.3...v1.62.4) (2023-10-19)
 
 
 ### Bug Fixes
 
-* removed '@cocreate/message-client' ([747fbc4](https://github.com/CoCreate-app/CoCreateJS/commit/747fbc489ae3b70252fd105081c4f00377470d68))
+* removed '@cocreate/message-client' ([747fbc4](https://github.com/CoCreateJS/CoCreateJS/commit/747fbc489ae3b70252fd105081c4f00377470d68))
 
-## [1.62.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.62.2...v1.62.3) (2023-10-16)
+## [1.62.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.62.2...v1.62.3) (2023-10-16)
 
 
 ### Bug Fixes
 
-* add @cocreate/cache to repositories ([5e99b45](https://github.com/CoCreate-app/CoCreateJS/commit/5e99b45beb3349c7ab1c5902b2c8371d6e960ac7))
-* add cache to repositories ([a244cde](https://github.com/CoCreate-app/CoCreateJS/commit/a244cdee30f9ff4e582f002f787273b54d530f12))
-* update css-parser lazyload selector ([0119925](https://github.com/CoCreate-app/CoCreateJS/commit/0119925d1b1f0de265c5c9a88f81c73cfe13e721))
-* webpack.config production build ([633f3b6](https://github.com/CoCreate-app/CoCreateJS/commit/633f3b60005c8b23e462471b61dd05ae5032318b))
+* add @cocreate/cache to repositories ([5e99b45](https://github.com/CoCreateJS/CoCreateJS/commit/5e99b45beb3349c7ab1c5902b2c8371d6e960ac7))
+* add cache to repositories ([a244cde](https://github.com/CoCreateJS/CoCreateJS/commit/a244cdee30f9ff4e582f002f787273b54d530f12))
+* update css-parser lazyload selector ([0119925](https://github.com/CoCreateJS/CoCreateJS/commit/0119925d1b1f0de265c5c9a88f81c73cfe13e721))
+* webpack.config production build ([633f3b6](https://github.com/CoCreateJS/CoCreateJS/commit/633f3b60005c8b23e462471b61dd05ae5032318b))
 
-## [1.62.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.62.1...v1.62.2) (2023-10-14)
+## [1.62.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.62.1...v1.62.2) (2023-10-14)
 
 
 ### Bug Fixes
 
-* elements component selectors ([0715a52](https://github.com/CoCreate-app/CoCreateJS/commit/0715a52e6688ef56f7182a1f0abb87440c7fe920))
-* source map ([05924b5](https://github.com/CoCreate-app/CoCreateJS/commit/05924b5253c9af9d6b9d34b56991ccfcdaa69ac2))
-* update pass-refresh to pass-overwrite ([2542f63](https://github.com/CoCreate-app/CoCreateJS/commit/2542f6335a6b900e6a3932e0aa3847fc4f971ac6))
+* elements component selectors ([0715a52](https://github.com/CoCreateJS/CoCreateJS/commit/0715a52e6688ef56f7182a1f0abb87440c7fe920))
+* source map ([05924b5](https://github.com/CoCreateJS/CoCreateJS/commit/05924b5253c9af9d6b9d34b56991ccfcdaa69ac2))
+* update pass-refresh to pass-overwrite ([2542f63](https://github.com/CoCreateJS/CoCreateJS/commit/2542f6335a6b900e6a3932e0aa3847fc4f971ac6))
 
-## [1.62.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.62.0...v1.62.1) (2023-10-09)
+## [1.62.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.62.0...v1.62.1) (2023-10-09)
 
 
 ### Bug Fixes
 
-* bump dependencies ([3271de7](https://github.com/CoCreate-app/CoCreateJS/commit/3271de7d645f03171c7c159bf99743a5c6261ce0))
+* bump dependencies ([3271de7](https://github.com/CoCreateJS/CoCreateJS/commit/3271de7d645f03171c7c159bf99743a5c6261ce0))
 
-# [1.62.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.61.0...v1.62.0) (2023-10-09)
+# [1.62.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.61.0...v1.62.0) (2023-10-09)
 
 
 ### Features
 
-* add CoCreate-cache to access cache api and dynamically handle caching files ([7d3401b](https://github.com/CoCreate-app/CoCreateJS/commit/7d3401b8cbd906d68fc39f41a39e9e8379ab00a4))
-* add CoCreate-notification component ([6b6818a](https://github.com/CoCreate-app/CoCreateJS/commit/6b6818ab1efe1f41f182ab92a6af196bd272093c))
-* Added '@cocreate/config' ([23ae34e](https://github.com/CoCreate-app/CoCreateJS/commit/23ae34e58ca5f11f0905381992a7035987df5cce))
-* Update CoCreate dependencies to their latest versions ([2ec4908](https://github.com/CoCreate-app/CoCreateJS/commit/2ec490827359066d214d3b78d44e9f289e11d46d))
+* add CoCreate-cache to access cache api and dynamically handle caching files ([7d3401b](https://github.com/CoCreateJS/CoCreateJS/commit/7d3401b8cbd906d68fc39f41a39e9e8379ab00a4))
+* add CoCreate-notification component ([6b6818a](https://github.com/CoCreateJS/CoCreateJS/commit/6b6818ab1efe1f41f182ab92a6af196bd272093c))
+* Added '@cocreate/config' ([23ae34e](https://github.com/CoCreateJS/CoCreateJS/commit/23ae34e58ca5f11f0905381992a7035987df5cce))
+* Update CoCreate dependencies to their latest versions ([2ec4908](https://github.com/CoCreateJS/CoCreateJS/commit/2ec490827359066d214d3b78d44e9f289e11d46d))
 
-# [1.61.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.60.1...v1.61.0) (2023-09-19)
+# [1.61.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.60.1...v1.61.0) (2023-09-19)
 
 
 ### Features
 
-* Update CoCreate dependencies to their latest versions ([95faf33](https://github.com/CoCreate-app/CoCreateJS/commit/95faf33eba7bef8ad3dd003b749901d7687475bc))
+* Update CoCreate dependencies to their latest versions ([95faf33](https://github.com/CoCreateJS/CoCreateJS/commit/95faf33eba7bef8ad3dd003b749901d7687475bc))
 
-## [1.60.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.60.0...v1.60.1) (2023-09-19)
+## [1.60.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.60.0...v1.60.1) (2023-09-19)
 
 
 ### Bug Fixes
 
-* add pathname ([6f82c77](https://github.com/CoCreate-app/CoCreateJS/commit/6f82c779d528b1d31763b4add2708d41dbd3e83a))
+* add pathname ([6f82c77](https://github.com/CoCreateJS/CoCreateJS/commit/6f82c779d528b1d31763b4add2708d41dbd3e83a))
 
-# [1.60.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.59.0...v1.60.0) (2023-09-17)
+# [1.60.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.59.0...v1.60.0) (2023-09-17)
 
 
 ### Features
 
-* HTML5 attribute key can now accept the following values: ([b8075b5](https://github.com/CoCreate-app/CoCreateJS/commit/b8075b59d4b5a8fb4c692b16d09dd8631209e830))
-* if isWatch and compilation complete watch file for changes and upload ([47c7bf6](https://github.com/CoCreate-app/CoCreateJS/commit/47c7bf60b345758e1b69ca820272058adae9c2f4))
+* HTML5 attribute key can now accept the following values: ([b8075b5](https://github.com/CoCreateJS/CoCreateJS/commit/b8075b59d4b5a8fb4c692b16d09dd8631209e830))
+* if isWatch and compilation complete watch file for changes and upload ([47c7bf6](https://github.com/CoCreateJS/CoCreateJS/commit/47c7bf60b345758e1b69ca820272058adae9c2f4))
 
-# [1.59.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.58.0...v1.59.0) (2023-09-08)
+# [1.59.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.58.0...v1.59.0) (2023-09-08)
 
 
 ### Bug Fixes
 
-* CoCreate.config.js ([a80d82c](https://github.com/CoCreate-app/CoCreateJS/commit/a80d82c26232c5339ad31d1d65a5e96b7985ddac))
+* CoCreate.config.js ([a80d82c](https://github.com/CoCreateJS/CoCreateJS/commit/a80d82c26232c5339ad31d1d65a5e96b7985ddac))
 
 
 ### Features
 
-* add openai plugin ([9e917a9](https://github.com/CoCreate-app/CoCreateJS/commit/9e917a90a799e59b384f2101ab282cde4216d7b8))
-* added @cocreate/openai plugin ([8a1a369](https://github.com/CoCreate-app/CoCreateJS/commit/8a1a369fb9860c578ef7a1e5e28a214af16e8ebc))
+* add openai plugin ([9e917a9](https://github.com/CoCreateJS/CoCreateJS/commit/9e917a90a799e59b384f2101ab282cde4216d7b8))
+* added @cocreate/openai plugin ([8a1a369](https://github.com/CoCreateJS/CoCreateJS/commit/8a1a369fb9860c578ef7a1e5e28a214af16e8ebc))
 
-# [1.58.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.17...v1.58.0) (2023-08-21)
+# [1.58.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.17...v1.58.0) (2023-08-21)
 
 
 ### Bug Fixes
 
-* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([e1b68ce](https://github.com/CoCreate-app/CoCreateJS/commit/e1b68ceb404e6a3b6dfb3d3399026b5168bd88a4))
-* Add "[@cocrearte-cli](https://github.com/cocrearte-cli)" ([6521a50](https://github.com/CoCreate-app/CoCreateJS/commit/6521a50b2c9c74b31123c040c0d90872d90d64bf))
-* moved "@cocreate/cli" to devDependencies ([31fdd31](https://github.com/CoCreate-app/CoCreateJS/commit/31fdd31c5095ed51679bc324f7bbf129bb19e1f2))
-* Refactored *-target to *-selector ([f381431](https://github.com/CoCreate-app/CoCreateJS/commit/f3814310153d319db9057adb5758fc4528d883e7))
-* render-array and render-object attributes renamed to render ([db20485](https://github.com/CoCreate-app/CoCreateJS/commit/db20485b600ef4b3ef7877abaa3b2beb098daf2f))
-* replace cdn with /dist ([64846a6](https://github.com/CoCreate-app/CoCreateJS/commit/64846a6057474135bd6c622cb3ec2b3debb45d8d))
-* Update cssParser and elements lazy load selectors ([7f07a73](https://github.com/CoCreate-app/CoCreateJS/commit/7f07a73fb2609c57a507f16daa70f23428f8dc17))
-* update file uploader ([0dcfdff](https://github.com/CoCreate-app/CoCreateJS/commit/0dcfdffb9a2501936d462ca2597951de67fde5ed))
+* /dist/CoCreate.js updated to https://CoCreateJS.com/dist/CoCreate.js ([e1b68ce](https://github.com/CoCreateJS/CoCreateJS/commit/e1b68ceb404e6a3b6dfb3d3399026b5168bd88a4))
+* Add "[@cocrearte-cli](https://github.com/cocrearte-cli)" ([6521a50](https://github.com/CoCreateJS/CoCreateJS/commit/6521a50b2c9c74b31123c040c0d90872d90d64bf))
+* moved "@cocreate/cli" to devDependencies ([31fdd31](https://github.com/CoCreateJS/CoCreateJS/commit/31fdd31c5095ed51679bc324f7bbf129bb19e1f2))
+* Refactored *-target to *-selector ([f381431](https://github.com/CoCreateJS/CoCreateJS/commit/f3814310153d319db9057adb5758fc4528d883e7))
+* render-array and render-object attributes renamed to render ([db20485](https://github.com/CoCreateJS/CoCreateJS/commit/db20485b600ef4b3ef7877abaa3b2beb098daf2f))
+* replace cdn with /dist ([64846a6](https://github.com/CoCreateJS/CoCreateJS/commit/64846a6057474135bd6c622cb3ec2b3debb45d8d))
+* Update cssParser and elements lazy load selectors ([7f07a73](https://github.com/CoCreateJS/CoCreateJS/commit/7f07a73fb2609c57a507f16daa70f23428f8dc17))
+* update file uploader ([0dcfdff](https://github.com/CoCreateJS/CoCreateJS/commit/0dcfdffb9a2501936d462ca2597951de67fde5ed))
 
 
 ### Features
 
-* @cocreate/file to handle files. ([8b6ed2f](https://github.com/CoCreate-app/CoCreateJS/commit/8b6ed2f27e3348536ce13cba5b972d8b774491c0))
-* Refactor CoCreate.config.js, remove CoCreate-fetch dependency as it has been replaced with element, filter and render ([f7f8b5d](https://github.com/CoCreate-app/CoCreateJS/commit/f7f8b5dff0f7f0b0afbe1d2cba2ff98b8c36f84a))
-* Remove unnecessary CoCreate-form and CoCreate-render-json dependencies and update lazyLoad calls in components.js. The functions were relocated to @cocreate/element and @cocreate/render. ([c778508](https://github.com/CoCreate-app/CoCreateJS/commit/c7785087748c143ddcc94a34f20cf053038653dc))
-* renamed CRUD attributes and params ([e65b88e](https://github.com/CoCreate-app/CoCreateJS/commit/e65b88ec577e2c7d3bb326bd200e6bb58d392e29))
-* replace attributes "collection", "document" and "name" with "array", "object" and "key". ([4d79ed9](https://github.com/CoCreate-app/CoCreateJS/commit/4d79ed99eaff3bce73fb9947d2ffd64013998169))
-* Update cocreate dependencies for the latest features and bug fixes ([0cc95e7](https://github.com/CoCreate-app/CoCreateJS/commit/0cc95e727c2aa1ea2045c08b9e19b9527d091e74))
-* Update CoCreate.config.js with new array and object field names ([368d18c](https://github.com/CoCreate-app/CoCreateJS/commit/368d18c9aa6a59409a7634880563531b9abe25d6))
-* Upgrade "[@cocreate](https://github.com/cocreate)" package dependencies to their latest versions. ([fb1286f](https://github.com/CoCreate-app/CoCreateJS/commit/fb1286fd01e60e24d7db0c6c1734370b95692eb5))
+* @cocreate/file to handle files. ([8b6ed2f](https://github.com/CoCreateJS/CoCreateJS/commit/8b6ed2f27e3348536ce13cba5b972d8b774491c0))
+* Refactor CoCreate.config.js, remove CoCreate-fetch dependency as it has been replaced with element, filter and render ([f7f8b5d](https://github.com/CoCreateJS/CoCreateJS/commit/f7f8b5dff0f7f0b0afbe1d2cba2ff98b8c36f84a))
+* Remove unnecessary CoCreate-form and CoCreate-render-json dependencies and update lazyLoad calls in components.js. The functions were relocated to @cocreate/element and @cocreate/render. ([c778508](https://github.com/CoCreateJS/CoCreateJS/commit/c7785087748c143ddcc94a34f20cf053038653dc))
+* renamed CRUD attributes and params ([e65b88e](https://github.com/CoCreateJS/CoCreateJS/commit/e65b88ec577e2c7d3bb326bd200e6bb58d392e29))
+* replace attributes "collection", "document" and "name" with "array", "object" and "key". ([4d79ed9](https://github.com/CoCreateJS/CoCreateJS/commit/4d79ed99eaff3bce73fb9947d2ffd64013998169))
+* Update cocreate dependencies for the latest features and bug fixes ([0cc95e7](https://github.com/CoCreateJS/CoCreateJS/commit/0cc95e727c2aa1ea2045c08b9e19b9527d091e74))
+* Update CoCreate.config.js with new array and object field names ([368d18c](https://github.com/CoCreateJS/CoCreateJS/commit/368d18c9aa6a59409a7634880563531b9abe25d6))
+* Upgrade "[@cocreate](https://github.com/cocreate)" package dependencies to their latest versions. ([fb1286f](https://github.com/CoCreateJS/CoCreateJS/commit/fb1286fd01e60e24d7db0c6c1734370b95692eb5))
 
-## [1.57.17](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.16...v1.57.17) (2023-06-16)
+## [1.57.17](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.16...v1.57.17) (2023-06-16)
 
 
 ### Bug Fixes
 
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([0bea37e](https://github.com/CoCreate-app/CoCreateJS/commit/0bea37efbf0df76a8ead70008c31e75e05b077d2))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([0bea37e](https://github.com/CoCreateJS/CoCreateJS/commit/0bea37efbf0df76a8ead70008c31e75e05b077d2))
 
-## [1.57.16](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.15...v1.57.16) (2023-06-15)
+## [1.57.16](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.15...v1.57.16) (2023-06-15)
 
 
 ### Bug Fixes
 
-* Updatae [@cocreate](https://github.com/cocreate) dependnenies to the latest versions ([9181e7a](https://github.com/CoCreate-app/CoCreateJS/commit/9181e7abdb4ad6b77ce917da561ee6bb1c76634e))
+* Updatae [@cocreate](https://github.com/cocreate) dependnenies to the latest versions ([9181e7a](https://github.com/CoCreateJS/CoCreateJS/commit/9181e7abdb4ad6b77ce917da561ee6bb1c76634e))
 
-## [1.57.15](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.14...v1.57.15) (2023-06-15)
+## [1.57.15](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.14...v1.57.15) (2023-06-15)
 
 
 ### Bug Fixes
 
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([8c6de67](https://github.com/CoCreate-app/CoCreateJS/commit/8c6de675aede0203c517fd2a8339e60c17d19aae))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([8c6de67](https://github.com/CoCreateJS/CoCreateJS/commit/8c6de675aede0203c517fd2a8339e60c17d19aae))
 
-## [1.57.14](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.13...v1.57.14) (2023-06-14)
+## [1.57.14](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.13...v1.57.14) (2023-06-14)
 
 
 ### Bug Fixes
 
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([22f5e0a](https://github.com/CoCreate-app/CoCreateJS/commit/22f5e0a8b3396424d991b0119898e46217e8b333))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([22f5e0a](https://github.com/CoCreateJS/CoCreateJS/commit/22f5e0a8b3396424d991b0119898e46217e8b333))
 
-## [1.57.13](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.12...v1.57.13) (2023-06-14)
+## [1.57.13](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.12...v1.57.13) (2023-06-14)
 
 
 ### Bug Fixes
 
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([c5504a5](https://github.com/CoCreate-app/CoCreateJS/commit/c5504a5cde4578678b5e0171bf845657f7f029d8))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([c5504a5](https://github.com/CoCreateJS/CoCreateJS/commit/c5504a5cde4578678b5e0171bf845657f7f029d8))
 
-## [1.57.12](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.11...v1.57.12) (2023-06-11)
+## [1.57.12](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.11...v1.57.12) (2023-06-11)
 
 
 ### Bug Fixes
 
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([e3952a6](https://github.com/CoCreate-app/CoCreateJS/commit/e3952a6544b622c9455b87f1bd932c32f6f26d71))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([e3952a6](https://github.com/CoCreateJS/CoCreateJS/commit/e3952a6544b622c9455b87f1bd932c32f6f26d71))
 
-## [1.57.11](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.10...v1.57.11) (2023-06-11)
+## [1.57.11](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.10...v1.57.11) (2023-06-11)
 
 
 ### Bug Fixes
 
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([1fb85eb](https://github.com/CoCreate-app/CoCreateJS/commit/1fb85eba3f627a86d70ce79a3bdc89ddd3e4bfa7))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([1fb85eb](https://github.com/CoCreateJS/CoCreateJS/commit/1fb85eba3f627a86d70ce79a3bdc89ddd3e4bfa7))
 
-## [1.57.10](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.9...v1.57.10) (2023-06-11)
+## [1.57.10](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.9...v1.57.10) (2023-06-11)
 
 
 ### Bug Fixes
 
-* testing workflow ([5b390ba](https://github.com/CoCreate-app/CoCreateJS/commit/5b390ba035ccce6115f45a42aeee7507d718da51))
+* testing workflow ([5b390ba](https://github.com/CoCreateJS/CoCreateJS/commit/5b390ba035ccce6115f45a42aeee7507d718da51))
 
-## [1.57.9](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.8...v1.57.9) (2023-06-11)
+## [1.57.9](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.8...v1.57.9) (2023-06-11)
 
 
 ### Bug Fixes
 
-* testing workflow ([4d9bc65](https://github.com/CoCreate-app/CoCreateJS/commit/4d9bc65b67a20d21f25e78e57ece0f16c9a84944))
+* testing workflow ([4d9bc65](https://github.com/CoCreateJS/CoCreateJS/commit/4d9bc65b67a20d21f25e78e57ece0f16c9a84944))
 
-## [1.57.8](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.7...v1.57.8) (2023-06-11)
+## [1.57.8](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.7...v1.57.8) (2023-06-11)
 
 
 ### Bug Fixes
 
-* testing workflow ([206ff33](https://github.com/CoCreate-app/CoCreateJS/commit/206ff3341cf2fbac3ca9df5ef7d721868b7a0e62))
-* testing workflow ([66d320a](https://github.com/CoCreate-app/CoCreateJS/commit/66d320a808f521d4936ef7fab735b851b7afc85a))
+* testing workflow ([206ff33](https://github.com/CoCreateJS/CoCreateJS/commit/206ff3341cf2fbac3ca9df5ef7d721868b7a0e62))
+* testing workflow ([66d320a](https://github.com/CoCreateJS/CoCreateJS/commit/66d320a808f521d4936ef7fab735b851b7afc85a))
 
-## [1.57.7](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.6...v1.57.7) (2023-06-11)
+## [1.57.7](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.6...v1.57.7) (2023-06-11)
 
 
 ### Bug Fixes
 
-* testing workflow ([ec518b4](https://github.com/CoCreate-app/CoCreateJS/commit/ec518b4ad9bead0e277194213375395a748452a0))
+* testing workflow ([ec518b4](https://github.com/CoCreateJS/CoCreateJS/commit/ec518b4ad9bead0e277194213375395a748452a0))
 
-## [1.57.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.5...v1.57.6) (2023-06-11)
+## [1.57.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.5...v1.57.6) (2023-06-11)
 
 
 ### Bug Fixes
 
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([a309af5](https://github.com/CoCreate-app/CoCreateJS/commit/a309af5817db882e90ca6be38e3deafd3bad2c3d))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([a309af5](https://github.com/CoCreateJS/CoCreateJS/commit/a309af5817db882e90ca6be38e3deafd3bad2c3d))
 
-## [1.57.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.4...v1.57.5) (2023-06-11)
+## [1.57.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.4...v1.57.5) (2023-06-11)
 
 
 ### Bug Fixes
 
-* postintall error ([b155b5f](https://github.com/CoCreate-app/CoCreateJS/commit/b155b5f22ef48c617fc6860ee469f5d83ab1e409))
+* postintall error ([b155b5f](https://github.com/CoCreateJS/CoCreateJS/commit/b155b5f22ef48c617fc6860ee469f5d83ab1e409))
 
-## [1.57.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.3...v1.57.4) (2023-06-11)
+## [1.57.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.3...v1.57.4) (2023-06-11)
 
 
 ### Bug Fixes
 
-* @cocreate/cli moved to dependencies ([bb78f4a](https://github.com/CoCreate-app/CoCreateJS/commit/bb78f4a66447f373d259edfa6aabd74425944733))
+* @cocreate/cli moved to dependencies ([bb78f4a](https://github.com/CoCreateJS/CoCreateJS/commit/bb78f4a66447f373d259edfa6aabd74425944733))
 
-## [1.57.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.2...v1.57.3) (2023-06-11)
+## [1.57.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.2...v1.57.3) (2023-06-11)
 
 
 ### Bug Fixes
 
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([9e10c68](https://github.com/CoCreate-app/CoCreateJS/commit/9e10c6819d6568b8eae04643597de6555f632ed4))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([9e10c68](https://github.com/CoCreateJS/CoCreateJS/commit/9e10c6819d6568b8eae04643597de6555f632ed4))
 
-## [1.57.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.1...v1.57.2) (2023-06-11)
+## [1.57.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.1...v1.57.2) (2023-06-11)
 
 
 ### Bug Fixes
 
-* renamed hosts to host. the value can be a string or an array of strings ([cf4fe82](https://github.com/CoCreate-app/CoCreateJS/commit/cf4fe825cef9d3c3c2c451483aba81cdc0f3fe78))
+* renamed hosts to host. the value can be a string or an array of strings ([cf4fe82](https://github.com/CoCreateJS/CoCreateJS/commit/cf4fe825cef9d3c3c2c451483aba81cdc0f3fe78))
 
-## [1.57.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.57.0...v1.57.1) (2023-06-10)
+## [1.57.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.57.0...v1.57.1) (2023-06-10)
 
 
 ### Bug Fixes
 
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([2cecf0b](https://github.com/CoCreate-app/CoCreateJS/commit/2cecf0b67e851794fd249873c9f90efbcfa5e8a5))
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([619073e](https://github.com/CoCreate-app/CoCreateJS/commit/619073e7dda73ea77786fccb8bd928f9211faf80))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([2cecf0b](https://github.com/CoCreateJS/CoCreateJS/commit/2cecf0b67e851794fd249873c9f90efbcfa5e8a5))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([619073e](https://github.com/CoCreateJS/CoCreateJS/commit/619073e7dda73ea77786fccb8bd928f9211faf80))
 
-# [1.57.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.56.11...v1.57.0) (2023-06-08)
+# [1.57.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.56.11...v1.57.0) (2023-06-08)
 
 
 ### Bug Fixes
 
-* Refactor CoCreate.config.js to remove hard-coded credentials ([73a4cf2](https://github.com/CoCreate-app/CoCreateJS/commit/73a4cf2a6878b91145023a08d883d8e8c345d6de))
+* Refactor CoCreate.config.js to remove hard-coded credentials ([73a4cf2](https://github.com/CoCreateJS/CoCreateJS/commit/73a4cf2a6878b91145023a08d883d8e8c345d6de))
 
 
 ### Features
 
-* Update automated.yml for CoCreate-docs with new environment variables ([618a1cc](https://github.com/CoCreate-app/CoCreateJS/commit/618a1ccc61a19d7583d97f0057ded67811d779b1))
+* Update automated.yml for CoCreate-docs with new environment variables ([618a1cc](https://github.com/CoCreateJS/CoCreateJS/commit/618a1ccc61a19d7583d97f0057ded67811d779b1))
 
-## [1.56.11](https://github.com/CoCreate-app/CoCreateJS/compare/v1.56.10...v1.56.11) (2023-06-04)
+## [1.56.11](https://github.com/CoCreateJS/CoCreateJS/compare/v1.56.10...v1.56.11) (2023-06-04)
 
 
 ### Bug Fixes
 
-* html formating ([6b89354](https://github.com/CoCreate-app/CoCreateJS/commit/6b893541609d9ebb8e2eb1823f2a66a07e310b9c))
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([c60b4c7](https://github.com/CoCreate-app/CoCreateJS/commit/c60b4c7446a5f80f521300f9631fcd7dc3d4d708))
+* html formating ([6b89354](https://github.com/CoCreateJS/CoCreateJS/commit/6b893541609d9ebb8e2eb1823f2a66a07e310b9c))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([c60b4c7](https://github.com/CoCreateJS/CoCreateJS/commit/c60b4c7446a5f80f521300f9631fcd7dc3d4d708))
 
-## [1.56.10](https://github.com/CoCreate-app/CoCreateJS/compare/v1.56.9...v1.56.10) (2023-06-01)
+## [1.56.10](https://github.com/CoCreateJS/CoCreateJS/compare/v1.56.9...v1.56.10) (2023-06-01)
 
 
 ### Bug Fixes
 
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([0cda990](https://github.com/CoCreate-app/CoCreateJS/commit/0cda9900b0e93d5653508868b225d243de1f4ffb))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([0cda990](https://github.com/CoCreateJS/CoCreateJS/commit/0cda9900b0e93d5653508868b225d243de1f4ffb))
 
-## [1.56.9](https://github.com/CoCreate-app/CoCreateJS/compare/v1.56.8...v1.56.9) (2023-05-28)
+## [1.56.9](https://github.com/CoCreateJS/CoCreateJS/compare/v1.56.8...v1.56.9) (2023-05-28)
 
 
 ### Bug Fixes
 
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([0b8e1da](https://github.com/CoCreate-app/CoCreateJS/commit/0b8e1dabd7297b9ef3fbf554f6aa1a2f34dd63b0))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([0b8e1da](https://github.com/CoCreateJS/CoCreateJS/commit/0b8e1dabd7297b9ef3fbf554f6aa1a2f34dd63b0))
 
-## [1.56.8](https://github.com/CoCreate-app/CoCreateJS/compare/v1.56.7...v1.56.8) (2023-05-23)
+## [1.56.8](https://github.com/CoCreateJS/CoCreateJS/compare/v1.56.7...v1.56.8) (2023-05-23)
 
 
 ### Bug Fixes
 
-* Update "@cocreate/users" version to 1.22.5 ([9332fc8](https://github.com/CoCreate-app/CoCreateJS/commit/9332fc83c0ae01a0d810bddd44f994f69be1348a))
-* Updated CoCreate.js CDN to version 1.56.7 ([55b089e](https://github.com/CoCreate-app/CoCreateJS/commit/55b089ec2afa0c295a0c3eae939c76ee9a40eee2))
+* Update "@cocreate/users" version to 1.22.5 ([9332fc8](https://github.com/CoCreateJS/CoCreateJS/commit/9332fc83c0ae01a0d810bddd44f994f69be1348a))
+* Updated CoCreate.js CDN to version 1.56.7 ([55b089e](https://github.com/CoCreateJS/CoCreateJS/commit/55b089ec2afa0c295a0c3eae939c76ee9a40eee2))
 
-## [1.56.7](https://github.com/CoCreate-app/CoCreateJS/compare/v1.56.6...v1.56.7) (2023-05-21)
+## [1.56.7](https://github.com/CoCreateJS/CoCreateJS/compare/v1.56.6...v1.56.7) (2023-05-21)
 
 
 ### Bug Fixes
 
-* @cocreate/user bug fixes ([65e3c47](https://github.com/CoCreate-app/CoCreateJS/commit/65e3c478b4f7a39527e69cd4376ee0f5266ce136))
+* @cocreate/user bug fixes ([65e3c47](https://github.com/CoCreateJS/CoCreateJS/commit/65e3c478b4f7a39527e69cd4376ee0f5266ce136))
 
-## [1.56.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.56.5...v1.56.6) (2023-05-21)
+## [1.56.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.56.5...v1.56.6) (2023-05-21)
 
 
 ### Bug Fixes
 
-* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([d9a8ab1](https://github.com/CoCreate-app/CoCreateJS/commit/d9a8ab13db84cec658cbf6d699584bc9e7055974))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([d9a8ab1](https://github.com/CoCreateJS/CoCreateJS/commit/d9a8ab13db84cec658cbf6d699584bc9e7055974))
 
-## [1.56.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.56.4...v1.56.5) (2023-05-21)
+## [1.56.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.56.4...v1.56.5) (2023-05-21)
 
 
 ### Bug Fixes
 
-* key types (key, user, role) ([9f3dcc8](https://github.com/CoCreate-app/CoCreateJS/commit/9f3dcc8dc2bb76a39c974e2b9dd4a5c60ea09229))
+* key types (key, user, role) ([9f3dcc8](https://github.com/CoCreateJS/CoCreateJS/commit/9f3dcc8dc2bb76a39c974e2b9dd4a5c60ea09229))
 
-## [1.56.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.56.3...v1.56.4) (2023-05-19)
+## [1.56.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.56.3...v1.56.4) (2023-05-19)
 
 
 ### Bug Fixes
 
-* indexeddb bug fix ([e7ccd3b](https://github.com/CoCreate-app/CoCreateJS/commit/e7ccd3bdd595c651b02e29c8c7e68256066afa06))
+* indexeddb bug fix ([e7ccd3b](https://github.com/CoCreateJS/CoCreateJS/commit/e7ccd3bdd595c651b02e29c8c7e68256066afa06))
 
-## [1.56.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.56.2...v1.56.3) (2023-05-19)
+## [1.56.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.56.2...v1.56.3) (2023-05-19)
 
 
 ### Bug Fixes
 
-* socket-client bug fix ([21705f6](https://github.com/CoCreate-app/CoCreateJS/commit/21705f6475680ed57f4b6ea8d7f818a46d11c017))
+* socket-client bug fix ([21705f6](https://github.com/CoCreateJS/CoCreateJS/commit/21705f6475680ed57f4b6ea8d7f818a46d11c017))
 
-## [1.56.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.56.1...v1.56.2) (2023-05-19)
+## [1.56.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.56.1...v1.56.2) (2023-05-19)
 
 
 ### Bug Fixes
 
-* update packages to latest versions ([06c33f9](https://github.com/CoCreate-app/CoCreateJS/commit/06c33f9cb499f364701ab602f08c9cd75a053951))
+* update packages to latest versions ([06c33f9](https://github.com/CoCreateJS/CoCreateJS/commit/06c33f9cb499f364701ab602f08c9cd75a053951))
 
-## [1.56.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.56.0...v1.56.1) (2023-05-19)
+## [1.56.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.56.0...v1.56.1) (2023-05-19)
 
 
 ### Bug Fixes
 
-* bug in socket-client ([f71b1ce](https://github.com/CoCreate-app/CoCreateJS/commit/f71b1ce1862914fec5d8dc40cca9f7126dcc24b1))
+* bug in socket-client ([f71b1ce](https://github.com/CoCreateJS/CoCreateJS/commit/f71b1ce1862914fec5d8dc40cca9f7126dcc24b1))
 
-# [1.56.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.55.1...v1.56.0) (2023-05-18)
+# [1.56.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.55.1...v1.56.0) (2023-05-18)
 
 
 ### Features
 
-* request organization_id from service worker ([152b1ef](https://github.com/CoCreate-app/CoCreateJS/commit/152b1efdd56df9a8b4ea75026364f681a9c8ec8f))
+* request organization_id from service worker ([152b1ef](https://github.com/CoCreateJS/CoCreateJS/commit/152b1efdd56df9a8b4ea75026364f681a9c8ec8f))
 
-## [1.55.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.55.0...v1.55.1) (2023-05-12)
+## [1.55.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.55.0...v1.55.1) (2023-05-12)
 
 
 ### Bug Fixes
 
-* removed selector deleteOrg ([644e683](https://github.com/CoCreate-app/CoCreateJS/commit/644e683a1e7c653d4adc94d24161b37d12d66411))
+* removed selector deleteOrg ([644e683](https://github.com/CoCreateJS/CoCreateJS/commit/644e683a1e7c653d4adc94d24161b37d12d66411))
 
-# [1.55.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.54.2...v1.55.0) (2023-05-11)
+# [1.55.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.54.2...v1.55.0) (2023-05-11)
 
 
 ### Features
 
-* confirm dialog to create new org if one does not exist ([3d8c830](https://github.com/CoCreate-app/CoCreateJS/commit/3d8c830ac22ba660246f92f7b82eb0547eb9d3ee))
+* confirm dialog to create new org if one does not exist ([3d8c830](https://github.com/CoCreateJS/CoCreateJS/commit/3d8c830ac22ba660246f92f7b82eb0547eb9d3ee))
 
-## [1.54.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.54.1...v1.54.2) (2023-05-10)
+## [1.54.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.54.1...v1.54.2) (2023-05-10)
 
 
 ### Bug Fixes
 
-* apikey renamed to key ([6ee7233](https://github.com/CoCreate-app/CoCreateJS/commit/6ee723392de93b0b59721f107304c43c0fb2e920))
+* apikey renamed to key ([6ee7233](https://github.com/CoCreateJS/CoCreateJS/commit/6ee723392de93b0b59721f107304c43c0fb2e920))
 
-## [1.54.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.54.0...v1.54.1) (2023-05-10)
+## [1.54.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.54.0...v1.54.1) (2023-05-10)
 
 
 ### Bug Fixes
 
-* bump [@cocreate](https://github.com/cocreate) dependencies ([2e0baa4](https://github.com/CoCreate-app/CoCreateJS/commit/2e0baa4a1ae41b185921c40ce96174b6d7d9db43))
+* bump [@cocreate](https://github.com/cocreate) dependencies ([2e0baa4](https://github.com/CoCreateJS/CoCreateJS/commit/2e0baa4a1ae41b185921c40ce96174b6d7d9db43))
 
-# [1.54.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.53.0...v1.54.0) (2023-05-03)
+# [1.54.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.53.0...v1.54.0) (2023-05-03)
 
 
 ### Features
 
-* dependency and lazyload functions to define cmponents ([3d4a66c](https://github.com/CoCreate-app/CoCreateJS/commit/3d4a66c49e60d8406cc6e11f0e61ba8ec7fa2588))
+* dependency and lazyload functions to define cmponents ([3d4a66c](https://github.com/CoCreateJS/CoCreateJS/commit/3d4a66c49e60d8406cc6e11f0e61ba8ec7fa2588))
 
-# [1.53.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.52.1...v1.53.0) (2023-05-01)
+# [1.53.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.52.1...v1.53.0) (2023-05-01)
 
 
 ### Features
 
-* svg support, removed font awesome ([262a93e](https://github.com/CoCreate-app/CoCreateJS/commit/262a93e63cc7323da7ef0e647e2d2b6d050d8f38))
+* svg support, removed font awesome ([262a93e](https://github.com/CoCreateJS/CoCreateJS/commit/262a93e63cc7323da7ef0e647e2d2b6d050d8f38))
 
-## [1.52.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.52.0...v1.52.1) (2023-05-01)
+## [1.52.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.52.0...v1.52.1) (2023-05-01)
 
 
 ### Bug Fixes
 
-* typo with modal component selector ([90e8557](https://github.com/CoCreate-app/CoCreateJS/commit/90e8557824159614d96c086863501873a823a213))
+* typo with modal component selector ([90e8557](https://github.com/CoCreateJS/CoCreateJS/commit/90e8557824159614d96c086863501873a823a213))
 
-# [1.52.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.51.2...v1.52.0) (2023-05-01)
+# [1.52.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.51.2...v1.52.0) (2023-05-01)
 
 
 ### Features
 
-* parentDirectory key in files ([773f139](https://github.com/CoCreate-app/CoCreateJS/commit/773f139ceb2b937d4c18c804ba83295d230e7d76))
+* parentDirectory key in files ([773f139](https://github.com/CoCreateJS/CoCreateJS/commit/773f139ceb2b937d4c18c804ba83295d230e7d76))
 
-## [1.51.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.51.1...v1.51.2) (2023-05-01)
+## [1.51.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.51.1...v1.51.2) (2023-05-01)
 
 
 ### Bug Fixes
 
-* replace fontawesome with svg ([c7d238e](https://github.com/CoCreate-app/CoCreateJS/commit/c7d238ee7d698d79e9b44f3d266312cded69314b))
-* update manifest.json to manifest.webmanifest ([a8fa6ee](https://github.com/CoCreate-app/CoCreateJS/commit/a8fa6eebd69ef1a38c8f9901ef6de1036d05a51c))
+* replace fontawesome with svg ([c7d238e](https://github.com/CoCreateJS/CoCreateJS/commit/c7d238ee7d698d79e9b44f3d266312cded69314b))
+* update manifest.json to manifest.webmanifest ([a8fa6ee](https://github.com/CoCreateJS/CoCreateJS/commit/a8fa6eebd69ef1a38c8f9901ef6de1036d05a51c))
 
-## [1.51.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.51.0...v1.51.1) (2023-05-01)
+## [1.51.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.51.0...v1.51.1) (2023-05-01)
 
 
 ### Bug Fixes
 
-* fullscreen target updated to fullscreen fullscreen-target ([cc24517](https://github.com/CoCreate-app/CoCreateJS/commit/cc245174c4c35fafbdc1f6c803e904e41b30f583))
-* package-lock.json and pnpm-lock.yaml added to .gitignore ([23e3d06](https://github.com/CoCreate-app/CoCreateJS/commit/23e3d06444a18e6b17bbf2c873febef72f577944))
-* replaced toggle fullscreenbicons with css content and removed toogle fullscreen icons. now using css content ([284f42c](https://github.com/CoCreate-app/CoCreateJS/commit/284f42ce6da1cdc71450501041615107353aa736))
+* fullscreen target updated to fullscreen fullscreen-target ([cc24517](https://github.com/CoCreateJS/CoCreateJS/commit/cc245174c4c35fafbdc1f6c803e904e41b30f583))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([23e3d06](https://github.com/CoCreateJS/CoCreateJS/commit/23e3d06444a18e6b17bbf2c873febef72f577944))
+* replaced toggle fullscreenbicons with css content and removed toogle fullscreen icons. now using css content ([284f42c](https://github.com/CoCreateJS/CoCreateJS/commit/284f42ce6da1cdc71450501041615107353aa736))
 
-# [1.51.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.50.6...v1.51.0) (2023-04-26)
+# [1.51.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.50.6...v1.51.0) (2023-04-26)
 
 
 ### Features
 
-* window.confirm() if organization_id not found. clicking ok creates new organization ([a2a651c](https://github.com/CoCreate-app/CoCreateJS/commit/a2a651c2628e5c5225428b14942ddd514b57ef5c))
+* window.confirm() if organization_id not found. clicking ok creates new organization ([a2a651c](https://github.com/CoCreateJS/CoCreateJS/commit/a2a651c2628e5c5225428b14942ddd514b57ef5c))
 
-## [1.50.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.50.5...v1.50.6) (2023-04-24)
+## [1.50.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.50.5...v1.50.6) (2023-04-24)
 
 
 ### Bug Fixes
 
-* node version 16 in build action ([6aa8367](https://github.com/CoCreate-app/CoCreateJS/commit/6aa836756fcd20d42be2ef8bcf6a77410e0ad0c5))
+* node version 16 in build action ([6aa8367](https://github.com/CoCreateJS/CoCreateJS/commit/6aa836756fcd20d42be2ef8bcf6a77410e0ad0c5))
 
-## [1.50.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.50.4...v1.50.5) (2023-04-24)
+## [1.50.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.50.4...v1.50.5) (2023-04-24)
 
 
 ### Bug Fixes
 
-* bump [@cocreate](https://github.com/cocreate) dependencies ([24577ad](https://github.com/CoCreate-app/CoCreateJS/commit/24577ad6976c9f5ca917786cf4e4333f5459f5ae))
+* bump [@cocreate](https://github.com/cocreate) dependencies ([24577ad](https://github.com/CoCreateJS/CoCreateJS/commit/24577ad6976c9f5ca917786cf4e4333f5459f5ae))
 
-## [1.50.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.50.3...v1.50.4) (2023-04-24)
+## [1.50.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.50.3...v1.50.4) (2023-04-24)
 
 
 ### Bug Fixes
 
-* bump cdn to 1.50.3 ([6edd843](https://github.com/CoCreate-app/CoCreateJS/commit/6edd843d3cb5ee7427937793223e27b91d2f22d0))
+* bump cdn to 1.50.3 ([6edd843](https://github.com/CoCreateJS/CoCreateJS/commit/6edd843d3cb5ee7427937793223e27b91d2f22d0))
 
-## [1.50.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.50.2...v1.50.3) (2023-04-24)
+## [1.50.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.50.2...v1.50.3) (2023-04-24)
 
 
 ### Bug Fixes
 
-* redeploy failed workflow ([9c17a7f](https://github.com/CoCreate-app/CoCreateJS/commit/9c17a7f25d09dc60cc576ee2a98955b824e79524))
+* redeploy failed workflow ([9c17a7f](https://github.com/CoCreateJS/CoCreateJS/commit/9c17a7f25d09dc60cc576ee2a98955b824e79524))
 
-## [1.50.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.50.1...v1.50.2) (2023-04-24)
+## [1.50.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.50.1...v1.50.2) (2023-04-24)
 
 
 ### Bug Fixes
 
-* redploy failed actions ([6390fbc](https://github.com/CoCreate-app/CoCreateJS/commit/6390fbc996a2e54d1603f7877ee59bf16d347735))
+* redploy failed actions ([6390fbc](https://github.com/CoCreateJS/CoCreateJS/commit/6390fbc996a2e54d1603f7877ee59bf16d347735))
 
-## [1.50.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.50.0...v1.50.1) (2023-04-24)
+## [1.50.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.50.0...v1.50.1) (2023-04-24)
 
 
 ### Bug Fixes
 
-* bump cdn to 1.50.0 ([0d3c2b6](https://github.com/CoCreate-app/CoCreateJS/commit/0d3c2b6eb12b9f7466ce33b502aab57482b28ead))
+* bump cdn to 1.50.0 ([0d3c2b6](https://github.com/CoCreateJS/CoCreateJS/commit/0d3c2b6eb12b9f7466ce33b502aab57482b28ead))
 
-# [1.50.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.49.3...v1.50.0) (2023-04-24)
+# [1.50.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.49.3...v1.50.0) (2023-04-24)
 
 
 ### Features
 
-* added pwa manifest ([3283090](https://github.com/CoCreate-app/CoCreateJS/commit/3283090cb11d6fa306e576046cffa1d2a150f97e))
+* added pwa manifest ([3283090](https://github.com/CoCreateJS/CoCreateJS/commit/3283090cb11d6fa306e576046cffa1d2a150f97e))
 
-## [1.49.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.49.2...v1.49.3) (2023-04-14)
+## [1.49.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.49.2...v1.49.3) (2023-04-14)
 
 
 ### Bug Fixes
 
-* bump cdn to 1.49.2 ([d4ee6ad](https://github.com/CoCreate-app/CoCreateJS/commit/d4ee6adf8887d223224acf0ffcf9999e71a87861))
-* moved events component to dependency list ([1240d50](https://github.com/CoCreate-app/CoCreateJS/commit/1240d50b6dd834f98a9ff9ac36b7a7a88b70ac35))
+* bump cdn to 1.49.2 ([d4ee6ad](https://github.com/CoCreateJS/CoCreateJS/commit/d4ee6adf8887d223224acf0ffcf9999e71a87861))
+* moved events component to dependency list ([1240d50](https://github.com/CoCreateJS/CoCreateJS/commit/1240d50b6dd834f98a9ff9ac36b7a7a88b70ac35))
 
-## [1.49.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.49.1...v1.49.2) (2023-04-11)
+## [1.49.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.49.1...v1.49.2) (2023-04-11)
 
 
 ### Bug Fixes
 
-* bump cdn to 1.49.1 ([4115e93](https://github.com/CoCreate-app/CoCreateJS/commit/4115e938c7e72f3fc0f4beb213910d8420f13ec5))
-* latest in package.json ([5fbdadb](https://github.com/CoCreate-app/CoCreateJS/commit/5fbdadba045240cd162ded0bcc1cdfba7dea2faf))
+* bump cdn to 1.49.1 ([4115e93](https://github.com/CoCreateJS/CoCreateJS/commit/4115e938c7e72f3fc0f4beb213910d8420f13ec5))
+* latest in package.json ([5fbdadb](https://github.com/CoCreateJS/CoCreateJS/commit/5fbdadba045240cd162ded0bcc1cdfba7dea2faf))
 
-## [1.49.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.49.0...v1.49.1) (2023-04-11)
+## [1.49.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.49.0...v1.49.1) (2023-04-11)
 
 
 ### Bug Fixes
 
-* removed url from config ([b206233](https://github.com/CoCreate-app/CoCreateJS/commit/b206233ac1fa3d66d8b7966e2e59e35e1f854d0e))
-* renamed domains to hosts. bump cdn to 1.40.0. supports applying custom dburls to connect to private databases ([dac49d7](https://github.com/CoCreate-app/CoCreateJS/commit/dac49d73f83c04926388d29406bef9fbf4bc5380))
+* removed url from config ([b206233](https://github.com/CoCreateJS/CoCreateJS/commit/b206233ac1fa3d66d8b7966e2e59e35e1f854d0e))
+* renamed domains to hosts. bump cdn to 1.40.0. supports applying custom dburls to connect to private databases ([dac49d7](https://github.com/CoCreateJS/CoCreateJS/commit/dac49d73f83c04926388d29406bef9fbf4bc5380))
 
-# [1.49.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.48.2...v1.49.0) (2023-03-30)
+# [1.49.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.48.2...v1.49.0) (2023-03-30)
 
 
 ### Features
 
-* client side loadbalaing, will round robin defined hosts. cached files not replaced when server returns 502. supports custom dburls ([6283439](https://github.com/CoCreate-app/CoCreateJS/commit/6283439cef2dc8bdcab8b49ba4a5d2ede5030391))
+* client side loadbalaing, will round robin defined hosts. cached files not replaced when server returns 502. supports custom dburls ([6283439](https://github.com/CoCreateJS/CoCreateJS/commit/6283439cef2dc8bdcab8b49ba4a5d2ede5030391))
 
-## [1.48.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.48.1...v1.48.2) (2023-03-29)
+## [1.48.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.48.1...v1.48.2) (2023-03-29)
 
 
 ### Bug Fixes
 
-* bump cdn to 1.48.1 ([03a6349](https://github.com/CoCreate-app/CoCreateJS/commit/03a634970f48d26e488dd5c1e34129c10b0461ef))
+* bump cdn to 1.48.1 ([03a6349](https://github.com/CoCreateJS/CoCreateJS/commit/03a634970f48d26e488dd5c1e34129c10b0461ef))
 
-## [1.48.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.48.0...v1.48.1) (2023-03-16)
+## [1.48.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.48.0...v1.48.1) (2023-03-16)
 
 
 ### Bug Fixes
 
-* minor bug fixes and performance improvements ([9c8ad32](https://github.com/CoCreate-app/CoCreateJS/commit/9c8ad32e8244447f0396ab6665b13eed39a3d2ac))
+* minor bug fixes and performance improvements ([9c8ad32](https://github.com/CoCreateJS/CoCreateJS/commit/9c8ad32e8244447f0396ab6665b13eed39a3d2ac))
 
-# [1.48.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.47.2...v1.48.0) (2023-03-16)
+# [1.48.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.47.2...v1.48.0) (2023-03-16)
 
 
 ### Bug Fixes
 
-* removed depreciated plugins ([da6c37b](https://github.com/CoCreate-app/CoCreateJS/commit/da6c37b93a13009747b6d5916d06659102e7a5ac))
+* removed depreciated plugins ([da6c37b](https://github.com/CoCreateJS/CoCreateJS/commit/da6c37b93a13009747b6d5916d06659102e7a5ac))
 
 
 ### Features
 
-* replaced get-value and set-value with a super charged version of CoCreate-events. Attributes to target parent an sibling elements. ([92c13dc](https://github.com/CoCreate-app/CoCreateJS/commit/92c13dce2add4e8a6c181c4b6c81385c78dcd497))
+* replaced get-value and set-value with a super charged version of CoCreate-events. Attributes to target parent an sibling elements. ([92c13dc](https://github.com/CoCreateJS/CoCreateJS/commit/92c13dce2add4e8a6c181c4b6c81385c78dcd497))
 
-## [1.47.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.47.1...v1.47.2) (2023-02-19)
+## [1.47.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.47.1...v1.47.2) (2023-02-19)
 
 
 ### Bug Fixes
 
-* add CoCreate-events to lazyload, bump cdn to 1.47.1 ([431e9ad](https://github.com/CoCreate-app/CoCreateJS/commit/431e9ad55b2fa35c1e7f1d9050de3849b05f9c2b))
-* removed CoCrete-toggle and CoCreate-selected, replaced with CoCreate-events ([2afa86b](https://github.com/CoCreate-app/CoCreateJS/commit/2afa86b4ef6119b4ec942b74c523f12b841ea9c1))
+* add CoCreate-events to lazyload, bump cdn to 1.47.1 ([431e9ad](https://github.com/CoCreateJS/CoCreateJS/commit/431e9ad55b2fa35c1e7f1d9050de3849b05f9c2b))
+* removed CoCrete-toggle and CoCreate-selected, replaced with CoCreate-events ([2afa86b](https://github.com/CoCreateJS/CoCreateJS/commit/2afa86b4ef6119b4ec942b74c523f12b841ea9c1))
 
-## [1.47.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.47.0...v1.47.1) (2023-02-02)
+## [1.47.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.47.0...v1.47.1) (2023-02-02)
 
 
 ### Bug Fixes
 
-* events-chunck ([66ee21f](https://github.com/CoCreate-app/CoCreateJS/commit/66ee21f9a9240ebdd63f1231c935fe6a42f7304d))
+* events-chunck ([66ee21f](https://github.com/CoCreateJS/CoCreateJS/commit/66ee21f9a9240ebdd63f1231c935fe6a42f7304d))
 
-# [1.47.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.46.1...v1.47.0) (2023-02-02)
+# [1.47.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.46.1...v1.47.0) (2023-02-02)
 
 
 ### Features
 
-* rest form sets empty value to trigger events ([bd38ab7](https://github.com/CoCreate-app/CoCreateJS/commit/bd38ab79a3cb66dc02e0114e9ff1a8b8bc8f3359))
+* rest form sets empty value to trigger events ([bd38ab7](https://github.com/CoCreateJS/CoCreateJS/commit/bd38ab79a3cb66dc02e0114e9ff1a8b8bc8f3359))
 
-## [1.46.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.46.0...v1.46.1) (2023-02-02)
+## [1.46.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.46.0...v1.46.1) (2023-02-02)
 
 
 ### Bug Fixes
 
-* add CoCreate-events to repo list ([b0f84dc](https://github.com/CoCreate-app/CoCreateJS/commit/b0f84dcaa5733924950ddf59c918f71a96c6f3bf))
+* add CoCreate-events to repo list ([b0f84dc](https://github.com/CoCreateJS/CoCreateJS/commit/b0f84dcaa5733924950ddf59c918f71a96c6f3bf))
 
-# [1.46.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.45.8...v1.46.0) (2023-02-01)
+# [1.46.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.45.8...v1.46.0) (2023-02-01)
 
 
 ### Features
 
-* @cocreate/events ([b6b2740](https://github.com/CoCreate-app/CoCreateJS/commit/b6b2740fce653514f2ad7b415f11ed0da0e4e35b))
+* @cocreate/events ([b6b2740](https://github.com/CoCreateJS/CoCreateJS/commit/b6b2740fce653514f2ad7b415f11ed0da0e4e35b))
 
-## [1.45.8](https://github.com/CoCreate-app/CoCreateJS/compare/v1.45.7...v1.45.8) (2023-01-31)
+## [1.45.8](https://github.com/CoCreateJS/CoCreateJS/compare/v1.45.7...v1.45.8) (2023-01-31)
 
 
 ### Bug Fixes
 
-* impoved handeling of filter-search empty string case ([13e3d39](https://github.com/CoCreate-app/CoCreateJS/commit/13e3d39b26d8b831cc1c9ca57879f535239ea081))
+* impoved handeling of filter-search empty string case ([13e3d39](https://github.com/CoCreateJS/CoCreateJS/commit/13e3d39b26d8b831cc1c9ca57879f535239ea081))
 
-## [1.45.7](https://github.com/CoCreate-app/CoCreateJS/compare/v1.45.6...v1.45.7) (2023-01-30)
+## [1.45.7](https://github.com/CoCreateJS/CoCreateJS/compare/v1.45.6...v1.45.7) (2023-01-30)
 
 
 ### Bug Fixes
 
-* lazyload selector [click] ([7cb4979](https://github.com/CoCreate-app/CoCreateJS/commit/7cb497995c6606180af0f98cbaaa1c1dc280f2f4))
+* lazyload selector [click] ([7cb4979](https://github.com/CoCreateJS/CoCreateJS/commit/7cb497995c6606180af0f98cbaaa1c1dc280f2f4))
 
-## [1.45.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.45.5...v1.45.6) (2023-01-30)
+## [1.45.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.45.5...v1.45.6) (2023-01-30)
 
 
 ### Bug Fixes
 
-* temporarily removed thirdparty api packages ([9605a16](https://github.com/CoCreate-app/CoCreateJS/commit/9605a16b4230d13f6fec926f939878cc498a340b))
+* temporarily removed thirdparty api packages ([9605a16](https://github.com/CoCreateJS/CoCreateJS/commit/9605a16b4230d13f6fec926f939878cc498a340b))
 
-## [1.45.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.45.4...v1.45.5) (2023-01-30)
+## [1.45.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.45.4...v1.45.5) (2023-01-30)
 
 
 ### Bug Fixes
 
-* utils queryDocumentSelectorAll array ([fd6c273](https://github.com/CoCreate-app/CoCreateJS/commit/fd6c273f20ab8d0e098093ae128ee201b615a777))
+* utils queryDocumentSelectorAll array ([fd6c273](https://github.com/CoCreateJS/CoCreateJS/commit/fd6c273f20ab8d0e098093ae128ee201b615a777))
 
-## [1.45.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.45.3...v1.45.4) (2023-01-30)
+## [1.45.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.45.3...v1.45.4) (2023-01-30)
 
 
 ### Bug Fixes
 
-* bump @cocreate/utils ([8b033b6](https://github.com/CoCreate-app/CoCreateJS/commit/8b033b6a643d1a1ab1709600cd1ee5f795a6d77a))
+* bump @cocreate/utils ([8b033b6](https://github.com/CoCreateJS/CoCreateJS/commit/8b033b6a643d1a1ab1709600cd1ee5f795a6d77a))
 
-## [1.45.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.45.2...v1.45.3) (2023-01-30)
+## [1.45.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.45.2...v1.45.3) (2023-01-30)
 
 
 ### Bug Fixes
 
-* catch cross-origin error when accessing window.top ([d54902b](https://github.com/CoCreate-app/CoCreateJS/commit/d54902b4ce0b91c8c86b908a97d51c23ffa965b3))
+* catch cross-origin error when accessing window.top ([d54902b](https://github.com/CoCreateJS/CoCreateJS/commit/d54902b4ce0b91c8c86b908a97d51c23ffa965b3))
 
-## [1.45.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.45.1...v1.45.2) (2023-01-29)
+## [1.45.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.45.1...v1.45.2) (2023-01-29)
 
 
 ### Bug Fixes
 
-* bump @cocreate/local-storage ([dfbc94b](https://github.com/CoCreate-app/CoCreateJS/commit/dfbc94b86e6f674c44821d809a79dc5a25b8ec5f))
+* bump @cocreate/local-storage ([dfbc94b](https://github.com/CoCreateJS/CoCreateJS/commit/dfbc94b86e6f674c44821d809a79dc5a25b8ec5f))
 
-## [1.45.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.45.0...v1.45.1) (2023-01-29)
+## [1.45.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.45.0...v1.45.1) (2023-01-29)
 
 
 ### Bug Fixes
 
-* test deployment ([79fdf32](https://github.com/CoCreate-app/CoCreateJS/commit/79fdf32a004df30941af1a5cf318e15e04aff585))
+* test deployment ([79fdf32](https://github.com/CoCreateJS/CoCreateJS/commit/79fdf32a004df30941af1a5cf318e15e04aff585))
 
-# [1.45.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.44.0...v1.45.0) (2023-01-29)
+# [1.45.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.44.0...v1.45.0) (2023-01-29)
 
 
 ### Features
 
-* fetch.storage and localStorage fallback ([2ef9ec5](https://github.com/CoCreate-app/CoCreateJS/commit/2ef9ec5a4e36140c30060a30887196bf3158367e))
+* fetch.storage and localStorage fallback ([2ef9ec5](https://github.com/CoCreateJS/CoCreateJS/commit/2ef9ec5a4e36140c30060a30887196bf3158367e))
 
-# [1.44.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.43.1...v1.44.0) (2023-01-13)
+# [1.44.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.43.1...v1.44.0) (2023-01-13)
 
 
 ### Bug Fixes
 
-* bump cdn to 1.34.1 ([5fd5ba3](https://github.com/CoCreate-app/CoCreateJS/commit/5fd5ba3f2b96230fc8c68c1c57963b8e4492a5a3))
+* bump cdn to 1.34.1 ([5fd5ba3](https://github.com/CoCreateJS/CoCreateJS/commit/5fd5ba3f2b96230fc8c68c1c57963b8e4492a5a3))
 
 
 ### Features
 
-* CoCreate-fetch supports dnd, items reordered will update crud ([3f9ba1b](https://github.com/CoCreate-app/CoCreateJS/commit/3f9ba1b96c9e07758d3e28bf1738936bb4d91899))
+* CoCreate-fetch supports dnd, items reordered will update crud ([3f9ba1b](https://github.com/CoCreateJS/CoCreateJS/commit/3f9ba1b96c9e07758d3e28bf1738936bb4d91899))
 
-## [1.43.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.43.0...v1.43.1) (2023-01-10)
+## [1.43.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.43.0...v1.43.1) (2023-01-10)
 
 
 ### Bug Fixes
 
-* bump @cocreae/elements  and @cocreate/elment-prototype ([78fb41e](https://github.com/CoCreate-app/CoCreateJS/commit/78fb41edc6014c817df50532f7927c9ef3ac2464))
-* bump cdn to 1.43.0 ([f65ff75](https://github.com/CoCreate-app/CoCreateJS/commit/f65ff75311004e596a6a4341ae2838622b4cf1b8))
+* bump @cocreae/elements  and @cocreate/elment-prototype ([78fb41e](https://github.com/CoCreateJS/CoCreateJS/commit/78fb41edc6014c817df50532f7927c9ef3ac2464))
+* bump cdn to 1.43.0 ([f65ff75](https://github.com/CoCreateJS/CoCreateJS/commit/f65ff75311004e596a6a4341ae2838622b4cf1b8))
 
-# [1.43.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.42.0...v1.43.0) (2023-01-10)
+# [1.43.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.42.0...v1.43.0) (2023-01-10)
 
 
 ### Features
 
-* pass attributes run before elements are rendered in dom reducing observer event ([19171da](https://github.com/CoCreate-app/CoCreateJS/commit/19171da9d3a9a7e19b5fa23897c635edf7ec884d))
+* pass attributes run before elements are rendered in dom reducing observer event ([19171da](https://github.com/CoCreateJS/CoCreateJS/commit/19171da9d3a9a7e19b5fa23897c635edf7ec884d))
 
-# [1.42.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.41.2...v1.42.0) (2023-01-09)
+# [1.42.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.41.2...v1.42.0) (2023-01-09)
 
 
 ### Features
 
-* improved handling of checkobox and radio inputs ([f0dd200](https://github.com/CoCreate-app/CoCreateJS/commit/f0dd200ce59daf0d61f9d2e5cad03a330e42de58))
+* improved handling of checkobox and radio inputs ([f0dd200](https://github.com/CoCreateJS/CoCreateJS/commit/f0dd200ce59daf0d61f9d2e5cad03a330e42de58))
 
-## [1.41.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.41.1...v1.41.2) (2023-01-09)
+## [1.41.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.41.1...v1.41.2) (2023-01-09)
 
 
 ### Bug Fixes
 
-* bump cdn to 1.41.1 ([35d2dd9](https://github.com/CoCreate-app/CoCreateJS/commit/35d2dd929572056fa9d5a06d1b355745122ed30a))
+* bump cdn to 1.41.1 ([35d2dd9](https://github.com/CoCreateJS/CoCreateJS/commit/35d2dd929572056fa9d5a06d1b355745122ed30a))
 
-## [1.41.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.41.0...v1.41.1) (2023-01-06)
+## [1.41.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.41.0...v1.41.1) (2023-01-06)
 
 
 ### Bug Fixes
 
-* update github link ([ed062c2](https://github.com/CoCreate-app/CoCreateJS/commit/ed062c259f7caddfaa038cdc5bd6fb94c4868de2))
+* update github link ([ed062c2](https://github.com/CoCreateJS/CoCreateJS/commit/ed062c259f7caddfaa038cdc5bd6fb94c4868de2))
 
-# [1.41.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.40.0...v1.41.0) (2023-01-05)
+# [1.41.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.40.0...v1.41.0) (2023-01-05)
 
 
 ### Features
 
-* if fetch element does not have template id will find child template to retrieve id ([36e7ff7](https://github.com/CoCreate-app/CoCreateJS/commit/36e7ff7b476b9ac3ce6317c03a8efd0ff49429e8))
+* if fetch element does not have template id will find child template to retrieve id ([36e7ff7](https://github.com/CoCreateJS/CoCreateJS/commit/36e7ff7b476b9ac3ce6317c03a8efd0ff49429e8))
 
-# [1.40.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.39.5...v1.40.0) (2023-01-04)
+# [1.40.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.39.5...v1.40.0) (2023-01-04)
 
 
 ### Features
 
-* crdt - listen to sync message and update ([ced02e2](https://github.com/CoCreate-app/CoCreateJS/commit/ced02e20bc48bfeaa4a0a3d27bc5b615c66b6d6d))
+* crdt - listen to sync message and update ([ced02e2](https://github.com/CoCreateJS/CoCreateJS/commit/ced02e20bc48bfeaa4a0a3d27bc5b615c66b6d6d))
 
-## [1.39.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.39.4...v1.39.5) (2023-01-04)
+## [1.39.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.39.4...v1.39.5) (2023-01-04)
 
 
 ### Bug Fixes
 
-* bump cdn to 1.39.4 ([50feea8](https://github.com/CoCreate-app/CoCreateJS/commit/50feea8ed7c643950e387e9d75ab38b86b4de162))
-* bump crdt ([775bb95](https://github.com/CoCreate-app/CoCreateJS/commit/775bb953c28a9b903ffef325cccaf877da6ba93c))
+* bump cdn to 1.39.4 ([50feea8](https://github.com/CoCreateJS/CoCreateJS/commit/50feea8ed7c643950e387e9d75ab38b86b4de162))
+* bump crdt ([775bb95](https://github.com/CoCreateJS/CoCreateJS/commit/775bb953c28a9b903ffef325cccaf877da6ba93c))
 
-## [1.39.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.39.3...v1.39.4) (2023-01-02)
+## [1.39.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.39.3...v1.39.4) (2023-01-02)
 
 
 ### Bug Fixes
 
-* bump @cocreate/fetch ([e4165d7](https://github.com/CoCreate-app/CoCreateJS/commit/e4165d779742c88ad8ad46a146146966a5660cad))
+* bump @cocreate/fetch ([e4165d7](https://github.com/CoCreateJS/CoCreateJS/commit/e4165d779742c88ad8ad46a146146966a5660cad))
 
-## [1.39.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.39.2...v1.39.3) (2023-01-02)
+## [1.39.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.39.2...v1.39.3) (2023-01-02)
 
 
 ### Bug Fixes
 
-* bump cdn to 1.39.2 ([375d08d](https://github.com/CoCreate-app/CoCreateJS/commit/375d08d8ea5cb1f01e3d920d60b95ab1d4a42d4f))
+* bump cdn to 1.39.2 ([375d08d](https://github.com/CoCreateJS/CoCreateJS/commit/375d08d8ea5cb1f01e3d920d60b95ab1d4a42d4f))
 
-## [1.39.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.39.1...v1.39.2) (2023-01-02)
+## [1.39.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.39.1...v1.39.2) (2023-01-02)
 
 
 ### Bug Fixes
 
-* bump cdn to 1.39.1 ([ac1f443](https://github.com/CoCreate-app/CoCreateJS/commit/ac1f44337a75eecb66cdea4017205ed007c48a15))
+* bump cdn to 1.39.1 ([ac1f443](https://github.com/CoCreateJS/CoCreateJS/commit/ac1f44337a75eecb66cdea4017205ed007c48a15))
 
-## [1.39.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.39.0...v1.39.1) (2023-01-02)
+## [1.39.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.39.0...v1.39.1) (2023-01-02)
 
 
 ### Bug Fixes
 
-* bump cdn to 1.39.0 ([468f5b8](https://github.com/CoCreate-app/CoCreateJS/commit/468f5b857e42e5b875e63f2983d21a803849cc6a))
+* bump cdn to 1.39.0 ([468f5b8](https://github.com/CoCreateJS/CoCreateJS/commit/468f5b857e42e5b875e63f2983d21a803849cc6a))
 
-# [1.39.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.38.1...v1.39.0) (2023-01-02)
+# [1.39.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.38.1...v1.39.0) (2023-01-02)
 
 
 ### Bug Fixes
 
-* bump cdn to 1.38.1 ([d8372fe](https://github.com/CoCreate-app/CoCreateJS/commit/d8372fe928a330acbdf3fbce30600c1fb1d395d9))
-* update template attribute ([6ddb575](https://github.com/CoCreate-app/CoCreateJS/commit/6ddb57583d8c9c9057ab084afb38c470bf6c7c5a))
+* bump cdn to 1.38.1 ([d8372fe](https://github.com/CoCreateJS/CoCreateJS/commit/d8372fe928a330acbdf3fbce30600c1fb1d395d9))
+* update template attribute ([6ddb575](https://github.com/CoCreateJS/CoCreateJS/commit/6ddb57583d8c9c9057ab084afb38c470bf6c7c5a))
 
 
 ### Features
 
-* class="template" template_id="id" replaced with template="id" ([35c2dc6](https://github.com/CoCreate-app/CoCreateJS/commit/35c2dc6c656c09eacc68ee9184c12c4e2ed0300e))
+* class="template" template_id="id" replaced with template="id" ([35c2dc6](https://github.com/CoCreateJS/CoCreateJS/commit/35c2dc6c656c09eacc68ee9184c12c4e2ed0300e))
 
-## [1.38.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.38.0...v1.38.1) (2023-01-01)
+## [1.38.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.38.0...v1.38.1) (2023-01-01)
 
 
 ### Bug Fixes
 
-* bump dependencies ([375ebb6](https://github.com/CoCreate-app/CoCreateJS/commit/375ebb6f5ac178399b971e39dc3d66b4077c9014))
+* bump dependencies ([375ebb6](https://github.com/CoCreateJS/CoCreateJS/commit/375ebb6f5ac178399b971e39dc3d66b4077c9014))
 
-# [1.38.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.37.2...v1.38.0) (2023-01-01)
+# [1.38.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.37.2...v1.38.0) (2023-01-01)
 
 
 ### Features
 
-* supports template="" to define template and id. replaces .template template_id ([7e8ad07](https://github.com/CoCreate-app/CoCreateJS/commit/7e8ad07c2dd07ea721d126ac8c87075e3d6099e8))
+* supports template="" to define template and id. replaces .template template_id ([7e8ad07](https://github.com/CoCreateJS/CoCreateJS/commit/7e8ad07c2dd07ea721d126ac8c87075e3d6099e8))
 
-## [1.37.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.37.1...v1.37.2) (2022-12-31)
+## [1.37.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.37.1...v1.37.2) (2022-12-31)
 
 
 ### Bug Fixes
 
-* bump @cocreate/elemment and @cocreate/users ([13a02fd](https://github.com/CoCreate-app/CoCreateJS/commit/13a02fd8360fb246218c4ce6e0da7d6d6d1b0b73))
+* bump @cocreate/elemment and @cocreate/users ([13a02fd](https://github.com/CoCreateJS/CoCreateJS/commit/13a02fd8360fb246218c4ce6e0da7d6d6d1b0b73))
 
-## [1.37.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.37.0...v1.37.1) (2022-12-31)
+## [1.37.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.37.0...v1.37.1) (2022-12-31)
 
 
 ### Bug Fixes
 
-* update config to use new directories, bump cdn to 1.37.0 ([1d9c71f](https://github.com/CoCreate-app/CoCreateJS/commit/1d9c71f3013553c403ad2eeffa865608c30018be))
+* update config to use new directories, bump cdn to 1.37.0 ([1d9c71f](https://github.com/CoCreateJS/CoCreateJS/commit/1d9c71f3013553c403ad2eeffa865608c30018be))
 
-# [1.37.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.36.0...v1.37.0) (2022-12-29)
+# [1.37.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.36.0...v1.37.0) (2022-12-29)
 
 
 ### Features
 
-* pass-* can set $uid as a value which will replace with a unique id. api component lazyloaded when [template_id] or [action] observered. link supports all target types ([47ac5a9](https://github.com/CoCreate-app/CoCreateJS/commit/47ac5a97251afc4d8f959fbc35183a0a47fba5cb))
+* pass-* can set $uid as a value which will replace with a unique id. api component lazyloaded when [template_id] or [action] observered. link supports all target types ([47ac5a9](https://github.com/CoCreateJS/CoCreateJS/commit/47ac5a97251afc4d8f959fbc35183a0a47fba5cb))
 
-# [1.36.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.35.0...v1.36.0) (2022-12-27)
+# [1.36.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.35.0...v1.36.0) (2022-12-27)
 
 
 ### Features
 
-* actions="pass", modal-src, performance improvements ([e500778](https://github.com/CoCreate-app/CoCreateJS/commit/e5007784a49ac584be10eca275bb96d29efa9672))
+* actions="pass", modal-src, performance improvements ([e500778](https://github.com/CoCreateJS/CoCreateJS/commit/e5007784a49ac584be10eca275bb96d29efa9672))
 
-# [1.35.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.34.4...v1.35.0) (2022-12-25)
+# [1.35.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.34.4...v1.35.0) (2022-12-25)
 
 
 ### Features
 
-* bump @cocreate/dependencies ([ed6cdb1](https://github.com/CoCreate-app/CoCreateJS/commit/ed6cdb168f722dcf66e63f6565c8b23cb2d0c9f7))
+* bump @cocreate/dependencies ([ed6cdb1](https://github.com/CoCreateJS/CoCreateJS/commit/ed6cdb168f722dcf66e63f6565c8b23cb2d0c9f7))
 
-## [1.34.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.34.3...v1.34.4) (2022-12-23)
+## [1.34.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.34.3...v1.34.4) (2022-12-23)
 
 
 ### Bug Fixes
 
-* bump user and filter ([eb21116](https://github.com/CoCreate-app/CoCreateJS/commit/eb21116c66d374e1666066aa9b544f255ee6b761))
+* bump user and filter ([eb21116](https://github.com/CoCreateJS/CoCreateJS/commit/eb21116c66d374e1666066aa9b544f255ee6b761))
 
-## [1.34.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.34.2...v1.34.3) (2022-12-21)
+## [1.34.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.34.2...v1.34.3) (2022-12-21)
 
 
 ### Bug Fixes
 
-* performance improvements ([01bd6c6](https://github.com/CoCreate-app/CoCreateJS/commit/01bd6c6022a98fd3b214e43fc53566f8c55c1a8a))
+* performance improvements ([01bd6c6](https://github.com/CoCreateJS/CoCreateJS/commit/01bd6c6022a98fd3b214e43fc53566f8c55c1a8a))
 
-## [1.34.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.34.1...v1.34.2) (2022-12-20)
+## [1.34.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.34.1...v1.34.2) (2022-12-20)
 
 
 ### Bug Fixes
 
-* bump @cocreate/socket-client ([815bf93](https://github.com/CoCreate-app/CoCreateJS/commit/815bf93c320bb36c454a37a4f0f073b6dfd41fb3))
+* bump @cocreate/socket-client ([815bf93](https://github.com/CoCreateJS/CoCreateJS/commit/815bf93c320bb36c454a37a4f0f073b6dfd41fb3))
 
-## [1.34.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.34.0...v1.34.1) (2022-12-20)
+## [1.34.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.34.0...v1.34.1) (2022-12-20)
 
 
 ### Bug Fixes
 
-* add cdn to elements demo ([a35e855](https://github.com/CoCreate-app/CoCreateJS/commit/a35e8554274b93ac362be3730db309e73cfae8ab))
-* update docs and demos, bump dependencies ([ad8dcef](https://github.com/CoCreate-app/CoCreateJS/commit/ad8dcef736bc5aed92526aa4bad74e9a9084524c))
+* add cdn to elements demo ([a35e855](https://github.com/CoCreateJS/CoCreateJS/commit/a35e8554274b93ac362be3730db309e73cfae8ab))
+* update docs and demos, bump dependencies ([ad8dcef](https://github.com/CoCreateJS/CoCreateJS/commit/ad8dcef736bc5aed92526aa4bad74e9a9084524c))
 
-# [1.34.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.18...v1.34.0) (2022-12-17)
+# [1.34.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.18...v1.34.0) (2022-12-17)
 
 
 ### Features
 
-* codearea - converts a textarea into a collabrative code editor with syntax highlighting ([0030a26](https://github.com/CoCreate-app/CoCreateJS/commit/0030a26f8ff6fa3e15d75706e9303c0216ec0e43))
+* codearea - converts a textarea into a collabrative code editor with syntax highlighting ([0030a26](https://github.com/CoCreateJS/CoCreateJS/commit/0030a26f8ff6fa3e15d75706e9303c0216ec0e43))
 
-## [1.33.18](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.17...v1.33.18) (2022-12-15)
+## [1.33.18](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.17...v1.33.18) (2022-12-15)
 
 
 ### Bug Fixes
 
-* missing devDependency in components ([aaa7be4](https://github.com/CoCreate-app/CoCreateJS/commit/aaa7be43827a8c8486fbf29c21655effd713261f))
+* missing devDependency in components ([aaa7be4](https://github.com/CoCreateJS/CoCreateJS/commit/aaa7be43827a8c8486fbf29c21655effd713261f))
 
-## [1.33.17](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.16...v1.33.17) (2022-12-15)
+## [1.33.17](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.16...v1.33.17) (2022-12-15)
 
 
 ### Bug Fixes
 
-* update links ([4b63744](https://github.com/CoCreate-app/CoCreateJS/commit/4b63744832dd4e6c3f6f7932f82d3bb0aa9092cc))
+* update links ([4b63744](https://github.com/CoCreateJS/CoCreateJS/commit/4b63744832dd4e6c3f6f7932f82d3bb0aa9092cc))
 
-## [1.33.16](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.15...v1.33.16) (2022-12-15)
+## [1.33.16](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.15...v1.33.16) (2022-12-15)
 
 
 ### Bug Fixes
 
-* removed style user-status from navbar. now handeled by @cocreate/user ([cad358c](https://github.com/CoCreate-app/CoCreateJS/commit/cad358ce5f0249be6fc182f5fff5fbd98a78d7fb))
+* removed style user-status from navbar. now handeled by @cocreate/user ([cad358c](https://github.com/CoCreateJS/CoCreateJS/commit/cad358ce5f0249be6fc182f5fff5fbd98a78d7fb))
 
-## [1.33.15](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.14...v1.33.15) (2022-12-15)
+## [1.33.15](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.14...v1.33.15) (2022-12-15)
 
 
 ### Bug Fixes
 
-* bump @cocreate/floating-label ([b4239a5](https://github.com/CoCreate-app/CoCreateJS/commit/b4239a540edf7dd48c815020d1c8c54d2a82cac6))
+* bump @cocreate/floating-label ([b4239a5](https://github.com/CoCreateJS/CoCreateJS/commit/b4239a540edf7dd48c815020d1c8c54d2a82cac6))
 
-## [1.33.14](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.13...v1.33.14) (2022-12-14)
+## [1.33.14](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.13...v1.33.14) (2022-12-14)
 
 
 ### Bug Fixes
 
-* bump @cocreate/fetch ([ded2d88](https://github.com/CoCreate-app/CoCreateJS/commit/ded2d889d635908e3235947c349a781dd78e509a))
+* bump @cocreate/fetch ([ded2d88](https://github.com/CoCreateJS/CoCreateJS/commit/ded2d889d635908e3235947c349a781dd78e509a))
 
-## [1.33.13](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.12...v1.33.13) (2022-12-14)
+## [1.33.13](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.12...v1.33.13) (2022-12-14)
 
 
 ### Bug Fixes
 
-* uncomment components picker and prism ([db3a796](https://github.com/CoCreate-app/CoCreateJS/commit/db3a796f97fed2621d0e459a28ff2ea072652d47))
+* uncomment components picker and prism ([db3a796](https://github.com/CoCreateJS/CoCreateJS/commit/db3a796f97fed2621d0e459a28ff2ea072652d47))
 
-## [1.33.12](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.11...v1.33.12) (2022-12-14)
+## [1.33.12](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.11...v1.33.12) (2022-12-14)
 
 
 ### Bug Fixes
 
-* added CoCreate.min.css, bump @cocreate/crud-client ([cd13c66](https://github.com/CoCreate-app/CoCreateJS/commit/cd13c668d38034a9c7638edbc0bb1bca913d3cf3))
+* added CoCreate.min.css, bump @cocreate/crud-client ([cd13c66](https://github.com/CoCreateJS/CoCreateJS/commit/cd13c668d38034a9c7638edbc0bb1bca913d3cf3))
 
-## [1.33.11](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.10...v1.33.11) (2022-12-13)
+## [1.33.11](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.10...v1.33.11) (2022-12-13)
 
 
 ### Bug Fixes
 
-* rmoved rooms from components ([0979a5c](https://github.com/CoCreate-app/CoCreateJS/commit/0979a5cd8401a49072976a5daca8dfd279a322ac))
+* rmoved rooms from components ([0979a5c](https://github.com/CoCreateJS/CoCreateJS/commit/0979a5cd8401a49072976a5daca8dfd279a322ac))
 
-## [1.33.10](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.9...v1.33.10) (2022-12-13)
+## [1.33.10](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.9...v1.33.10) (2022-12-13)
 
 
 ### Bug Fixes
 
-* depreciated @cocreate/room ([1d3a049](https://github.com/CoCreate-app/CoCreateJS/commit/1d3a049503ac0aeaad1411e8e67bcd130395c22a))
+* depreciated @cocreate/room ([1d3a049](https://github.com/CoCreateJS/CoCreateJS/commit/1d3a049503ac0aeaad1411e8e67bcd130395c22a))
 
-## [1.33.9](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.8...v1.33.9) (2022-12-12)
+## [1.33.9](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.8...v1.33.9) (2022-12-12)
 
 
 ### Bug Fixes
 
-* crudSync to keep client upto date with server ([ce6cc9c](https://github.com/CoCreate-app/CoCreateJS/commit/ce6cc9c36d9f0cfd1ccfb8927faac8371d1ca633))
+* crudSync to keep client upto date with server ([ce6cc9c](https://github.com/CoCreateJS/CoCreateJS/commit/ce6cc9c36d9f0cfd1ccfb8927faac8371d1ca633))
 
-## [1.33.8](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.7...v1.33.8) (2022-12-11)
+## [1.33.8](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.7...v1.33.8) (2022-12-11)
 
 
 ### Bug Fixes
 
-* bump dependencies ([be999b6](https://github.com/CoCreate-app/CoCreateJS/commit/be999b67ab70f8f393a2f7aeb2307a0b49ac4d6f))
+* bump dependencies ([be999b6](https://github.com/CoCreateJS/CoCreateJS/commit/be999b67ab70f8f393a2f7aeb2307a0b49ac4d6f))
 
-## [1.33.7](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.6...v1.33.7) (2022-12-10)
+## [1.33.7](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.6...v1.33.7) (2022-12-10)
 
 
 ### Bug Fixes
 
-* vdom observer name duplication ([393945c](https://github.com/CoCreate-app/CoCreateJS/commit/393945cafdac576e0454f14708558e5a72d0135d))
+* vdom observer name duplication ([393945c](https://github.com/CoCreateJS/CoCreateJS/commit/393945cafdac576e0454f14708558e5a72d0135d))
 
-## [1.33.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.5...v1.33.6) (2022-12-09)
+## [1.33.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.5...v1.33.6) (2022-12-09)
 
 
 ### Bug Fixes
 
-* vdomm ([e4b690f](https://github.com/CoCreate-app/CoCreateJS/commit/e4b690f480b13aa833ea730f3135c1eb3a4e5514))
+* vdomm ([e4b690f](https://github.com/CoCreateJS/CoCreateJS/commit/e4b690f480b13aa833ea730f3135c1eb3a4e5514))
 
-## [1.33.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.4...v1.33.5) (2022-12-09)
+## [1.33.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.4...v1.33.5) (2022-12-09)
 
 
 ### Bug Fixes
 
-* testing vdom ([ebd5ec3](https://github.com/CoCreate-app/CoCreateJS/commit/ebd5ec367bada35c343130b6ec10a68dbcdc100b))
+* testing vdom ([ebd5ec3](https://github.com/CoCreateJS/CoCreateJS/commit/ebd5ec367bada35c343130b6ec10a68dbcdc100b))
 
-## [1.33.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.3...v1.33.4) (2022-12-09)
+## [1.33.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.3...v1.33.4) (2022-12-09)
 
 
 ### Bug Fixes
 
-* test vdom ([1e58f47](https://github.com/CoCreate-app/CoCreateJS/commit/1e58f47efafff83a878e19f441a455980ffed0fd))
+* test vdom ([1e58f47](https://github.com/CoCreateJS/CoCreateJS/commit/1e58f47efafff83a878e19f441a455980ffed0fd))
 
-## [1.33.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.2...v1.33.3) (2022-12-09)
+## [1.33.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.2...v1.33.3) (2022-12-09)
 
 
 ### Bug Fixes
 
-* redploy cdn ([bf8ca95](https://github.com/CoCreate-app/CoCreateJS/commit/bf8ca9528c45445dd4c870642088fadcf0473ad3))
+* redploy cdn ([bf8ca95](https://github.com/CoCreateJS/CoCreateJS/commit/bf8ca9528c45445dd4c870642088fadcf0473ad3))
 
-## [1.33.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.1...v1.33.2) (2022-12-09)
+## [1.33.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.1...v1.33.2) (2022-12-09)
 
 
 ### Bug Fixes
 
-* bump @cocreate/vdom ([66c1e56](https://github.com/CoCreate-app/CoCreateJS/commit/66c1e561a43db7b65c33ff7e33b80e4f4db38b61))
+* bump @cocreate/vdom ([66c1e56](https://github.com/CoCreateJS/CoCreateJS/commit/66c1e561a43db7b65c33ff7e33b80e4f4db38b61))
 
-## [1.33.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.33.0...v1.33.1) (2022-12-09)
+## [1.33.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.33.0...v1.33.1) (2022-12-09)
 
 
 ### Bug Fixes
 
-* bump @cocreate/utils ([4a9cc1f](https://github.com/CoCreate-app/CoCreateJS/commit/4a9cc1fdf4182927565b2248afdf3785a32b6800))
+* bump @cocreate/utils ([4a9cc1f](https://github.com/CoCreateJS/CoCreateJS/commit/4a9cc1fdf4182927565b2248afdf3785a32b6800))
 
-# [1.33.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.32.5...v1.33.0) (2022-12-09)
+# [1.33.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.32.5...v1.33.0) (2022-12-09)
 
 
 ### Features
 
-* cssParser can be globally set to false from localStorage ([385a592](https://github.com/CoCreate-app/CoCreateJS/commit/385a59246e46621d5b9fa02048492bbc8b9b9584))
+* cssParser can be globally set to false from localStorage ([385a592](https://github.com/CoCreateJS/CoCreateJS/commit/385a59246e46621d5b9fa02048492bbc8b9b9584))
 
-## [1.32.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.32.4...v1.32.5) (2022-12-09)
+## [1.32.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.32.4...v1.32.5) (2022-12-09)
 
 
 ### Bug Fixes
 
-* bump @cocreate/css-parser ([ac619ee](https://github.com/CoCreate-app/CoCreateJS/commit/ac619ee45226475253fc9530ce8be090ce174322))
+* bump @cocreate/css-parser ([ac619ee](https://github.com/CoCreateJS/CoCreateJS/commit/ac619ee45226475253fc9530ce8be090ce174322))
 
-## [1.32.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.32.3...v1.32.4) (2022-12-09)
+## [1.32.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.32.3...v1.32.4) (2022-12-09)
 
 
 ### Bug Fixes
 
-* bump @cocreate/crdt ([cbbdc74](https://github.com/CoCreate-app/CoCreateJS/commit/cbbdc74d05ada6f28463cee837565a61574c6e96))
+* bump @cocreate/crdt ([cbbdc74](https://github.com/CoCreateJS/CoCreateJS/commit/cbbdc74d05ada6f28463cee837565a61574c6e96))
 
-## [1.32.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.32.2...v1.32.3) (2022-12-08)
+## [1.32.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.32.2...v1.32.3) (2022-12-08)
 
 
 ### Bug Fixes
 
-* update to rREADME and bump dependencies ([238744e](https://github.com/CoCreate-app/CoCreateJS/commit/238744ee0443c5c88f8ccb95ba9ef936b971a02d))
+* update to rREADME and bump dependencies ([238744e](https://github.com/CoCreateJS/CoCreateJS/commit/238744ee0443c5c88f8ccb95ba9ef936b971a02d))
 
-## [1.32.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.32.1...v1.32.2) (2022-12-08)
+## [1.32.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.32.1...v1.32.2) (2022-12-08)
 
 
 ### Bug Fixes
 
-* bump @cocreate/render ([12729a4](https://github.com/CoCreate-app/CoCreateJS/commit/12729a40ffa49e8ea8ff5063d291a48f4f91d08b))
+* bump @cocreate/render ([12729a4](https://github.com/CoCreateJS/CoCreateJS/commit/12729a40ffa49e8ea8ff5063d291a48f4f91d08b))
 
-## [1.32.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.32.0...v1.32.1) (2022-12-07)
+## [1.32.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.32.0...v1.32.1) (2022-12-07)
 
 
 ### Bug Fixes
 
-* minor bug fixes ([d8e9db7](https://github.com/CoCreate-app/CoCreateJS/commit/d8e9db7991e17695d0402803fb78460ea29cd7d3))
+* minor bug fixes ([d8e9db7](https://github.com/CoCreateJS/CoCreateJS/commit/d8e9db7991e17695d0402803fb78460ea29cd7d3))
 
-# [1.32.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.31.3...v1.32.0) (2022-12-04)
+# [1.32.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.31.3...v1.32.0) (2022-12-04)
 
 
 ### Features
 
-* simplified onboarding. Apply cdn and db will be created local ([c065093](https://github.com/CoCreate-app/CoCreateJS/commit/c0650931d0027e608ca0b38c909abea6e4691b75))
+* simplified onboarding. Apply cdn and db will be created local ([c065093](https://github.com/CoCreateJS/CoCreateJS/commit/c0650931d0027e608ca0b38c909abea6e4691b75))
 
-## [1.31.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.31.2...v1.31.3) (2022-12-02)
+## [1.31.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.31.2...v1.31.3) (2022-12-02)
 
 
 ### Bug Fixes
 
-* createUser renamed to signUp, filter-sort-type renamed to filter-sort-direction ([b42f4f9](https://github.com/CoCreate-app/CoCreateJS/commit/b42f4f90b4fcd961f391d49e9486f9b9df8e3f3d))
+* createUser renamed to signUp, filter-sort-type renamed to filter-sort-direction ([b42f4f9](https://github.com/CoCreateJS/CoCreateJS/commit/b42f4f90b4fcd961f391d49e9486f9b9df8e3f3d))
 
-## [1.31.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.31.1...v1.31.2) (2022-11-28)
+## [1.31.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.31.1...v1.31.2) (2022-11-28)
 
 
 ### Bug Fixes
 
-* minor bug fixes ([e304517](https://github.com/CoCreate-app/CoCreateJS/commit/e30451707ef9e83a1c94f6ef9288bc3a842e9b2a))
+* minor bug fixes ([e304517](https://github.com/CoCreateJS/CoCreateJS/commit/e30451707ef9e83a1c94f6ef9288bc3a842e9b2a))
 
-## [1.31.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.31.0...v1.31.1) (2022-11-28)
+## [1.31.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.31.0...v1.31.1) (2022-11-28)
 
 
 ### Bug Fixes
 
-* search results ([13e21af](https://github.com/CoCreate-app/CoCreateJS/commit/13e21afad86646c332460f39f6f0a2f81a6f6781))
+* search results ([13e21af](https://github.com/CoCreateJS/CoCreateJS/commit/13e21afad86646c332460f39f6f0a2f81a6f6781))
 
-# [1.31.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.30.0...v1.31.0) (2022-11-28)
+# [1.31.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.30.0...v1.31.0) (2022-11-28)
 
 
 ### Features
 
-* export fetched data as json, improved query, search and sort features, performance improvement to sync ([8162c59](https://github.com/CoCreate-app/CoCreateJS/commit/8162c592638e8534c21fc28d23512408fccc3295))
+* export fetched data as json, improved query, search and sort features, performance improvement to sync ([8162c59](https://github.com/CoCreateJS/CoCreateJS/commit/8162c592638e8534c21fc28d23512408fccc3295))
 
-# [1.30.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.29.4...v1.30.0) (2022-11-26)
+# [1.30.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.29.4...v1.30.0) (2022-11-26)
 
 
 ### Features
 
-* export fetched data as json, display total, fetched count in html elemets, loadmore using btn or on scroll ([ec26d4e](https://github.com/CoCreate-app/CoCreateJS/commit/ec26d4e437d12b7b797f47c54bccfbb19a755e3f))
+* export fetched data as json, display total, fetched count in html elemets, loadmore using btn or on scroll ([ec26d4e](https://github.com/CoCreateJS/CoCreateJS/commit/ec26d4e437d12b7b797f47c54bccfbb19a755e3f))
 
-## [1.29.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.29.3...v1.29.4) (2022-11-25)
+## [1.29.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.29.3...v1.29.4) (2022-11-25)
 
 
 ### Bug Fixes
 
-* bump dependencies ([a8af213](https://github.com/CoCreate-app/CoCreateJS/commit/a8af21304dd0fe1c2eaaf9d4f09a3b9e67177cd6))
+* bump dependencies ([a8af213](https://github.com/CoCreateJS/CoCreateJS/commit/a8af21304dd0fe1c2eaaf9d4f09a3b9e67177cd6))
 
-## [1.29.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.29.2...v1.29.3) (2022-11-24)
+## [1.29.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.29.2...v1.29.3) (2022-11-24)
 
 
 ### Bug Fixes
 
-* bump [@cocreate](https://github.com/cocreate) dependencies ([5ec5866](https://github.com/CoCreate-app/CoCreateJS/commit/5ec58664bd591721e3825f37d6bedf277af64ef3))
+* bump [@cocreate](https://github.com/cocreate) dependencies ([5ec5866](https://github.com/CoCreateJS/CoCreateJS/commit/5ec58664bd591721e3825f37d6bedf277af64ef3))
 
-## [1.29.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.29.1...v1.29.2) (2022-11-23)
+## [1.29.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.29.1...v1.29.2) (2022-11-23)
 
 
 ### Bug Fixes
 
-* bump dependencies ([e6ee97a](https://github.com/CoCreate-app/CoCreateJS/commit/e6ee97a2ad464d4c087bb27b4c539cb3a4b49814))
+* bump dependencies ([e6ee97a](https://github.com/CoCreateJS/CoCreateJS/commit/e6ee97a2ad464d4c087bb27b4c539cb3a4b49814))
 
-## [1.29.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.29.0...v1.29.1) (2022-11-23)
+## [1.29.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.29.0...v1.29.1) (2022-11-23)
 
 
 ### Bug Fixes
 
-* minor bug fixes ([0429e27](https://github.com/CoCreate-app/CoCreateJS/commit/0429e272c54ec1782cd549e236e20aaa798b2f28))
+* minor bug fixes ([0429e27](https://github.com/CoCreateJS/CoCreateJS/commit/0429e272c54ec1782cd549e236e20aaa798b2f28))
 
-# [1.29.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.28.8...v1.29.0) (2022-11-21)
+# [1.29.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.28.8...v1.29.0) (2022-11-21)
 
 
 ### Features
 
-* add @cocreate/elment-prototype, renamed {{data.key}} to document.key ([c593511](https://github.com/CoCreate-app/CoCreateJS/commit/c593511879c345e495c1616aca7c8d0e7a20333a))
-* CRUD multiple databases, client loadBalancer capable of connecting to multiple servers simultaneously or round robin. socket event system extends accross multiple windows and tabs while online or offline. improved syncing of offline data changes ([b993b6b](https://github.com/CoCreate-app/CoCreateJS/commit/b993b6b149abee809101355c8638e93861f648dd))
+* add @cocreate/elment-prototype, renamed {{data.key}} to document.key ([c593511](https://github.com/CoCreateJS/CoCreateJS/commit/c593511879c345e495c1616aca7c8d0e7a20333a))
+* CRUD multiple databases, client loadBalancer capable of connecting to multiple servers simultaneously or round robin. socket event system extends accross multiple windows and tabs while online or offline. improved syncing of offline data changes ([b993b6b](https://github.com/CoCreateJS/CoCreateJS/commit/b993b6b149abee809101355c8638e93861f648dd))
 
-## [1.28.8](https://github.com/CoCreate-app/CoCreateJS/compare/v1.28.7...v1.28.8) (2022-10-03)
+## [1.28.8](https://github.com/CoCreateJS/CoCreateJS/compare/v1.28.7...v1.28.8) (2022-10-03)
 
 
 ### Bug Fixes
 
-* bump @cocreate/select ([25b82d4](https://github.com/CoCreate-app/CoCreateJS/commit/25b82d4be36443ce67afd10824c12bef4aaae9fb))
+* bump @cocreate/select ([25b82d4](https://github.com/CoCreateJS/CoCreateJS/commit/25b82d4be36443ce67afd10824c12bef4aaae9fb))
 
-## [1.28.7](https://github.com/CoCreate-app/CoCreateJS/compare/v1.28.6...v1.28.7) (2022-10-03)
+## [1.28.7](https://github.com/CoCreateJS/CoCreateJS/compare/v1.28.6...v1.28.7) (2022-10-03)
 
 
 ### Bug Fixes
 
-* render array bug resolved ([7e0b4de](https://github.com/CoCreate-app/CoCreateJS/commit/7e0b4de6bed5dab387b711f7f947e2055cd1c99c))
+* render array bug resolved ([7e0b4de](https://github.com/CoCreateJS/CoCreateJS/commit/7e0b4de6bed5dab387b711f7f947e2055cd1c99c))
 
-## [1.28.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.28.5...v1.28.6) (2022-10-02)
+## [1.28.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.28.5...v1.28.6) (2022-10-02)
 
 
 ### Bug Fixes
 
-* bug in modal ([709dbd6](https://github.com/CoCreate-app/CoCreateJS/commit/709dbd6cdc8bcdac80c0d064e5dd2299891268b5))
+* bug in modal ([709dbd6](https://github.com/CoCreateJS/CoCreateJS/commit/709dbd6cdc8bcdac80c0d064e5dd2299891268b5))
 
-## [1.28.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.28.4...v1.28.5) (2022-10-02)
+## [1.28.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.28.4...v1.28.5) (2022-10-02)
 
 
 ### Bug Fixes
 
-* bump @cocreate/socket-client and @cocreate/hosting ([9e1e0a7](https://github.com/CoCreate-app/CoCreateJS/commit/9e1e0a7525846313d84e2a418bff87761a547527))
+* bump @cocreate/socket-client and @cocreate/hosting ([9e1e0a7](https://github.com/CoCreateJS/CoCreateJS/commit/9e1e0a7525846313d84e2a418bff87761a547527))
 
-## [1.28.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.28.3...v1.28.4) (2022-10-01)
+## [1.28.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.28.3...v1.28.4) (2022-10-01)
 
 
 ### Bug Fixes
 
-* minor bug fixes ([2218135](https://github.com/CoCreate-app/CoCreateJS/commit/22181354ec35dcda0f58341b5ec6e1fd202e9e94))
+* minor bug fixes ([2218135](https://github.com/CoCreateJS/CoCreateJS/commit/22181354ec35dcda0f58341b5ec6e1fd202e9e94))
 
-## [1.28.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.28.2...v1.28.3) (2022-09-30)
+## [1.28.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.28.2...v1.28.3) (2022-09-30)
 
 
 ### Bug Fixes
 
-* export defualt bug in filter.js ([9b5f102](https://github.com/CoCreate-app/CoCreateJS/commit/9b5f102e7b4abcad426afb2f84958e513ea99afc))
+* export defualt bug in filter.js ([9b5f102](https://github.com/CoCreateJS/CoCreateJS/commit/9b5f102e7b4abcad426afb2f84958e513ea99afc))
 
-## [1.28.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.28.1...v1.28.2) (2022-09-30)
+## [1.28.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.28.1...v1.28.2) (2022-09-30)
 
 
 ### Bug Fixes
 
-* bump [@cocreate](https://github.com/cocreate) dependencies ([b2332c6](https://github.com/CoCreate-app/CoCreateJS/commit/b2332c6714d25fe27e83e88da4b7d7553e735a7e))
+* bump [@cocreate](https://github.com/cocreate) dependencies ([b2332c6](https://github.com/CoCreateJS/CoCreateJS/commit/b2332c6714d25fe27e83e88da4b7d7553e735a7e))
 
-## [1.28.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.28.0...v1.28.1) (2022-09-30)
+## [1.28.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.28.0...v1.28.1) (2022-09-30)
 
 
 ### Bug Fixes
 
-* bump dependencies ([2049ae2](https://github.com/CoCreate-app/CoCreateJS/commit/2049ae28f308c6fbde0356c8530f7e1d21bb6795))
+* bump dependencies ([2049ae2](https://github.com/CoCreateJS/CoCreateJS/commit/2049ae28f308c6fbde0356c8530f7e1d21bb6795))
 
-# [1.28.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.27.1...v1.28.0) (2022-09-29)
+# [1.28.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.27.1...v1.28.0) (2022-09-29)
 
 
 ### Bug Fixes
 
-* config renameed to CoCreateConfig ([ac38149](https://github.com/CoCreate-app/CoCreateJS/commit/ac38149ea1ebf0ae80db9b8a60e7fae001fdc4ad))
+* config renameed to CoCreateConfig ([ac38149](https://github.com/CoCreateJS/CoCreateJS/commit/ac38149ea1ebf0ae80db9b8a60e7fae001fdc4ad))
 
 
 ### Features
 
-* Installable, cacheable, offline editable ([b5fed72](https://github.com/CoCreate-app/CoCreateJS/commit/b5fed720cb6426a5a4ab92b964ec32c936508b2f))
+* Installable, cacheable, offline editable ([b5fed72](https://github.com/CoCreateJS/CoCreateJS/commit/b5fed720cb6426a5a4ab92b964ec32c936508b2f))
 
-## [1.27.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.27.0...v1.27.1) (2022-09-01)
+## [1.27.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.27.0...v1.27.1) (2022-09-01)
 
 
 ### Bug Fixes
 
-* bump dependency versions ([6f0a7f9](https://github.com/CoCreate-app/CoCreateJS/commit/6f0a7f96b9250796e1600c84a7586af21c29c82c))
+* bump dependency versions ([6f0a7f9](https://github.com/CoCreateJS/CoCreateJS/commit/6f0a7f96b9250796e1600c84a7586af21c29c82c))
 
-# [1.27.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.26.0...v1.27.0) (2022-08-31)
+# [1.27.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.26.0...v1.27.0) (2022-08-31)
 
 
 ### Bug Fixes
 
-* renamed broadcast_sender to broadcastSender ([ac91d4f](https://github.com/CoCreate-app/CoCreateJS/commit/ac91d4ff595d61efccd6d91357cc266d756b5f12))
+* renamed broadcast_sender to broadcastSender ([ac91d4f](https://github.com/CoCreateJS/CoCreateJS/commit/ac91d4ff595d61efccd6d91357cc266d756b5f12))
 
 
 ### Features
 
-* filter and sort collections, delete and update db field name/key, getValue and setValue using HTMLElement prototype ([dfb6ebf](https://github.com/CoCreate-app/CoCreateJS/commit/dfb6ebfb165394204d07756a064d0a92478be45a))
+* filter and sort collections, delete and update db field name/key, getValue and setValue using HTMLElement prototype ([dfb6ebf](https://github.com/CoCreateJS/CoCreateJS/commit/dfb6ebfb165394204d07756a064d0a92478be45a))
 
-# [1.26.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.25.4...v1.26.0) (2022-08-23)
+# [1.26.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.25.4...v1.26.0) (2022-08-23)
 
 
 ### Features
 
-* convert dotNotation to object and render keys if key has not previously been rendered ([07e954c](https://github.com/CoCreate-app/CoCreateJS/commit/07e954cb57ea3f07899db24d81bb67581a606e50))
+* convert dotNotation to object and render keys if key has not previously been rendered ([07e954c](https://github.com/CoCreateJS/CoCreateJS/commit/07e954cb57ea3f07899db24d81bb67581a606e50))
 
-## [1.25.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.25.3...v1.25.4) (2022-08-19)
+## [1.25.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.25.3...v1.25.4) (2022-08-19)
 
 
 ### Bug Fixes
 
-* renamed order-by and order-type to filter-order-name and filter-order-type ([5e7acd2](https://github.com/CoCreate-app/CoCreateJS/commit/5e7acd2799b6b31cff4fbee1b25ebba7b05c53d8))
+* renamed order-by and order-type to filter-order-name and filter-order-type ([5e7acd2](https://github.com/CoCreateJS/CoCreateJS/commit/5e7acd2799b6b31cff4fbee1b25ebba7b05c53d8))
 
-## [1.25.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.25.2...v1.25.3) (2022-08-19)
+## [1.25.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.25.2...v1.25.3) (2022-08-19)
 
 
 ### Bug Fixes
 
-* bump crdt, render, and toolbar dependencies ([f34dd18](https://github.com/CoCreate-app/CoCreateJS/commit/f34dd1897dcd0d98721c1138685404ee3d14047d))
-* deprciate action createDocument ([e9e9a05](https://github.com/CoCreate-app/CoCreateJS/commit/e9e9a0507d165123ded67e35a2903d331bf9cbd9))
+* bump crdt, render, and toolbar dependencies ([f34dd18](https://github.com/CoCreateJS/CoCreateJS/commit/f34dd1897dcd0d98721c1138685404ee3d14047d))
+* deprciate action createDocument ([e9e9a05](https://github.com/CoCreateJS/CoCreateJS/commit/e9e9a0507d165123ded67e35a2903d331bf9cbd9))
 
-## [1.25.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.25.1...v1.25.2) (2022-08-01)
+## [1.25.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.25.1...v1.25.2) (2022-08-01)
 
 
 ### Bug Fixes
 
-* seperate css-parser from CoCreateCSS. fix bug with renderkey action. fetch auto adds document_id to template ([70dea8b](https://github.com/CoCreate-app/CoCreateJS/commit/70dea8b05847db176462b4c6b9efe55104ab2152))
+* seperate css-parser from CoCreateCSS. fix bug with renderkey action. fetch auto adds document_id to template ([70dea8b](https://github.com/CoCreateJS/CoCreateJS/commit/70dea8b05847db176462b4c6b9efe55104ab2152))
 
-## [1.25.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.25.0...v1.25.1) (2022-07-31)
+## [1.25.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.25.0...v1.25.1) (2022-07-31)
 
 
 ### Bug Fixes
 
-* typo in creatocument, attributes required if condition to see if elementnt is defined ([ea5d457](https://github.com/CoCreate-app/CoCreateJS/commit/ea5d45755f9cc615fc276140a88daf56ffa4e7e0))
+* typo in creatocument, attributes required if condition to see if elementnt is defined ([ea5d457](https://github.com/CoCreateJS/CoCreateJS/commit/ea5d45755f9cc615fc276140a88daf56ffa4e7e0))
 
-# [1.25.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.24.0...v1.25.0) (2022-07-29)
+# [1.25.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.24.0...v1.25.0) (2022-07-29)
 
 
 ### Features
 
-* fetch components support handling collections, render component updates values if value has changed ([5c25dd4](https://github.com/CoCreate-app/CoCreateJS/commit/5c25dd45fb8a2011124a43516c2768eddd0dceae))
+* fetch components support handling collections, render component updates values if value has changed ([5c25dd4](https://github.com/CoCreateJS/CoCreateJS/commit/5c25dd45fb8a2011124a43516c2768eddd0dceae))
 
-# [1.24.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.23.4...v1.24.0) (2022-07-26)
+# [1.24.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.23.4...v1.24.0) (2022-07-26)
 
 
 ### Features
 
-* getObjectValueByPath, crud support for collections, render nested objects and arrays ([4b65367](https://github.com/CoCreate-app/CoCreateJS/commit/4b65367ad34107fea8458e9006ae9863a87c198a))
+* getObjectValueByPath, crud support for collections, render nested objects and arrays ([4b65367](https://github.com/CoCreateJS/CoCreateJS/commit/4b65367ad34107fea8458e9006ae9863a87c198a))
 
-## [1.23.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.23.3...v1.23.4) (2022-07-10)
+## [1.23.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.23.3...v1.23.4) (2022-07-10)
 
 
 ### Bug Fixes
 
-* bump @cocreate/render contains bugfixes ([d0334a3](https://github.com/CoCreate-app/CoCreateJS/commit/d0334a3423f643ab47ffc86e6beeda445767df27))
+* bump @cocreate/render contains bugfixes ([d0334a3](https://github.com/CoCreateJS/CoCreateJS/commit/d0334a3423f643ab47ffc86e6beeda445767df27))
 
-## [1.23.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.23.2...v1.23.3) (2022-07-09)
+## [1.23.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.23.2...v1.23.3) (2022-07-09)
 
 
 ### Bug Fixes
 
-* bump @cocreate/select contains fix to issue causing fetched selected values not to render ([6bd249a](https://github.com/CoCreate-app/CoCreateJS/commit/6bd249af14b21fe23a2c4c533ff61c9790f9c7e1))
+* bump @cocreate/select contains fix to issue causing fetched selected values not to render ([6bd249a](https://github.com/CoCreateJS/CoCreateJS/commit/6bd249af14b21fe23a2c4c533ff61c9790f9c7e1))
 
-## [1.23.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.23.1...v1.23.2) (2022-07-08)
+## [1.23.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.23.1...v1.23.2) (2022-07-08)
 
 
 ### Bug Fixes
 
-* bump dependencies ([196aa75](https://github.com/CoCreate-app/CoCreateJS/commit/196aa75a342af89b403426e784cfe1dda921981f))
+* bump dependencies ([196aa75](https://github.com/CoCreateJS/CoCreateJS/commit/196aa75a342af89b403426e784cfe1dda921981f))
 
-## [1.23.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.23.0...v1.23.1) (2022-07-04)
+## [1.23.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.23.0...v1.23.1) (2022-07-04)
 
 
 ### Bug Fixes
 
-* bump @cocreate/modal dependency. Contains attribute bug fix ([de21ad2](https://github.com/CoCreate-app/CoCreateJS/commit/de21ad241999ddbbb32d3c616d3292940593cf49))
+* bump @cocreate/modal dependency. Contains attribute bug fix ([de21ad2](https://github.com/CoCreateJS/CoCreateJS/commit/de21ad241999ddbbb32d3c616d3292940593cf49))
 
-# [1.23.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.22.1...v1.23.0) (2022-07-03)
+# [1.23.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.22.1...v1.23.0) (2022-07-03)
 
 
 ### Bug Fixes
 
-* remove unused fetch attributes from documentation ([b4fa6ec](https://github.com/CoCreate-app/CoCreateJS/commit/b4fa6ec9772fcdca94ddce1dc8213731fd597077))
+* remove unused fetch attributes from documentation ([b4fa6ec](https://github.com/CoCreateJS/CoCreateJS/commit/b4fa6ec9772fcdca94ddce1dc8213731fd597077))
 
 
 ### Features
 
-* support for value-type object, string, etc ([accf97f](https://github.com/CoCreate-app/CoCreateJS/commit/accf97f6b420937c5d40011a53cc62dacb6f8714))
+* support for value-type object, string, etc ([accf97f](https://github.com/CoCreateJS/CoCreateJS/commit/accf97f6b420937c5d40011a53cc62dacb6f8714))
 
-## [1.22.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.22.0...v1.22.1) (2022-06-27)
+## [1.22.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.22.0...v1.22.1) (2022-06-27)
 
 
 ### Bug Fixes
 
-* bump @cocreate/position contains fix for displaying snap position ([e469bd9](https://github.com/CoCreate-app/CoCreateJS/commit/e469bd91243f01fe5901ec009d194254eb4c2fe1))
+* bump @cocreate/position contains fix for displaying snap position ([e469bd9](https://github.com/CoCreateJS/CoCreateJS/commit/e469bd91243f01fe5901ec009d194254eb4c2fe1))
 
-# [1.22.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.21.2...v1.22.0) (2022-06-27)
+# [1.22.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.21.2...v1.22.0) (2022-06-27)
 
 
 ### Features
 
-* add new component @cocreate/position, bump @cocreate/modal component ([02f76cc](https://github.com/CoCreate-app/CoCreateJS/commit/02f76cc799d38539029d4c348590f7f9a403fe17))
+* add new component @cocreate/position, bump @cocreate/modal component ([02f76cc](https://github.com/CoCreateJS/CoCreateJS/commit/02f76cc799d38539029d4c348590f7f9a403fe17))
 
-## [1.21.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.21.1...v1.21.2) (2022-06-25)
+## [1.21.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.21.1...v1.21.2) (2022-06-25)
 
 
 ### Bug Fixes
 
-* bump @cocreate/dnd - contains fixes related to absolute and fixed positions ([f466d38](https://github.com/CoCreate-app/CoCreateJS/commit/f466d38e6c238a3be940cc1648d258ce7df7d302))
+* bump @cocreate/dnd - contains fixes related to absolute and fixed positions ([f466d38](https://github.com/CoCreateJS/CoCreateJS/commit/f466d38e6c238a3be940cc1648d258ce7df7d302))
 
-## [1.21.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.21.0...v1.21.1) (2022-06-24)
+## [1.21.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.21.0...v1.21.1) (2022-06-24)
 
 
 ### Bug Fixes
 
-* bump @cocreate/text and @cocreate/utils ([bfa1bba](https://github.com/CoCreate-app/CoCreateJS/commit/bfa1bba63d523a17fd81bb51927d0e89c6757f5f))
+* bump @cocreate/text and @cocreate/utils ([bfa1bba](https://github.com/CoCreateJS/CoCreateJS/commit/bfa1bba63d523a17fd81bb51927d0e89c6757f5f))
 
-# [1.21.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.20.2...v1.21.0) (2022-06-23)
+# [1.21.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.20.2...v1.21.0) (2022-06-23)
 
 
 ### Features
 
-* bump @cocreate/lazyloader supports observing attributes if match lazyloads component ([5bf03b1](https://github.com/CoCreate-app/CoCreateJS/commit/5bf03b12d176ef3e83cb7c8ccedc76612cb0e3a6))
+* bump @cocreate/lazyloader supports observing attributes if match lazyloads component ([5bf03b1](https://github.com/CoCreateJS/CoCreateJS/commit/5bf03b12d176ef3e83cb7c8ccedc76612cb0e3a6))
 
-## [1.20.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.20.1...v1.20.2) (2022-06-22)
+## [1.20.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.20.1...v1.20.2) (2022-06-22)
 
 
 ### Bug Fixes
 
-* bump @cocreate/scroll - contains infinite loop fix when scrolling up or down ([1009367](https://github.com/CoCreate-app/CoCreateJS/commit/1009367d98d7ab02f15fe0d5fb2165f4e0fe8193))
+* bump @cocreate/scroll - contains infinite loop fix when scrolling up or down ([1009367](https://github.com/CoCreateJS/CoCreateJS/commit/1009367d98d7ab02f15fe0d5fb2165f4e0fe8193))
 
-## [1.20.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.20.0...v1.20.1) (2022-06-21)
+## [1.20.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.20.0...v1.20.1) (2022-06-21)
 
 
 ### Bug Fixes
 
-* bump @cocreate/select - bug rendering template for selected items on select read ([d69e8e8](https://github.com/CoCreate-app/CoCreateJS/commit/d69e8e81998688a7390902c87ee82ee539bfc1bc))
+* bump @cocreate/select - bug rendering template for selected items on select read ([d69e8e8](https://github.com/CoCreateJS/CoCreateJS/commit/d69e8e81998688a7390902c87ee82ee539bfc1bc))
 
-# [1.20.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.19.0...v1.20.0) (2022-06-20)
+# [1.20.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.19.0...v1.20.0) (2022-06-20)
 
 
 ### Features
 
-* Bump @cocreate/select contains feat that allows to set value-type= object || json to convert stringvalues to objects when storing in db ([8597d8b](https://github.com/CoCreate-app/CoCreateJS/commit/8597d8b7fb395588929e802dd8513289c270174b))
+* Bump @cocreate/select contains feat that allows to set value-type= object || json to convert stringvalues to objects when storing in db ([8597d8b](https://github.com/CoCreateJS/CoCreateJS/commit/8597d8b7fb395588929e802dd8513289c270174b))
 
-# [1.19.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.18.4...v1.19.0) (2022-06-20)
+# [1.19.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.18.4...v1.19.0) (2022-06-20)
 
 
 ### Features
 
-* Bump @cocreate/crud-client and @cocreate/form contains feat that allows to set value-type= object || json to convert stringvalues to objects when storing in db ([66a2ed4](https://github.com/CoCreate-app/CoCreateJS/commit/66a2ed47b135a9c9fc36707605ca82e8c28016cf))
+* Bump @cocreate/crud-client and @cocreate/form contains feat that allows to set value-type= object || json to convert stringvalues to objects when storing in db ([66a2ed4](https://github.com/CoCreateJS/CoCreateJS/commit/66a2ed47b135a9c9fc36707605ca82e8c28016cf))
 
-## [1.18.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.18.3...v1.18.4) (2022-06-19)
+## [1.18.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.18.3...v1.18.4) (2022-06-19)
 
 
 ### Bug Fixes
 
-* bump@cocreate/render,  @cocreate/scroll ([5518e83](https://github.com/CoCreate-app/CoCreateJS/commit/5518e83e954bd899f27a73a1ef9c2c6148a6760e))
+* bump@cocreate/render,  @cocreate/scroll ([5518e83](https://github.com/CoCreateJS/CoCreateJS/commit/5518e83e954bd899f27a73a1ef9c2c6148a6760e))
 
-## [1.18.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.18.2...v1.18.3) (2022-06-19)
+## [1.18.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.18.2...v1.18.3) (2022-06-19)
 
 
 ### Bug Fixes
 
-* @cocreate/select - bug fix with collaboration. @cocreate/render - remove placeholders if not replaced with value ([8ace925](https://github.com/CoCreate-app/CoCreateJS/commit/8ace9250cef94f6e6f4ab7dc12b27c3621822b04))
+* @cocreate/select - bug fix with collaboration. @cocreate/render - remove placeholders if not replaced with value ([8ace925](https://github.com/CoCreateJS/CoCreateJS/commit/8ace9250cef94f6e6f4ab7dc12b27c3621822b04))
 
-## [1.18.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.18.1...v1.18.2) (2022-06-18)
+## [1.18.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.18.1...v1.18.2) (2022-06-18)
 
 
 ### Bug Fixes
 
-* workflow ([1825a52](https://github.com/CoCreate-app/CoCreateJS/commit/1825a52e6f9c83b70f6801d8135ba9e603eb7103))
+* workflow ([1825a52](https://github.com/CoCreateJS/CoCreateJS/commit/1825a52e6f9c83b70f6801d8135ba9e603eb7103))
 
-## [1.18.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.18.0...v1.18.1) (2022-06-18)
+## [1.18.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.18.0...v1.18.1) (2022-06-18)
 
 
 ### Bug Fixes
 
-* bump dependencies ([6023304](https://github.com/CoCreate-app/CoCreateJS/commit/6023304eda0924ff9e0020b649a54f7bac8409dd))
+* bump dependencies ([6023304](https://github.com/CoCreateJS/CoCreateJS/commit/6023304eda0924ff9e0020b649a54f7bac8409dd))
 
-# [1.18.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.17.1...v1.18.0) (2022-06-17)
+# [1.18.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.17.1...v1.18.0) (2022-06-17)
 
 
 ### Features
 
-* bump @cocreate/fetch - contains realtime update e  temlplate placeholder. bump @cocreate/select - minor bug fixes ([cbddd5a](https://github.com/CoCreate-app/CoCreateJS/commit/cbddd5ab3fb5cf9ea5f0c63cfb47655c5d8dbc58))
+* bump @cocreate/fetch - contains realtime update e  temlplate placeholder. bump @cocreate/select - minor bug fixes ([cbddd5a](https://github.com/CoCreateJS/CoCreateJS/commit/cbddd5ab3fb5cf9ea5f0c63cfb47655c5d8dbc58))
 
-## [1.17.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.17.0...v1.17.1) (2022-06-16)
+## [1.17.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.17.0...v1.17.1) (2022-06-16)
 
 
 ### Bug Fixes
 
-* bump @cocreate/dnd and @cocreate/text for minor bug fixes ([59a9930](https://github.com/CoCreate-app/CoCreateJS/commit/59a9930f2836ae5224d0919f986418114da5ec27))
+* bump @cocreate/dnd and @cocreate/text for minor bug fixes ([59a9930](https://github.com/CoCreateJS/CoCreateJS/commit/59a9930f2836ae5224d0919f986418114da5ec27))
 
-# [1.17.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.16.2...v1.17.0) (2022-06-16)
+# [1.17.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.16.2...v1.17.0) (2022-06-16)
 
 
 ### Bug Fixes
 
-* addd demo for login ([bd8752b](https://github.com/CoCreate-app/CoCreateJS/commit/bd8752b1b87916eff7e5572645b740f6cf0cf0a8))
+* addd demo for login ([bd8752b](https://github.com/CoCreateJS/CoCreateJS/commit/bd8752b1b87916eff7e5572645b740f6cf0cf0a8))
 
 
 ### Features
 
-* bump @cocreate/dnd and [@cocreate](https://github.com/cocreate) elements for new absolute or fixed dragging feature and cloneable-html tagname ([077dc5d](https://github.com/CoCreate-app/CoCreateJS/commit/077dc5d447e1846ae053bb0c7b72b093ebc028ee))
+* bump @cocreate/dnd and [@cocreate](https://github.com/cocreate) elements for new absolute or fixed dragging feature and cloneable-html tagname ([077dc5d](https://github.com/CoCreateJS/CoCreateJS/commit/077dc5d447e1846ae053bb0c7b72b093ebc028ee))
 
-## [1.16.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.16.1...v1.16.2) (2022-06-13)
+## [1.16.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.16.1...v1.16.2) (2022-06-13)
 
 
 ### Bug Fixes
 
-* bump @cocreate/text ([ca46e4c](https://github.com/CoCreate-app/CoCreateJS/commit/ca46e4cb15898f4d7135c5b5d09b17e888813046))
+* bump @cocreate/text ([ca46e4c](https://github.com/CoCreateJS/CoCreateJS/commit/ca46e4cb15898f4d7135c5b5d09b17e888813046))
 
-## [1.16.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.16.0...v1.16.1) (2022-06-13)
+## [1.16.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.16.0...v1.16.1) (2022-06-13)
 
 
 ### Bug Fixes
 
-* update index.css document_id ([a43cec1](https://github.com/CoCreate-app/CoCreateJS/commit/a43cec14d3275a9635976620aa94cb86028e5643))
+* update index.css document_id ([a43cec1](https://github.com/CoCreateJS/CoCreateJS/commit/a43cec14d3275a9635976620aa94cb86028e5643))
 
-# [1.16.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.13...v1.16.0) (2022-06-11)
+# [1.16.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.13...v1.16.0) (2022-06-11)
 
 
 ### Features
 
-* undo and redo support ([ba042f0](https://github.com/CoCreate-app/CoCreateJS/commit/ba042f0ad01f9d3167835cd6a11a5207d6267974))
+* undo and redo support ([ba042f0](https://github.com/CoCreateJS/CoCreateJS/commit/ba042f0ad01f9d3167835cd6a11a5207d6267974))
 
-## [1.15.13](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.12...v1.15.13) (2022-06-08)
+## [1.15.13](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.12...v1.15.13) (2022-06-08)
 
 
 ### Bug Fixes
 
-* bump @cocreate/resize and @cocreate/dnd dependencies ([a773cfc](https://github.com/CoCreate-app/CoCreateJS/commit/a773cfc52c7f62ea56aa9b341172d5a86fb31709))
+* bump @cocreate/resize and @cocreate/dnd dependencies ([a773cfc](https://github.com/CoCreateJS/CoCreateJS/commit/a773cfc52c7f62ea56aa9b341172d5a86fb31709))
 
-## [1.15.12](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.11...v1.15.12) (2022-06-07)
+## [1.15.12](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.11...v1.15.12) (2022-06-07)
 
 
 ### Bug Fixes
 
-* minor bug fixes ([b794471](https://github.com/CoCreate-app/CoCreateJS/commit/b794471c72f8da0f359e82fb248326204ec24e95))
+* minor bug fixes ([b794471](https://github.com/CoCreateJS/CoCreateJS/commit/b794471c72f8da0f359e82fb248326204ec24e95))
 
-## [1.15.11](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.10...v1.15.11) (2022-06-02)
+## [1.15.11](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.10...v1.15.11) (2022-06-02)
 
 
 ### Bug Fixes
 
-* bump dependencies css, fetch, and elements ([097c6c2](https://github.com/CoCreate-app/CoCreateJS/commit/097c6c2177c5474b42e7cf58c8d1251b686a7352))
+* bump dependencies css, fetch, and elements ([097c6c2](https://github.com/CoCreateJS/CoCreateJS/commit/097c6c2177c5474b42e7cf58c8d1251b686a7352))
 
-## [1.15.10](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.9...v1.15.10) (2022-05-29)
+## [1.15.10](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.9...v1.15.10) (2022-05-29)
 
 
 ### Bug Fixes
 
-* add lazyload selector for actions deleteOrg ([d8a8f63](https://github.com/CoCreate-app/CoCreateJS/commit/d8a8f630624feac8c4ca02802f6e7e48792c49c1))
+* add lazyload selector for actions deleteOrg ([d8a8f63](https://github.com/CoCreateJS/CoCreateJS/commit/d8a8f630624feac8c4ca02802f6e7e48792c49c1))
 
-## [1.15.9](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.8...v1.15.9) (2022-05-27)
+## [1.15.9](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.8...v1.15.9) (2022-05-27)
 
 
 ### Bug Fixes
 
-* bump @cocreate/filter and @cocreate/floating-label dependencies ([204a3ce](https://github.com/CoCreate-app/CoCreateJS/commit/204a3ce54fc05f10521d1ee52893e8e87c558543))
+* bump @cocreate/filter and @cocreate/floating-label dependencies ([204a3ce](https://github.com/CoCreateJS/CoCreateJS/commit/204a3ce54fc05f10521d1ee52893e8e87c558543))
 
-## [1.15.8](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.7...v1.15.8) (2022-05-25)
+## [1.15.8](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.7...v1.15.8) (2022-05-25)
 
 
 ### Bug Fixes
 
-* bump @cocreate/floating-labels and @cocreate/fetch version ([a05b30a](https://github.com/CoCreate-app/CoCreateJS/commit/a05b30ad4f27fff3b33f30060f264feb70647619))
+* bump @cocreate/floating-labels and @cocreate/fetch version ([a05b30a](https://github.com/CoCreateJS/CoCreateJS/commit/a05b30ad4f27fff3b33f30060f264feb70647619))
 
-## [1.15.7](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.6...v1.15.7) (2022-05-23)
+## [1.15.7](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.6...v1.15.7) (2022-05-23)
 
 
 ### Bug Fixes
 
-* update dependencies ([372ecb7](https://github.com/CoCreate-app/CoCreateJS/commit/372ecb7d374710bb76b9a7bb3b32e23a8d20ee8c))
+* update dependencies ([372ecb7](https://github.com/CoCreateJS/CoCreateJS/commit/372ecb7d374710bb76b9a7bb3b32e23a8d20ee8c))
 
-## [1.15.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.5...v1.15.6) (2022-05-22)
+## [1.15.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.5...v1.15.6) (2022-05-22)
 
 
 ### Bug Fixes
 
-* bump @cocreate/pass dependency ([3e5f60b](https://github.com/CoCreate-app/CoCreateJS/commit/3e5f60b1f820f4a6cbf6a8000fa5628ea79cac63))
+* bump @cocreate/pass dependency ([3e5f60b](https://github.com/CoCreateJS/CoCreateJS/commit/3e5f60b1f820f4a6cbf6a8000fa5628ea79cac63))
 
-## [1.15.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.4...v1.15.5) (2022-05-21)
+## [1.15.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.4...v1.15.5) (2022-05-21)
 
 
 ### Bug Fixes
 
-* bump @cocreate/render & @cocreate/css versions ([ed1dc01](https://github.com/CoCreate-app/CoCreateJS/commit/ed1dc014c3a1ad98eb5824048ac221c64c8d5884))
+* bump @cocreate/render & @cocreate/css versions ([ed1dc01](https://github.com/CoCreateJS/CoCreateJS/commit/ed1dc014c3a1ad98eb5824048ac221c64c8d5884))
 
-## [1.15.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.3...v1.15.4) (2022-05-19)
+## [1.15.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.3...v1.15.4) (2022-05-19)
 
 
 ### Bug Fixes
 
-* bump @cocreate/validation ([3649d9c](https://github.com/CoCreate-app/CoCreateJS/commit/3649d9cdf0fda69dead6711ed3bcfde0e9fd7397))
+* bump @cocreate/validation ([3649d9c](https://github.com/CoCreateJS/CoCreateJS/commit/3649d9cdf0fda69dead6711ed3bcfde0e9fd7397))
 
-## [1.15.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.2...v1.15.3) (2022-05-17)
+## [1.15.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.2...v1.15.3) (2022-05-17)
 
 
 ### Bug Fixes
 
-* update document_id for link tag index.css ([c41e2c6](https://github.com/CoCreate-app/CoCreateJS/commit/c41e2c66ceaaed9e2eb3e42ed12ac29ee0e1e617))
+* update document_id for link tag index.css ([c41e2c6](https://github.com/CoCreateJS/CoCreateJS/commit/c41e2c66ceaaed9e2eb3e42ed12ac29ee0e1e617))
 
-## [1.15.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.1...v1.15.2) (2022-05-16)
+## [1.15.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.1...v1.15.2) (2022-05-16)
 
 
 ### Bug Fixes
 
-* make doc examples realtime=false and add cdn ([135191a](https://github.com/CoCreate-app/CoCreateJS/commit/135191ae35341c56104cb86f55fa7f8d29ee7777))
+* make doc examples realtime=false and add cdn ([135191a](https://github.com/CoCreateJS/CoCreateJS/commit/135191ae35341c56104cb86f55fa7f8d29ee7777))
 
-## [1.15.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.15.0...v1.15.1) (2022-05-15)
+## [1.15.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.15.0...v1.15.1) (2022-05-15)
 
 
 ### Bug Fixes
 
-* update element dependency version. contains bug fixes related to iframe srcdoc ([b8883c7](https://github.com/CoCreate-app/CoCreateJS/commit/b8883c7a115e8b8b8ca343bd95cd71bc3c436ab6))
+* update element dependency version. contains bug fixes related to iframe srcdoc ([b8883c7](https://github.com/CoCreateJS/CoCreateJS/commit/b8883c7a115e8b8b8ca343bd95cd71bc3c436ab6))
 
-# [1.15.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.14.7...v1.15.0) (2022-05-14)
+# [1.15.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.14.7...v1.15.0) (2022-05-14)
 
 
 ### Features
 
-* renamed readDocumentsList to readDocuments ([4a83d5b](https://github.com/CoCreate-app/CoCreateJS/commit/4a83d5b10d54416861309c1e1367e6b13437203c))
+* renamed readDocumentsList to readDocuments ([4a83d5b](https://github.com/CoCreateJS/CoCreateJS/commit/4a83d5b10d54416861309c1e1367e6b13437203c))
 
-## [1.14.7](https://github.com/CoCreate-app/CoCreateJS/compare/v1.14.6...v1.14.7) (2022-05-13)
+## [1.14.7](https://github.com/CoCreateJS/CoCreateJS/compare/v1.14.6...v1.14.7) (2022-05-13)
 
 
 ### Bug Fixes
 
-* comment CoCreateJS from repositories ([989fb74](https://github.com/CoCreate-app/CoCreateJS/commit/989fb74df13fecc03cad006f2946f22c7899ad23))
+* comment CoCreateJS from repositories ([989fb74](https://github.com/CoCreateJS/CoCreateJS/commit/989fb74df13fecc03cad006f2946f22c7899ad23))
 
-## [1.14.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.14.5...v1.14.6) (2022-05-11)
+## [1.14.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.14.5...v1.14.6) (2022-05-11)
 
 
 ### Bug Fixes
 
-* bump @cocreate/users version ([f969fc9](https://github.com/CoCreate-app/CoCreateJS/commit/f969fc92a051048cec513088809a483b5f6df56a))
+* bump @cocreate/users version ([f969fc9](https://github.com/CoCreateJS/CoCreateJS/commit/f969fc92a051048cec513088809a483b5f6df56a))
 
-## [1.14.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.14.4...v1.14.5) (2022-05-09)
+## [1.14.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.14.4...v1.14.5) (2022-05-09)
 
 
 ### Bug Fixes
 
-* bump dependency versions ([5144c89](https://github.com/CoCreate-app/CoCreateJS/commit/5144c893abf9ef59f6ff4098c61fa13cc1981d85))
+* bump dependency versions ([5144c89](https://github.com/CoCreateJS/CoCreateJS/commit/5144c893abf9ef59f6ff4098c61fa13cc1981d85))
 
-## [1.14.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.14.3...v1.14.4) (2022-05-06)
+## [1.14.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.14.3...v1.14.4) (2022-05-06)
 
 
 ### Bug Fixes
 
-* update config organization_Id to organization_id ([e71f9c3](https://github.com/CoCreate-app/CoCreateJS/commit/e71f9c375392769d4ee8b835cf96857c109918e9))
+* update config organization_Id to organization_id ([e71f9c3](https://github.com/CoCreateJS/CoCreateJS/commit/e71f9c375392769d4ee8b835cf96857c109918e9))
 
-## [1.14.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.14.2...v1.14.3) (2022-05-03)
+## [1.14.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.14.2...v1.14.3) (2022-05-03)
 
 
 ### Bug Fixes
 
-* bump dependency @cocreate/render ([c4e852a](https://github.com/CoCreate-app/CoCreateJS/commit/c4e852a54e0186ca10191ec7a86d55a5f9fa5e63))
+* bump dependency @cocreate/render ([c4e852a](https://github.com/CoCreateJS/CoCreateJS/commit/c4e852a54e0186ca10191ec7a86d55a5f9fa5e63))
 
-## [1.14.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.14.1...v1.14.2) (2022-04-30)
+## [1.14.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.14.1...v1.14.2) (2022-04-30)
 
 
 ### Bug Fixes
 
-* bump cursor and text package. contains bugfix related to multiple cursors ([8782066](https://github.com/CoCreate-app/CoCreateJS/commit/87820667b40e8b67272b961e04321f4d9c4cf588))
+* bump cursor and text package. contains bugfix related to multiple cursors ([8782066](https://github.com/CoCreateJS/CoCreateJS/commit/87820667b40e8b67272b961e04321f4d9c4cf588))
 
-## [1.14.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.14.0...v1.14.1) (2022-04-16)
+## [1.14.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.14.0...v1.14.1) (2022-04-16)
 
 
 ### Bug Fixes
 
-* bump cocreate/modal version. ([1ba42ad](https://github.com/CoCreate-app/CoCreateJS/commit/1ba42ad24fe16249b4560d9bbe1717c76055da53))
+* bump cocreate/modal version. ([1ba42ad](https://github.com/CoCreateJS/CoCreateJS/commit/1ba42ad24fe16249b4560d9bbe1717c76055da53))
 
-# [1.14.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.13.6...v1.14.0) (2022-04-15)
+# [1.14.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.13.6...v1.14.0) (2022-04-15)
 
 
 ### Features
 
-* cocreate/render supports rendering object key and value. bump fcocreate/ftch version ([b3d17a7](https://github.com/CoCreate-app/CoCreateJS/commit/b3d17a7f6975e19e7cee0c6f3cbe0424a751f349))
+* cocreate/render supports rendering object key and value. bump fcocreate/ftch version ([b3d17a7](https://github.com/CoCreateJS/CoCreateJS/commit/b3d17a7f6975e19e7cee0c6f3cbe0424a751f349))
 
-## [1.13.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.13.5...v1.13.6) (2022-04-01)
+## [1.13.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.13.5...v1.13.6) (2022-04-01)
 
 
 ### Bug Fixes
 
-* bump crud-client and fetch dependency versions ([fd0af79](https://github.com/CoCreate-app/CoCreateJS/commit/fd0af79533b992069c2a1eb4081f5f1cdf2fb7c4))
+* bump crud-client and fetch dependency versions ([fd0af79](https://github.com/CoCreateJS/CoCreateJS/commit/fd0af79533b992069c2a1eb4081f5f1cdf2fb7c4))
 
-## [1.13.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.13.4...v1.13.5) (2022-03-24)
+## [1.13.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.13.4...v1.13.5) (2022-03-24)
 
 
 ### Bug Fixes
 
-* bump @cocreate/selection version. contains bug fixes related to insertAdjacent positions ([88b6b2e](https://github.com/CoCreate-app/CoCreateJS/commit/88b6b2e5feff0c0784e031c49d5b7f5fad5497bf))
+* bump @cocreate/selection version. contains bug fixes related to insertAdjacent positions ([88b6b2e](https://github.com/CoCreateJS/CoCreateJS/commit/88b6b2e5feff0c0784e031c49d5b7f5fad5497bf))
 
-## [1.13.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.13.3...v1.13.4) (2022-03-22)
+## [1.13.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.13.3...v1.13.4) (2022-03-22)
 
 
 ### Bug Fixes
 
-* removed emit from message.send and message.listen ([eebf409](https://github.com/CoCreate-app/CoCreateJS/commit/eebf4090b7f9018192aff2139690357962d8caa3))
+* removed emit from message.send and message.listen ([eebf409](https://github.com/CoCreateJS/CoCreateJS/commit/eebf4090b7f9018192aff2139690357962d8caa3))
 
-## [1.13.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.13.2...v1.13.3) (2022-03-21)
+## [1.13.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.13.2...v1.13.3) (2022-03-21)
 
 
 ### Bug Fixes
 
-* update class sortable to attribute sortable ([3eb9eca](https://github.com/CoCreate-app/CoCreateJS/commit/3eb9eca41b60612882e9aae236853af6df392153))
-* update dnd lazyload selectors ([02c9afa](https://github.com/CoCreate-app/CoCreateJS/commit/02c9afa3faec47064853bd58f8eb210c7521f459))
+* update class sortable to attribute sortable ([3eb9eca](https://github.com/CoCreateJS/CoCreateJS/commit/3eb9eca41b60612882e9aae236853af6df392153))
+* update dnd lazyload selectors ([02c9afa](https://github.com/CoCreateJS/CoCreateJS/commit/02c9afa3faec47064853bd58f8eb210c7521f459))
 
-## [1.13.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.13.1...v1.13.2) (2022-03-11)
+## [1.13.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.13.1...v1.13.2) (2022-03-11)
 
 
 ### Bug Fixes
 
-* update COCreate-modules to CoCreate-apps ([b3ef983](https://github.com/CoCreate-app/CoCreateJS/commit/b3ef9839db7019b1d7791bdc6811b5843c158b81))
+* update COCreate-modules to CoCreate-apps ([b3ef983](https://github.com/CoCreateJS/CoCreateJS/commit/b3ef9839db7019b1d7791bdc6811b5843c158b81))
 
-## [1.13.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.13.0...v1.13.1) (2022-03-07)
+## [1.13.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.13.0...v1.13.1) (2022-03-07)
 
 
 ### Bug Fixes
 
-* industry collection to industries ([ab26935](https://github.com/CoCreate-app/CoCreateJS/commit/ab26935f460086e3dadd401b0ea6c9d0fd1861f4))
+* industry collection to industries ([ab26935](https://github.com/CoCreateJS/CoCreateJS/commit/ab26935f460086e3dadd401b0ea6c9d0fd1861f4))
 
-# [1.13.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.19...v1.13.0) (2022-03-07)
+# [1.13.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.19...v1.13.0) (2022-03-07)
 
 
 ### Features
 
-* deleteIndustry action to remove industry and related industry documents ([9227a11](https://github.com/CoCreate-app/CoCreateJS/commit/9227a11de90d2c970d37b86644455ee2a710c3c0))
+* deleteIndustry action to remove industry and related industry documents ([9227a11](https://github.com/CoCreateJS/CoCreateJS/commit/9227a11de90d2c970d37b86644455ee2a710c3c0))
 
-## [1.12.19](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.18...v1.12.19) (2022-03-07)
+## [1.12.19](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.18...v1.12.19) (2022-03-07)
 
 
 ### Bug Fixes
 
-* bup versions for element, textand pass components ([b7df248](https://github.com/CoCreate-app/CoCreateJS/commit/b7df2488efe5f9d957c0eb80b787e23f3e6026a4))
+* bup versions for element, textand pass components ([b7df248](https://github.com/CoCreateJS/CoCreateJS/commit/b7df2488efe5f9d957c0eb80b787e23f3e6026a4))
 
-## [1.12.18](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.17...v1.12.18) (2022-02-28)
+## [1.12.18](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.17...v1.12.18) (2022-02-28)
 
 
 ### Bug Fixes
 
-* CoCreate.config replace CoCreate.app with * ([811beb8](https://github.com/CoCreate-app/CoCreateJS/commit/811beb89c52f79e9645e141f0df9df27cc430224))
+* CoCreate.config replace CoCreateJS.com with * ([811beb8](https://github.com/CoCreateJS/CoCreateJS/commit/811beb89c52f79e9645e141f0df9df27cc430224))
 
-## [1.12.17](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.16...v1.12.17) (2022-02-18)
+## [1.12.17](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.16...v1.12.17) (2022-02-18)
 
 
 ### Bug Fixes
 
-* redeploy cdn ([4b40082](https://github.com/CoCreate-app/CoCreateJS/commit/4b40082d13457b755008b00df95bad791e348217))
+* redeploy cdn ([4b40082](https://github.com/CoCreateJS/CoCreateJS/commit/4b40082d13457b755008b00df95bad791e348217))
 
-## [1.12.16](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.15...v1.12.16) (2022-02-18)
+## [1.12.16](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.15...v1.12.16) (2022-02-18)
 
 
 ### Bug Fixes
 
-* removed dependency @cocreate/codemirror ([79c1b84](https://github.com/CoCreate-app/CoCreateJS/commit/79c1b84b44870beb57cbd26f9953b7f765984b7b))
+* removed dependency @cocreate/codemirror ([79c1b84](https://github.com/CoCreateJS/CoCreateJS/commit/79c1b84b44870beb57cbd26f9953b7f765984b7b))
 
-## [1.12.15](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.14...v1.12.15) (2022-02-16)
+## [1.12.15](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.14...v1.12.15) (2022-02-16)
 
 
 ### Bug Fixes
 
-* update action param to name ([82c7a78](https://github.com/CoCreate-app/CoCreateJS/commit/82c7a78df30f4c2232ba4c5097b753a2bfe0a874))
-* update repository.js ([c54dde9](https://github.com/CoCreate-app/CoCreateJS/commit/c54dde9bcc7bff5122d98820e9ae5830c1c936b8))
+* update action param to name ([82c7a78](https://github.com/CoCreateJS/CoCreateJS/commit/82c7a78df30f4c2232ba4c5097b753a2bfe0a874))
+* update repository.js ([c54dde9](https://github.com/CoCreateJS/CoCreateJS/commit/c54dde9bcc7bff5122d98820e9ae5830c1c936b8))
 
-## [1.12.14](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.13...v1.12.14) (2022-02-12)
+## [1.12.14](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.13...v1.12.14) (2022-02-12)
 
 
 ### Bug Fixes
 
-* typo with lazyloader in repositories.js ([1ec970b](https://github.com/CoCreate-app/CoCreateJS/commit/1ec970b4e84bb4cb2d148e9637515892888f47cc))
+* typo with lazyloader in repositories.js ([1ec970b](https://github.com/CoCreateJS/CoCreateJS/commit/1ec970b4e84bb4cb2d148e9637515892888f47cc))
 
-## [1.12.13](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.12...v1.12.13) (2022-02-10)
+## [1.12.13](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.12...v1.12.13) (2022-02-10)
 
 
 ### Bug Fixes
 
-* webpack compile CoCeate.min ([67257ec](https://github.com/CoCreate-app/CoCreateJS/commit/67257ec76d0769689433afc12490e53224787060))
+* webpack compile CoCeate.min ([67257ec](https://github.com/CoCreateJS/CoCreateJS/commit/67257ec76d0769689433afc12490e53224787060))
 
-## [1.12.12](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.11...v1.12.12) (2022-02-10)
+## [1.12.12](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.11...v1.12.12) (2022-02-10)
 
 
 ### Bug Fixes
 
-* filter event bug ([c8dd5ea](https://github.com/CoCreate-app/CoCreateJS/commit/c8dd5ea3964d8faffc23f642241397794b3028c0))
+* filter event bug ([c8dd5ea](https://github.com/CoCreateJS/CoCreateJS/commit/c8dd5ea3964d8faffc23f642241397794b3028c0))
 
-## [1.12.11](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.10...v1.12.11) (2022-02-10)
+## [1.12.11](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.10...v1.12.11) (2022-02-10)
 
 
 ### Bug Fixes
 
-* bump version ([4b6d252](https://github.com/CoCreate-app/CoCreateJS/commit/4b6d2526b4fa59db46425c0c3088c693335b0329))
+* bump version ([4b6d252](https://github.com/CoCreateJS/CoCreateJS/commit/4b6d2526b4fa59db46425c0c3088c693335b0329))
 
-## [1.12.10](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.9...v1.12.10) (2022-02-10)
+## [1.12.10](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.9...v1.12.10) (2022-02-10)
 
 
 ### Bug Fixes
 
-* add css as a dependency ([3fd61a8](https://github.com/CoCreate-app/CoCreateJS/commit/3fd61a8e7aad0b575a9360889126b21e7dc77007))
+* add css as a dependency ([3fd61a8](https://github.com/CoCreateJS/CoCreateJS/commit/3fd61a8e7aad0b575a9360889126b21e7dc77007))
 
-## [1.12.9](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.8...v1.12.9) (2022-02-08)
+## [1.12.9](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.8...v1.12.9) (2022-02-08)
 
 
 ### Bug Fixes
 
-* resolved text bug that caused static value to merge with value returned from db ([90b9f45](https://github.com/CoCreate-app/CoCreateJS/commit/90b9f450be1b139753d73c04ff6b86fcd79e7e0d))
+* resolved text bug that caused static value to merge with value returned from db ([90b9f45](https://github.com/CoCreateJS/CoCreateJS/commit/90b9f450be1b139753d73c04ff6b86fcd79e7e0d))
 
-## [1.12.8](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.7...v1.12.8) (2022-02-07)
+## [1.12.8](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.7...v1.12.8) (2022-02-07)
 
 
 ### Bug Fixes
 
-* bump dependency versions ([4f2c710](https://github.com/CoCreate-app/CoCreateJS/commit/4f2c71010928065f0ada37f7813c89678dcb583b))
+* bump dependency versions ([4f2c710](https://github.com/CoCreateJS/CoCreateJS/commit/4f2c71010928065f0ada37f7813c89678dcb583b))
 
-## [1.12.7](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.6...v1.12.7) (2022-02-07)
+## [1.12.7](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.6...v1.12.7) (2022-02-07)
 
 
 ### Bug Fixes
 
-* crdt duplicate value, filter reset ([3fcf592](https://github.com/CoCreate-app/CoCreateJS/commit/3fcf59255d4d23f825cb5322b9756014d42ecfc5))
+* crdt duplicate value, filter reset ([3fcf592](https://github.com/CoCreateJS/CoCreateJS/commit/3fcf59255d4d23f825cb5322b9756014d42ecfc5))
 
-## [1.12.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.5...v1.12.6) (2022-02-07)
+## [1.12.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.5...v1.12.6) (2022-02-07)
 
 
 ### Bug Fixes
 
-* Bump dnd and utils version ([0d7b315](https://github.com/CoCreate-app/CoCreateJS/commit/0d7b3150d7e7a8ba7dd9f8326256ffa22a878a0e))
+* Bump dnd and utils version ([0d7b315](https://github.com/CoCreateJS/CoCreateJS/commit/0d7b3150d7e7a8ba7dd9f8326256ffa22a878a0e))
 
-## [1.12.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.4...v1.12.5) (2022-02-06)
+## [1.12.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.4...v1.12.5) (2022-02-06)
 
 
 ### Bug Fixes
 
-* bump select and elements versions ([6b6b4d2](https://github.com/CoCreate-app/CoCreateJS/commit/6b6b4d20c341a5410c68a64a144312cc9b3e85f3))
+* bump select and elements versions ([6b6b4d2](https://github.com/CoCreateJS/CoCreateJS/commit/6b6b4d20c341a5410c68a64a144312cc9b3e85f3))
 
-## [1.12.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.3...v1.12.4) (2022-02-06)
+## [1.12.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.3...v1.12.4) (2022-02-06)
 
 
 ### Bug Fixes
 
-* removed preFetch from comonents ([8c58f01](https://github.com/CoCreate-app/CoCreateJS/commit/8c58f01572692e6697c1ff4980c4e355fd642a3e))
+* removed preFetch from comonents ([8c58f01](https://github.com/CoCreateJS/CoCreateJS/commit/8c58f01572692e6697c1ff4980c4e355fd642a3e))
 
-## [1.12.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.2...v1.12.3) (2022-02-04)
+## [1.12.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.2...v1.12.3) (2022-02-04)
 
 
 ### Bug Fixes
 
-* updated notification message to include links for signup and signin if apiKeys are missing ([064ba2c](https://github.com/CoCreate-app/CoCreateJS/commit/064ba2c47e00c3fca5d7a292b754a82dd0bb1979))
+* updated notification message to include links for signup and signin if apiKeys are missing ([064ba2c](https://github.com/CoCreateJS/CoCreateJS/commit/064ba2c47e00c3fca5d7a292b754a82dd0bb1979))
 
-## [1.12.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.1...v1.12.2) (2022-02-03)
+## [1.12.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.1...v1.12.2) (2022-02-03)
 
 
 ### Bug Fixes
 
-* CoCreateCSS hidden attribute display:noneimportant ([08c2f5e](https://github.com/CoCreate-app/CoCreateJS/commit/08c2f5ec633fc2be95de0429fbfb713b9317bdd3))
+* CoCreateCSS hidden attribute display:noneimportant ([08c2f5e](https://github.com/CoCreateJS/CoCreateJS/commit/08c2f5ec633fc2be95de0429fbfb713b9317bdd3))
 
-## [1.12.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.12.0...v1.12.1) (2022-02-03)
+## [1.12.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.12.0...v1.12.1) (2022-02-03)
 
 
 ### Bug Fixes
 
-* replaced show and hide class hidden with attribute hidden ([dd65fca](https://github.com/CoCreate-app/CoCreateJS/commit/dd65fca5705b85ef238a5e40172e43bf64f46f69))
+* replaced show and hide class hidden with attribute hidden ([dd65fca](https://github.com/CoCreateJS/CoCreateJS/commit/dd65fca5705b85ef238a5e40172e43bf64f46f69))
 
-# [1.12.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.11.1...v1.12.0) (2022-01-23)
+# [1.12.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.11.1...v1.12.0) (2022-01-23)
 
 
 ### Features
 
-* fetch-collections attribute to return a list of collections, fetch-collections added to lazyloader selector ([9c35bf1](https://github.com/CoCreate-app/CoCreateJS/commit/9c35bf16b874795a24bea3454c5695d6de6a4206))
+* fetch-collections attribute to return a list of collections, fetch-collections added to lazyloader selector ([9c35bf1](https://github.com/CoCreateJS/CoCreateJS/commit/9c35bf16b874795a24bea3454c5695d6de6a4206))
 
-## [1.11.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.11.0...v1.11.1) (2022-01-22)
+## [1.11.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.11.0...v1.11.1) (2022-01-22)
 
 
 ### Bug Fixes
 
-* added webpackPrefetch: true to components ([26075e4](https://github.com/CoCreate-app/CoCreateJS/commit/26075e4074ee91bea40eab39f2c6671333b93d53))
+* added webpackPrefetch: true to components ([26075e4](https://github.com/CoCreateJS/CoCreateJS/commit/26075e4074ee91bea40eab39f2c6671333b93d53))
 
-# [1.11.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.10.5...v1.11.0) (2022-01-20)
+# [1.11.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.10.5...v1.11.0) (2022-01-20)
 
 
 ### Features
 
-* add @cocreate/lazy-loader ([b4b6add](https://github.com/CoCreate-app/CoCreateJS/commit/b4b6adda87fe2033a03a2ff4fc0482760c067700))
+* add @cocreate/lazy-loader ([b4b6add](https://github.com/CoCreateJS/CoCreateJS/commit/b4b6adda87fe2033a03a2ff4fc0482760c067700))
 
-## [1.10.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.10.4...v1.10.5) (2022-01-20)
+## [1.10.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.10.4...v1.10.5) (2022-01-20)
 
 
 ### Bug Fixes
 
-* updated css lazyload selector ([de24a13](https://github.com/CoCreate-app/CoCreateJS/commit/de24a13f1d9dc2d3c40a62f2c716607eaf43a351))
+* updated css lazyload selector ([de24a13](https://github.com/CoCreateJS/CoCreateJS/commit/de24a13f1d9dc2d3c40a62f2c716607eaf43a351))
 
-## [1.10.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.10.3...v1.10.4) (2022-01-16)
+## [1.10.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.10.3...v1.10.4) (2022-01-16)
 
 
 ### Bug Fixes
 
-* updated saveDocument to save ([98d4dcc](https://github.com/CoCreate-app/CoCreateJS/commit/98d4dcc2b14590bd20b6048f90678c8e1776df33))
+* updated saveDocument to save ([98d4dcc](https://github.com/CoCreateJS/CoCreateJS/commit/98d4dcc2b14590bd20b6048f90678c8e1776df33))
 
-## [1.10.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.10.2...v1.10.3) (2022-01-16)
+## [1.10.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.10.2...v1.10.3) (2022-01-16)
 
 
 ### Bug Fixes
 
-* add yarn lockfile to git ignore ([3c3bd33](https://github.com/CoCreate-app/CoCreateJS/commit/3c3bd334a0df59d0efd502acd46b9042ba54e264))
-* add yarn lockfile to git ignore ([25b78d5](https://github.com/CoCreate-app/CoCreateJS/commit/25b78d5a11e0bc17730fe2ba129de01b7995cc59))
-* no-lockfile ([7bef5f1](https://github.com/CoCreate-app/CoCreateJS/commit/7bef5f10965229890c6f909bc7f6e3c761f8819c))
-* update class overflow:overlay to overflow:auto ([cd39497](https://github.com/CoCreate-app/CoCreateJS/commit/cd39497e74db59bf9b7327abe474ee3007232f5b))
-* upgrade all packages ([d103515](https://github.com/CoCreate-app/CoCreateJS/commit/d103515177dd024b3068b31dcbcadacf6794839d))
-* upgrade packages ([c076113](https://github.com/CoCreate-app/CoCreateJS/commit/c076113076c06b7870b2fafd7a6a66b9d94a3f81))
+* add yarn lockfile to git ignore ([3c3bd33](https://github.com/CoCreateJS/CoCreateJS/commit/3c3bd334a0df59d0efd502acd46b9042ba54e264))
+* add yarn lockfile to git ignore ([25b78d5](https://github.com/CoCreateJS/CoCreateJS/commit/25b78d5a11e0bc17730fe2ba129de01b7995cc59))
+* no-lockfile ([7bef5f1](https://github.com/CoCreateJS/CoCreateJS/commit/7bef5f10965229890c6f909bc7f6e3c761f8819c))
+* update class overflow:overlay to overflow:auto ([cd39497](https://github.com/CoCreateJS/CoCreateJS/commit/cd39497e74db59bf9b7327abe474ee3007232f5b))
+* upgrade all packages ([d103515](https://github.com/CoCreateJS/CoCreateJS/commit/d103515177dd024b3068b31dcbcadacf6794839d))
+* upgrade packages ([c076113](https://github.com/CoCreateJS/CoCreateJS/commit/c076113076c06b7870b2fafd7a6a66b9d94a3f81))
 
-## [1.10.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.10.1...v1.10.2) (2022-01-09)
+## [1.10.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.10.1...v1.10.2) (2022-01-09)
 
 
 ### Bug Fixes
 
-* add @cocreate/remove ([3834aff](https://github.com/CoCreate-app/CoCreateJS/commit/3834affe8529ac11cbd155dcc618785bbb91755d))
+* add @cocreate/remove ([3834aff](https://github.com/CoCreateJS/CoCreateJS/commit/3834affe8529ac11cbd155dcc618785bbb91755d))
 
-## [1.10.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.10.0...v1.10.1) (2022-01-09)
+## [1.10.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.10.0...v1.10.1) (2022-01-09)
 
 
 ### Bug Fixes
 
-* update components and remove commented code ([e1f023d](https://github.com/CoCreate-app/CoCreateJS/commit/e1f023d53874b6b7cd4fc93959d0f38c849a2e32))
+* update components and remove commented code ([e1f023d](https://github.com/CoCreateJS/CoCreateJS/commit/e1f023d53874b6b7cd4fc93959d0f38c849a2e32))
 
-# [1.10.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.27...v1.10.0) (2022-01-02)
+# [1.10.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.27...v1.10.0) (2022-01-02)
 
 
 ### Features
 
-* sperated coreatellogic in to 3 components. link, pass and render-json. removed cocreate/clone and cocreate/render-key ([fc50463](https://github.com/CoCreate-app/CoCreateJS/commit/fc504633be86069007be7174eddd34c352aa6ddf))
+* sperated coreatellogic in to 3 components. link, pass and render-json. removed cocreate/clone and cocreate/render-key ([fc50463](https://github.com/CoCreateJS/CoCreateJS/commit/fc504633be86069007be7174eddd34c352aa6ddf))
 
-## [1.9.27](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.26...v1.9.27) (2022-01-01)
+## [1.9.27](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.26...v1.9.27) (2022-01-01)
 
 
 ### Bug Fixes
 
-* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([0332328](https://github.com/CoCreate-app/CoCreateJS/commit/03323281cbf7d0c1f898ad8d691d344129132555))
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([0332328](https://github.com/CoCreateJS/CoCreateJS/commit/03323281cbf7d0c1f898ad8d691d344129132555))
 
-## [1.9.26](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.25...v1.9.26) (2022-01-01)
+## [1.9.26](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.25...v1.9.26) (2022-01-01)
 
 
 ### Bug Fixes
 
-* merged render-key with render ([888f6d4](https://github.com/CoCreate-app/CoCreateJS/commit/888f6d4f23df77a6011a9f3160bf2a67d5109835))
-* removed data- from attributes ([baf3790](https://github.com/CoCreate-app/CoCreateJS/commit/baf37903cdb7ed476e9389b251a0dbaa513b1bb8))
+* merged render-key with render ([888f6d4](https://github.com/CoCreateJS/CoCreateJS/commit/888f6d4f23df77a6011a9f3160bf2a67d5109835))
+* removed data- from attributes ([baf3790](https://github.com/CoCreateJS/CoCreateJS/commit/baf37903cdb7ed476e9389b251a0dbaa513b1bb8))
 
-## [1.9.25](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.24...v1.9.25) (2021-12-31)
+## [1.9.25](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.24...v1.9.25) (2021-12-31)
 
 
 ### Bug Fixes
 
-* added chart=chartjs as a selector. cleaned demo ([ed76fa8](https://github.com/CoCreate-app/CoCreateJS/commit/ed76fa8f075d6ac9cac64e1fa87d686942bd8e64))
+* added chart=chartjs as a selector. cleaned demo ([ed76fa8](https://github.com/CoCreateJS/CoCreateJS/commit/ed76fa8f075d6ac9cac64e1fa87d686942bd8e64))
 
-## [1.9.24](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.23...v1.9.24) (2021-12-28)
+## [1.9.24](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.23...v1.9.24) (2021-12-28)
 
 
 ### Bug Fixes
 
-* updated description, added set-value as a selector in components.js ([86898a9](https://github.com/CoCreate-app/CoCreateJS/commit/86898a9b90088cb2770fd7788c9e1352778d74ce))
+* updated description, added set-value as a selector in components.js ([86898a9](https://github.com/CoCreateJS/CoCreateJS/commit/86898a9b90088cb2770fd7788c9e1352778d74ce))
 
-## [1.9.23](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.22...v1.9.23) (2021-12-23)
+## [1.9.23](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.22...v1.9.23) (2021-12-23)
 
 
 ### Bug Fixes
 
-* renamed filter-value_type to filter-value-type ([adf1121](https://github.com/CoCreate-app/CoCreateJS/commit/adf11219717c4083d0e17b231f9dfd56632db467))
+* renamed filter-value_type to filter-value-type ([adf1121](https://github.com/CoCreateJS/CoCreateJS/commit/adf11219717c4083d0e17b231f9dfd56632db467))
 
-## [1.9.22](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.21...v1.9.22) (2021-12-20)
+## [1.9.22](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.21...v1.9.22) (2021-12-20)
 
 
 ### Bug Fixes
 
-* add user-management to docs/ and cocreate.config.js ([e906d39](https://github.com/CoCreate-app/CoCreateJS/commit/e906d3968ad02d1e2da7cec28301037aa49ae100))
+* add user-management to docs/ and cocreate.config.js ([e906d39](https://github.com/CoCreateJS/CoCreateJS/commit/e906d3968ad02d1e2da7cec28301037aa49ae100))
 
-## [1.9.21](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.20...v1.9.21) (2021-12-15)
+## [1.9.21](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.20...v1.9.21) (2021-12-15)
 
 
 ### Bug Fixes
 
-* lazyload @cocreate/selections ([3d74e65](https://github.com/CoCreate-app/CoCreateJS/commit/3d74e6573f6c97d182370cb4e46ed3d451de649e))
+* lazyload @cocreate/selections ([3d74e65](https://github.com/CoCreateJS/CoCreateJS/commit/3d74e6573f6c97d182370cb4e46ed3d451de649e))
 
-## [1.9.20](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.19...v1.9.20) (2021-12-02)
+## [1.9.20](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.19...v1.9.20) (2021-12-02)
 
 
 ### Bug Fixes
 
-* update to docs and demos ([639a456](https://github.com/CoCreate-app/CoCreateJS/commit/639a456a46c7e0d3474cfa3eb831ea90bec63aff))
+* update to docs and demos ([639a456](https://github.com/CoCreateJS/CoCreateJS/commit/639a456a46c7e0d3474cfa3eb831ea90bec63aff))
 
-## [1.9.19](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.18...v1.9.19) (2021-11-29)
+## [1.9.19](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.18...v1.9.19) (2021-11-29)
 
 
 ### Bug Fixes
 
-* add templating and logic docs and demo ([0af58b7](https://github.com/CoCreate-app/CoCreateJS/commit/0af58b7cef286892eef7dd7f94cdf3439d14bc49))
+* add templating and logic docs and demo ([0af58b7](https://github.com/CoCreateJS/CoCreateJS/commit/0af58b7cef286892eef7dd7f94cdf3439d14bc49))
 
-## [1.9.18](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.17...v1.9.18) (2021-11-27)
+## [1.9.18](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.17...v1.9.18) (2021-11-27)
 
 
 ### Bug Fixes
 
-* add docs/templating.html ([fab802c](https://github.com/CoCreate-app/CoCreateJS/commit/fab802cbd402a75564eda5dd3d39d55ecba471c8))
+* add docs/templating.html ([fab802c](https://github.com/CoCreateJS/CoCreateJS/commit/fab802cbd402a75564eda5dd3d39d55ecba471c8))
 
-## [1.9.17](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.16...v1.9.17) (2021-11-26)
+## [1.9.17](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.16...v1.9.17) (2021-11-26)
 
 
 ### Bug Fixes
 
-* docs sidenav width ([ebf55a6](https://github.com/CoCreate-app/CoCreateJS/commit/ebf55a6fd5c4595ceb3ef91b027c192a39e9fd42))
-* update docs ([358d701](https://github.com/CoCreate-app/CoCreateJS/commit/358d7012389cb4a9bafd0018d463cb46a96e1991))
-* update menu and order of demos ([7b1074d](https://github.com/CoCreate-app/CoCreateJS/commit/7b1074d4b5e051e940d54ba04b2fa7d6bcdc7134))
-* updated action dependency to actions ([f1358cd](https://github.com/CoCreate-app/CoCreateJS/commit/f1358cd6244b2c84e233d7bde1623fdf5ac388c0))
+* docs sidenav width ([ebf55a6](https://github.com/CoCreateJS/CoCreateJS/commit/ebf55a6fd5c4595ceb3ef91b027c192a39e9fd42))
+* update docs ([358d701](https://github.com/CoCreateJS/CoCreateJS/commit/358d7012389cb4a9bafd0018d463cb46a96e1991))
+* update menu and order of demos ([7b1074d](https://github.com/CoCreateJS/CoCreateJS/commit/7b1074d4b5e051e940d54ba04b2fa7d6bcdc7134))
+* updated action dependency to actions ([f1358cd](https://github.com/CoCreateJS/CoCreateJS/commit/f1358cd6244b2c84e233d7bde1623fdf5ac388c0))
 
-## [1.9.16](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.15...v1.9.16) (2021-11-26)
+## [1.9.16](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.15...v1.9.16) (2021-11-26)
 
 
 ### Bug Fixes
 
-* add demos ([87dcf86](https://github.com/CoCreate-app/CoCreateJS/commit/87dcf86989ad49a682ebfcde1aa4c718240793f1))
+* add demos ([87dcf86](https://github.com/CoCreateJS/CoCreateJS/commit/87dcf86989ad49a682ebfcde1aa4c718240793f1))
 
-## [1.9.15](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.14...v1.9.15) (2021-11-24)
+## [1.9.15](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.14...v1.9.15) (2021-11-24)
 
 
 ### Bug Fixes
 
-* added collaboration demo ([c96cef2](https://github.com/CoCreate-app/CoCreateJS/commit/c96cef2a737fe497ac5a571478a4b55aba06f495))
+* added collaboration demo ([c96cef2](https://github.com/CoCreateJS/CoCreateJS/commit/c96cef2a737fe497ac5a571478a4b55aba06f495))
 
-## [1.9.14](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.13...v1.9.14) (2021-11-23)
+## [1.9.14](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.13...v1.9.14) (2021-11-23)
 
 
 ### Bug Fixes
 
-* add select demo ([ac20a78](https://github.com/CoCreate-app/CoCreateJS/commit/ac20a7868eec22f5c5370d9f6d761d1b5d26ba56))
-* navbar and apikey ([913b9a9](https://github.com/CoCreate-app/CoCreateJS/commit/913b9a9ca99dad39e71c52b04541ebe6b75af01f))
+* add select demo ([ac20a78](https://github.com/CoCreateJS/CoCreateJS/commit/ac20a7868eec22f5c5370d9f6d761d1b5d26ba56))
+* navbar and apikey ([913b9a9](https://github.com/CoCreateJS/CoCreateJS/commit/913b9a9ca99dad39e71c52b04541ebe6b75af01f))
 
-## [1.9.13](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.12...v1.9.13) (2021-11-22)
+## [1.9.13](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.12...v1.9.13) (2021-11-22)
 
 
 ### Bug Fixes
 
-* add demo to doc ([af1a3bb](https://github.com/CoCreate-app/CoCreateJS/commit/af1a3bb2ee4a7e55be1608e17ee02d17d407c4ac))
+* add demo to doc ([af1a3bb](https://github.com/CoCreateJS/CoCreateJS/commit/af1a3bb2ee4a7e55be1608e17ee02d17d407c4ac))
 
-## [1.9.12](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.11...v1.9.12) (2021-11-20)
+## [1.9.12](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.11...v1.9.12) (2021-11-20)
 
 
 ### Bug Fixes
 
-* update docs ([ed442fd](https://github.com/CoCreate-app/CoCreateJS/commit/ed442fd57067e26ee5fb6ded108f0bf8a481e9c3))
+* update docs ([ed442fd](https://github.com/CoCreateJS/CoCreateJS/commit/ed442fd57067e26ee5fb6ded108f0bf8a481e9c3))
 
-## [1.9.11](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.10...v1.9.11) (2021-11-20)
+## [1.9.11](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.10...v1.9.11) (2021-11-20)
 
 
 ### Bug Fixes
 
-* updated script tags and link tags ([8981138](https://github.com/CoCreate-app/CoCreateJS/commit/8981138da9d962030fb5f3bed4dfe992a64b77ff))
+* updated script tags and link tags ([8981138](https://github.com/CoCreateJS/CoCreateJS/commit/8981138da9d962030fb5f3bed4dfe992a64b77ff))
 
-## [1.9.10](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.9...v1.9.10) (2021-11-20)
+## [1.9.10](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.9...v1.9.10) (2021-11-20)
 
 
 ### Bug Fixes
 
-* update action name to animateSignup ([06f46bf](https://github.com/CoCreate-app/CoCreateJS/commit/06f46bfe960a95886eaf9a208570ec4136eb832b))
+* update action name to animateSignup ([06f46bf](https://github.com/CoCreateJS/CoCreateJS/commit/06f46bfe960a95886eaf9a208570ec4136eb832b))
 
-## [1.9.9](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.8...v1.9.9) (2021-11-19)
+## [1.9.9](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.8...v1.9.9) (2021-11-19)
 
 
 ### Bug Fixes
 
-* add signup-animation to repositories.js ([8d4a535](https://github.com/CoCreate-app/CoCreateJS/commit/8d4a53585e96cc4548e08d81d15d7dacbb5d5508))
+* add signup-animation to repositories.js ([8d4a535](https://github.com/CoCreateJS/CoCreateJS/commit/8d4a53585e96cc4548e08d81d15d7dacbb5d5508))
 
-## [1.9.8](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.7...v1.9.8) (2021-11-19)
+## [1.9.8](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.7...v1.9.8) (2021-11-19)
 
 
 ### Bug Fixes
 
-* remove serch-template class from fetch and filter inputs ([5a1c8e3](https://github.com/CoCreate-app/CoCreateJS/commit/5a1c8e369df941cb499fe6a4067d3eb65c5d8f4b))
+* remove serch-template class from fetch and filter inputs ([5a1c8e3](https://github.com/CoCreateJS/CoCreateJS/commit/5a1c8e369df941cb499fe6a4067d3eb65c5d8f4b))
 
-## [1.9.7](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.6...v1.9.7) (2021-11-11)
+## [1.9.7](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.6...v1.9.7) (2021-11-11)
 
 
 ### Bug Fixes
 
-* update readme ([09f451b](https://github.com/CoCreate-app/CoCreateJS/commit/09f451b3c45a4844a242e56910ad09e31d7a1861))
+* update readme ([09f451b](https://github.com/CoCreateJS/CoCreateJS/commit/09f451b3c45a4844a242e56910ad09e31d7a1861))
 
-## [1.9.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.5...v1.9.6) (2021-11-08)
+## [1.9.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.5...v1.9.6) (2021-11-08)
 
 
 ### Bug Fixes
 
-* add @cocreate/google-maps ([34cdca6](https://github.com/CoCreate-app/CoCreateJS/commit/34cdca6ccdf968aab82360eea2d4586e86d7879f))
+* add @cocreate/google-maps ([34cdca6](https://github.com/CoCreateJS/CoCreateJS/commit/34cdca6ccdf968aab82360eea2d4586e86d7879f))
 
-## [1.9.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.4...v1.9.5) (2021-11-08)
+## [1.9.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.4...v1.9.5) (2021-11-08)
 
 
 ### Bug Fixes
 
-* added google-maps ([7231a6c](https://github.com/CoCreate-app/CoCreateJS/commit/7231a6ca7f5adf122daf2d14c47f20b073928351))
+* added google-maps ([7231a6c](https://github.com/CoCreateJS/CoCreateJS/commit/7231a6ca7f5adf122daf2d14c47f20b073928351))
 
-## [1.9.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.3...v1.9.4) (2021-11-07)
+## [1.9.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.3...v1.9.4) (2021-11-07)
 
 
 ### Bug Fixes
 
-* update image path typo in read me ([8faaad5](https://github.com/CoCreate-app/CoCreateJS/commit/8faaad5da25cdffc215086b8b4c54cc93ee3e052))
+* update image path typo in read me ([8faaad5](https://github.com/CoCreateJS/CoCreateJS/commit/8faaad5da25cdffc215086b8b4c54cc93ee3e052))
 
-## [1.9.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.2...v1.9.3) (2021-11-07)
+## [1.9.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.2...v1.9.3) (2021-11-07)
 
 
 ### Bug Fixes
 
-* update image path typo in read me ([9f0957a](https://github.com/CoCreate-app/CoCreateJS/commit/9f0957a5f859ff5641af4c6e2a1b2625556a9a79))
+* update image path typo in read me ([9f0957a](https://github.com/CoCreateJS/CoCreateJS/commit/9f0957a5f859ff5641af4c6e2a1b2625556a9a79))
 
-## [1.9.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.1...v1.9.2) (2021-11-07)
+## [1.9.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.1...v1.9.2) (2021-11-07)
 
 
 ### Bug Fixes
 
-* update image path in read me ([96fe3a5](https://github.com/CoCreate-app/CoCreateJS/commit/96fe3a59c97cac3c1d437fe1d679cd488f708617))
+* update image path in read me ([96fe3a5](https://github.com/CoCreateJS/CoCreateJS/commit/96fe3a59c97cac3c1d437fe1d679cd488f708617))
 
-## [1.9.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.9.0...v1.9.1) (2021-11-04)
+## [1.9.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.9.0...v1.9.1) (2021-11-04)
 
 
 ### Bug Fixes
 
-* update random-color selector ([579a937](https://github.com/CoCreate-app/CoCreateJS/commit/579a937138cc52267d6f103d18c74fe08d9b563d))
+* update random-color selector ([579a937](https://github.com/CoCreateJS/CoCreateJS/commit/579a937138cc52267d6f103d18c74fe08d9b563d))
 
-# [1.9.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.8.6...v1.9.0) (2021-11-01)
+# [1.9.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.8.6...v1.9.0) (2021-11-01)
 
 
 ### Bug Fixes
 
-* remove @cocreate/builder from package.json ([4869223](https://github.com/CoCreate-app/CoCreateJS/commit/4869223777a6a9ecec9a5ea597625f1b017a09d0))
+* remove @cocreate/builder from package.json ([4869223](https://github.com/CoCreateJS/CoCreateJS/commit/4869223777a6a9ecec9a5ea597625f1b017a09d0))
 
 
 ### Features
 
-* removed builder from components.js as it no longer contains any js of its own and was created using various headless components configured using html 5 data attributes... Its officalgit add . A low code framework that can create a collabrative website builder or richtext editor ([5e3ebc7](https://github.com/CoCreate-app/CoCreateJS/commit/5e3ebc7f8f9a5523034ca4069d19ac6c802c3d2d))
+* removed builder from components.js as it no longer contains any js of its own and was created using various headless components configured using html 5 data attributes... Its officalgit add . A low code framework that can create a collabrative website builder or richtext editor ([5e3ebc7](https://github.com/CoCreateJS/CoCreateJS/commit/5e3ebc7f8f9a5523034ca4069d19ac6c802c3d2d))
 
-## [1.8.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.8.5...v1.8.6) (2021-11-01)
+## [1.8.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.8.5...v1.8.6) (2021-11-01)
 
 
 ### Bug Fixes
 
-* add @cocreate/elements ([5935f91](https://github.com/CoCreate-app/CoCreateJS/commit/5935f912b6c7f6b43fdddc0dbad17afdca0f609e))
+* add @cocreate/elements ([5935f91](https://github.com/CoCreateJS/CoCreateJS/commit/5935f912b6c7f6b43fdddc0dbad17afdca0f609e))
 
-## [1.8.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.8.4...v1.8.5) (2021-11-01)
+## [1.8.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.8.4...v1.8.5) (2021-11-01)
 
 
 ### Bug Fixes
 
-* implemented new CRDT. Now able to use the components to create a collabrative website builder or richtext editor ([a4b279c](https://github.com/CoCreate-app/CoCreateJS/commit/a4b279c16403b99e98aca4abd9109b97d4921359))
-* replaced CoCreate-inputs and CoCreate-htmltags with COCreate-elements ([f5780f3](https://github.com/CoCreate-app/CoCreateJS/commit/f5780f3802409059f3324e11a98a4269c0d6e012))
+* implemented new CRDT. Now able to use the components to create a collabrative website builder or richtext editor ([a4b279c](https://github.com/CoCreateJS/CoCreateJS/commit/a4b279c16403b99e98aca4abd9109b97d4921359))
+* replaced CoCreate-inputs and CoCreate-htmltags with COCreate-elements ([f5780f3](https://github.com/CoCreateJS/CoCreateJS/commit/f5780f3802409059f3324e11a98a4269c0d6e012))
 
-## [1.8.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.8.3...v1.8.4) (2021-10-17)
+## [1.8.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.8.3...v1.8.4) (2021-10-17)
 
 
 ### Bug Fixes
 
-* removed createSocket from core.js ([cf8f166](https://github.com/CoCreate-app/CoCreateJS/commit/cf8f1669693d0e23d6e2240593ce90cd5e18e4b6))
+* removed createSocket from core.js ([cf8f166](https://github.com/CoCreateJS/CoCreateJS/commit/cf8f1669693d0e23d6e2240593ce90cd5e18e4b6))
 
-## [1.8.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.8.2...v1.8.3) (2021-10-16)
+## [1.8.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.8.2...v1.8.3) (2021-10-16)
 
 
 ### Bug Fixes
 
-* crud async await ([ec8affd](https://github.com/CoCreate-app/CoCreateJS/commit/ec8affd31ef7830de563d7c643ef40784ab7ea16))
+* crud async await ([ec8affd](https://github.com/CoCreateJS/CoCreateJS/commit/ec8affd31ef7830de563d7c643ef40784ab7ea16))
 
-## [1.8.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.8.1...v1.8.2) (2021-10-15)
+## [1.8.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.8.1...v1.8.2) (2021-10-15)
 
 
 ### Bug Fixes
 
-* add @cocreate/selection ([f7c88a9](https://github.com/CoCreate-app/CoCreateJS/commit/f7c88a94d1d6bfab48b1d02f7b97c35d44402e9f))
+* add @cocreate/selection ([f7c88a9](https://github.com/CoCreateJS/CoCreateJS/commit/f7c88a94d1d6bfab48b1d02f7b97c35d44402e9f))
 
-## [1.8.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.8.0...v1.8.1) (2021-10-15)
+## [1.8.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.8.0...v1.8.1) (2021-10-15)
 
 
 ### Bug Fixes
 
-* update components ([92c3508](https://github.com/CoCreate-app/CoCreateJS/commit/92c3508ca83be8286b0dcba2e73f71d28fb9436f))
+* update components ([92c3508](https://github.com/CoCreateJS/CoCreateJS/commit/92c3508ca83be8286b0dcba2e73f71d28fb9436f))
 
-# [1.8.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.7.2...v1.8.0) (2021-10-14)
+# [1.8.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.7.2...v1.8.0) (2021-10-14)
 
 
 ### Features
 
-* added @cocreate/signup-animation ([4e05b67](https://github.com/CoCreate-app/CoCreateJS/commit/4e05b671d27d7390c1475b970fefe3c2affb934e))
+* added @cocreate/signup-animation ([4e05b67](https://github.com/CoCreateJS/CoCreateJS/commit/4e05b671d27d7390c1475b970fefe3c2affb934e))
 
-## [1.7.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.7.1...v1.7.2) (2021-10-13)
+## [1.7.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.7.1...v1.7.2) (2021-10-13)
 
 
 ### Bug Fixes
 
-* update descriptions ([0f45660](https://github.com/CoCreate-app/CoCreateJS/commit/0f45660c3ca7b114171a4c94e894a6e2ec892e80))
+* update descriptions ([0f45660](https://github.com/CoCreateJS/CoCreateJS/commit/0f45660c3ca7b114171a4c94e894a6e2ec892e80))
 
-## [1.7.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.7.0...v1.7.1) (2021-10-13)
+## [1.7.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.7.0...v1.7.1) (2021-10-13)
 
 
 ### Bug Fixes
 
-* postinstall @cocreate/cli ([a12df43](https://github.com/CoCreate-app/CoCreateJS/commit/a12df43c6909fb81e1d3793c66134f79d94c82fa))
-* update dependencies ([58ecb88](https://github.com/CoCreate-app/CoCreateJS/commit/58ecb88274429088e712404c459d4ee7bc55ba1f))
+* postinstall @cocreate/cli ([a12df43](https://github.com/CoCreateJS/CoCreateJS/commit/a12df43c6909fb81e1d3793c66134f79d94c82fa))
+* update dependencies ([58ecb88](https://github.com/CoCreateJS/CoCreateJS/commit/58ecb88274429088e712404c459d4ee7bc55ba1f))
 
-# [1.7.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.6.0...v1.7.0) (2021-10-13)
+# [1.7.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.6.0...v1.7.0) (2021-10-13)
 
 
 ### Features
 
-* added validation.js to provide form validations ([48315a8](https://github.com/CoCreate-app/CoCreateJS/commit/48315a8972b19a7d67334596556e298c21457237))
+* added validation.js to provide form validations ([48315a8](https://github.com/CoCreateJS/CoCreateJS/commit/48315a8972b19a7d67334596556e298c21457237))
 
-# [1.6.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.5.0...v1.6.0) (2021-10-04)
+# [1.6.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.5.0...v1.6.0) (2021-10-04)
 
 
 ### Features
 
-* @cocreate/element-config ([6a87a7b](https://github.com/CoCreate-app/CoCreateJS/commit/6a87a7b7de28646017180994552ed323f5cce06c))
+* @cocreate/element-config ([6a87a7b](https://github.com/CoCreateJS/CoCreateJS/commit/6a87a7b7de28646017180994552ed323f5cce06c))
 
-# [1.5.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.4.1...v1.5.0) (2021-10-02)
+# [1.5.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.4.1...v1.5.0) (2021-10-02)
 
 
 ### Features
 
-* element-config component ([4f9abe8](https://github.com/CoCreate-app/CoCreateJS/commit/4f9abe89842cb2c9c881602fcfa6a7099646a717))
+* element-config component ([4f9abe8](https://github.com/CoCreateJS/CoCreateJS/commit/4f9abe89842cb2c9c881602fcfa6a7099646a717))
 
-## [1.4.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.4.0...v1.4.1) (2021-10-01)
+## [1.4.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.4.0...v1.4.1) (2021-10-01)
 
 
 ### Bug Fixes
 
-* added crdt and cursor as laztload ([c29d641](https://github.com/CoCreate-app/CoCreateJS/commit/c29d6417b39ae2a1e845054259af1a881b3cce84))
+* added crdt and cursor as laztload ([c29d641](https://github.com/CoCreateJS/CoCreateJS/commit/c29d6417b39ae2a1e845054259af1a881b3cce84))
 
-# [1.4.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.23...v1.4.0) (2021-09-30)
+# [1.4.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.23...v1.4.0) (2021-09-30)
 
 
 ### Features
 
-* rich-text ([b7ac86a](https://github.com/CoCreate-app/CoCreateJS/commit/b7ac86a9e0d6f4a1b241320f01711c628c673907))
+* rich-text ([b7ac86a](https://github.com/CoCreateJS/CoCreateJS/commit/b7ac86a9e0d6f4a1b241320f01711c628c673907))
 
-## [1.3.23](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.22...v1.3.23) (2021-09-28)
+## [1.3.23](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.22...v1.3.23) (2021-09-28)
 
 
 ### Bug Fixes
 
-* updated component.js ([cec4182](https://github.com/CoCreate-app/CoCreateJS/commit/cec418220b928710c4ac83ec50abe17e1b7869d8))
+* updated component.js ([cec4182](https://github.com/CoCreateJS/CoCreateJS/commit/cec418220b928710c4ac83ec50abe17e1b7869d8))
 
-## [1.3.22](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.21...v1.3.22) (2021-09-27)
+## [1.3.22](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.21...v1.3.22) (2021-09-27)
 
 
 ### Bug Fixes
 
-* update packages ([f22e1d9](https://github.com/CoCreate-app/CoCreateJS/commit/f22e1d905244bf52d1b16184a59262a70274bd48))
+* update packages ([f22e1d9](https://github.com/CoCreateJS/CoCreateJS/commit/f22e1d905244bf52d1b16184a59262a70274bd48))
 
-## [1.3.21](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.20...v1.3.21) (2021-09-14)
+## [1.3.21](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.20...v1.3.21) (2021-09-14)
 
 
 ### Bug Fixes
 
-* add cocreate.app to domains ([e5a6344](https://github.com/CoCreate-app/CoCreateJS/commit/e5a6344b02f638a205bd9fd443d9b64e1f807f70))
+* add CoCreateJS.com to domains ([e5a6344](https://github.com/CoCreateJS/CoCreateJS/commit/e5a6344b02f638a205bd9fd443d9b64e1f807f70))
 
-## [1.3.20](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.19...v1.3.20) (2021-09-13)
+## [1.3.20](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.19...v1.3.20) (2021-09-13)
 
 
 ### Bug Fixes
 
-* update sidenav ([87145e5](https://github.com/CoCreate-app/CoCreateJS/commit/87145e5b24cb506486e9d2c01f6a02d1a03ebefc))
+* update sidenav ([87145e5](https://github.com/CoCreateJS/CoCreateJS/commit/87145e5b24cb506486e9d2c01f6a02d1a03ebefc))
 
-## [1.3.19](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.18...v1.3.19) (2021-09-12)
+## [1.3.19](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.18...v1.3.19) (2021-09-12)
 
 
 ### Bug Fixes
 
-* remove sidenav dependency. has bee replaced by resize and toggle ([4622c71](https://github.com/CoCreate-app/CoCreateJS/commit/4622c713c5d54afdbe263783d499a83ae80bf112))
+* remove sidenav dependency. has bee replaced by resize and toggle ([4622c71](https://github.com/CoCreateJS/CoCreateJS/commit/4622c713c5d54afdbe263783d499a83ae80bf112))
 
-## [1.3.18](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.17...v1.3.18) (2021-09-09)
+## [1.3.18](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.17...v1.3.18) (2021-09-09)
 
 
 ### Bug Fixes
 
-* update dependency @cocreate/docs ([2cef8ca](https://github.com/CoCreate-app/CoCreateJS/commit/2cef8ca8ae009bde96767600c0e1f0ed8c7d1506))
+* update dependency @cocreate/docs ([2cef8ca](https://github.com/CoCreateJS/CoCreateJS/commit/2cef8ca8ae009bde96767600c0e1f0ed8c7d1506))
 
-## [1.3.17](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.16...v1.3.17) (2021-09-08)
+## [1.3.17](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.16...v1.3.17) (2021-09-08)
 
 
 ### Bug Fixes
 
-* update dependencies ([9d588a9](https://github.com/CoCreate-app/CoCreateJS/commit/9d588a924698676bb8e0e9f5aecb83bdab3d8f9f))
+* update dependencies ([9d588a9](https://github.com/CoCreateJS/CoCreateJS/commit/9d588a924698676bb8e0e9f5aecb83bdab3d8f9f))
 
-## [1.3.16](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.15...v1.3.16) (2021-09-07)
+## [1.3.16](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.15...v1.3.16) (2021-09-07)
 
 
 ### Bug Fixes
 
-* update @cocreate/dnd @cocreate/vdom @cocreate/builder ([b541273](https://github.com/CoCreate-app/CoCreateJS/commit/b5412737127e234dcb26d8fa7fcb57ec5ca5b85d))
+* update @cocreate/dnd @cocreate/vdom @cocreate/builder ([b541273](https://github.com/CoCreateJS/CoCreateJS/commit/b5412737127e234dcb26d8fa7fcb57ec5ca5b85d))
 
-## [1.3.15](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.14...v1.3.15) (2021-09-05)
+## [1.3.15](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.14...v1.3.15) (2021-09-05)
 
 
 ### Bug Fixes
 
-* update dependencies ([e284d05](https://github.com/CoCreate-app/CoCreateJS/commit/e284d0572c43aa8e10c7854b1ee7d620d6d4c660))
+* update dependencies ([e284d05](https://github.com/CoCreateJS/CoCreateJS/commit/e284d0572c43aa8e10c7854b1ee7d620d6d4c660))
 
-## [1.3.14](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.13...v1.3.14) (2021-09-04)
+## [1.3.14](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.13...v1.3.14) (2021-09-04)
 
 
 ### Bug Fixes
 
-* builder's attribute dependency path ([16850ab](https://github.com/CoCreate-app/CoCreateJS/commit/16850ab62f9a575c7600f97ebabd1b7382fca719))
+* builder's attribute dependency path ([16850ab](https://github.com/CoCreateJS/CoCreateJS/commit/16850ab62f9a575c7600f97ebabd1b7382fca719))
 
-## [1.3.13](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.12...v1.3.13) (2021-09-04)
+## [1.3.13](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.12...v1.3.13) (2021-09-04)
 
 
 ### Bug Fixes
 
-* update dependencies ([39ef636](https://github.com/CoCreate-app/CoCreateJS/commit/39ef636761d59d2801a2416246d725378c9c2950))
+* update dependencies ([39ef636](https://github.com/CoCreateJS/CoCreateJS/commit/39ef636761d59d2801a2416246d725378c9c2950))
 
-## [1.3.12](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.11...v1.3.12) (2021-08-31)
+## [1.3.12](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.11...v1.3.12) (2021-08-31)
 
 
 ### Bug Fixes
 
-* update dependencies ([8564710](https://github.com/CoCreate-app/CoCreateJS/commit/856471062af40e74038a75dfd2e6952be6e8c56c))
+* update dependencies ([8564710](https://github.com/CoCreateJS/CoCreateJS/commit/856471062af40e74038a75dfd2e6952be6e8c56c))
 
-## [1.3.11](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.10...v1.3.11) (2021-08-27)
+## [1.3.11](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.10...v1.3.11) (2021-08-27)
 
 
 ### Bug Fixes
 
-* update dependencies ([dc9b59e](https://github.com/CoCreate-app/CoCreateJS/commit/dc9b59e03efb6d9d0a95af127243b63917c8248e))
+* update dependencies ([dc9b59e](https://github.com/CoCreateJS/CoCreateJS/commit/dc9b59e03efb6d9d0a95af127243b63917c8248e))
 
-## [1.3.10](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.9...v1.3.10) (2021-08-23)
+## [1.3.10](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.9...v1.3.10) (2021-08-23)
 
 
 ### Bug Fixes
 
-* removed data- from sidenav, clone, and filter ([b2304f3](https://github.com/CoCreate-app/CoCreateJS/commit/b2304f35835e92f57c4612860cf17ee2f1d7ca4f))
+* removed data- from sidenav, clone, and filter ([b2304f3](https://github.com/CoCreateJS/CoCreateJS/commit/b2304f35835e92f57c4612860cf17ee2f1d7ca4f))
 
-## [1.3.9](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.8...v1.3.9) (2021-08-22)
+## [1.3.9](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.8...v1.3.9) (2021-08-22)
 
 
 ### Bug Fixes
 
-* bump package versions ([36553ff](https://github.com/CoCreate-app/CoCreateJS/commit/36553ff8a1d0c606fd8b8fb16342e35ff9f87c98))
+* bump package versions ([36553ff](https://github.com/CoCreateJS/CoCreateJS/commit/36553ff8a1d0c606fd8b8fb16342e35ff9f87c98))
 
-## [1.3.8](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.7...v1.3.8) (2021-08-16)
+## [1.3.8](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.7...v1.3.8) (2021-08-16)
 
 
 ### Bug Fixes
 
-* remove deadcode ([2dfc348](https://github.com/CoCreate-app/CoCreateJS/commit/2dfc348cc055726c5af92adbff92db39d87c8ba5))
-* remove save.js ([81d31ef](https://github.com/CoCreate-app/CoCreateJS/commit/81d31efd5bef518eb093298a11627d1e96570a1f))
+* remove deadcode ([2dfc348](https://github.com/CoCreateJS/CoCreateJS/commit/2dfc348cc055726c5af92adbff92db39d87c8ba5))
+* remove save.js ([81d31ef](https://github.com/CoCreateJS/CoCreateJS/commit/81d31efd5bef518eb093298a11627d1e96570a1f))
 
-## [1.3.7](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.6...v1.3.7) (2021-08-14)
+## [1.3.7](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.6...v1.3.7) (2021-08-14)
 
 
 ### Bug Fixes
 
-* remove data- from element_id ([34c4bce](https://github.com/CoCreate-app/CoCreateJS/commit/34c4bceaf1a937831de4a42e08a7547bfb7812ca))
-* remove quill-adder ([cdc6071](https://github.com/CoCreate-app/CoCreateJS/commit/cdc6071946f3ef29dff1b540896ed78a1c7124db))
-* removed data- from attribute ([64d2727](https://github.com/CoCreate-app/CoCreateJS/commit/64d27272b50d83f4ce28bdc219d389ab5538a9b8))
+* remove data- from element_id ([34c4bce](https://github.com/CoCreateJS/CoCreateJS/commit/34c4bceaf1a937831de4a42e08a7547bfb7812ca))
+* remove quill-adder ([cdc6071](https://github.com/CoCreateJS/CoCreateJS/commit/cdc6071946f3ef29dff1b540896ed78a1c7124db))
+* removed data- from attribute ([64d2727](https://github.com/CoCreateJS/CoCreateJS/commit/64d27272b50d83f4ce28bdc219d389ab5538a9b8))
 
-## [1.3.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.5...v1.3.6) (2021-08-12)
+## [1.3.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.5...v1.3.6) (2021-08-12)
 
 
 ### Bug Fixes
 
-* test workflow ([f9d1af1](https://github.com/CoCreate-app/CoCreateJS/commit/f9d1af1567fc8b2e3e6939d3a98ba595807a46a8))
+* test workflow ([f9d1af1](https://github.com/CoCreateJS/CoCreateJS/commit/f9d1af1567fc8b2e3e6939d3a98ba595807a46a8))
 
-## [1.3.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.4...v1.3.5) (2021-08-12)
+## [1.3.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.4...v1.3.5) (2021-08-12)
 
 
 ### Bug Fixes
 
-* removed contenteditable component ([e1128ed](https://github.com/CoCreate-app/CoCreateJS/commit/e1128ed9a83f71290ee608cb98c58afeddee5120))
+* removed contenteditable component ([e1128ed](https://github.com/CoCreateJS/CoCreateJS/commit/e1128ed9a83f71290ee608cb98c58afeddee5120))
 
-## [1.3.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.3...v1.3.4) (2021-08-02)
+## [1.3.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.3...v1.3.4) (2021-08-02)
 
 
 ### Bug Fixes
 
-* cocreate text and input ([8eab533](https://github.com/CoCreate-app/CoCreateJS/commit/8eab5338190945a5e9fbc944802349d55125ec42))
+* cocreate text and input ([8eab533](https://github.com/CoCreateJS/CoCreateJS/commit/8eab5338190945a5e9fbc944802349d55125ec42))
 
-## [1.3.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.2...v1.3.3) (2021-08-02)
+## [1.3.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.2...v1.3.3) (2021-08-02)
 
 
 ### Bug Fixes
 
-* remove data- from lazyloader selectors ([b71ecd6](https://github.com/CoCreate-app/CoCreateJS/commit/b71ecd6ed9b500a36b0da016b2a1497dca0fe6a1))
+* remove data- from lazyloader selectors ([b71ecd6](https://github.com/CoCreateJS/CoCreateJS/commit/b71ecd6ed9b500a36b0da016b2a1497dca0fe6a1))
 
-## [1.3.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.1...v1.3.2) (2021-07-28)
+## [1.3.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.1...v1.3.2) (2021-07-28)
 
 
 ### Bug Fixes
 
-* create new build ([7a8002c](https://github.com/CoCreate-app/CoCreateJS/commit/7a8002cd081a3b8bba340cf2ca7fc57ae3c48e9b))
+* create new build ([7a8002c](https://github.com/CoCreateJS/CoCreateJS/commit/7a8002cd081a3b8bba340cf2ca7fc57ae3c48e9b))
 
-## [1.3.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.3.0...v1.3.1) (2021-07-28)
+## [1.3.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.3.0...v1.3.1) (2021-07-28)
 
 
 ### Bug Fixes
 
-* improve coctreate text lazyload query ([7fb88cd](https://github.com/CoCreate-app/CoCreateJS/commit/7fb88cd1872a48e7da1a641b6e05c09151e1f8b2))
+* improve coctreate text lazyload query ([7fb88cd](https://github.com/CoCreateJS/CoCreateJS/commit/7fb88cd1872a48e7da1a641b6e05c09151e1f8b2))
 
-# [1.3.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.2.1...v1.3.0) (2021-07-28)
+# [1.3.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.2.1...v1.3.0) (2021-07-28)
 
 
 ### Features
 
-* add new is{attribute} system and remove data- from attributtes ([78fa269](https://github.com/CoCreate-app/CoCreateJS/commit/78fa269ea421908629b664a5c421396b67af0397))
+* add new is{attribute} system and remove data- from attributtes ([78fa269](https://github.com/CoCreateJS/CoCreateJS/commit/78fa269ea421908629b664a5c421396b67af0397))
 
-## [1.2.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.2.0...v1.2.1) (2021-07-22)
+## [1.2.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.2.0...v1.2.1) (2021-07-22)
 
 
 ### Bug Fixes
 
-* config generated from local storage ([44e47a1](https://github.com/CoCreate-app/CoCreateJS/commit/44e47a1c53f84fdf2e01bad6ea7fc261aad4af37))
+* config generated from local storage ([44e47a1](https://github.com/CoCreateJS/CoCreateJS/commit/44e47a1c53f84fdf2e01bad6ea7fc261aad4af37))
 
-# [1.2.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.57...v1.2.0) (2021-07-17)
+# [1.2.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.57...v1.2.0) (2021-07-17)
 
 
 ### Bug Fixes
 
-* asa ([b8672fc](https://github.com/CoCreate-app/CoCreateJS/commit/b8672fc58c07da29c2f263cd5444b6498d9e06c5))
-* init and update demos scripts ([d00f44a](https://github.com/CoCreate-app/CoCreateJS/commit/d00f44a5e620a464c9311d8340af410d0b758b6a))
-* workflows ([b83d9a7](https://github.com/CoCreate-app/CoCreateJS/commit/b83d9a792fb436171e1bf59894fe00ff64c5ad53))
+* asa ([b8672fc](https://github.com/CoCreateJS/CoCreateJS/commit/b8672fc58c07da29c2f263cd5444b6498d9e06c5))
+* init and update demos scripts ([d00f44a](https://github.com/CoCreateJS/CoCreateJS/commit/d00f44a5e620a464c9311d8340af410d0b758b6a))
+* workflows ([b83d9a7](https://github.com/CoCreateJS/CoCreateJS/commit/b83d9a792fb436171e1bf59894fe00ff64c5ad53))
 
 
 ### Features
 
-* lazy load and remove component after observer ([d8b54ea](https://github.com/CoCreate-app/CoCreateJS/commit/d8b54ea991a709b3df08f5fad92cd6ea160d3ea1))
+* lazy load and remove component after observer ([d8b54ea](https://github.com/CoCreateJS/CoCreateJS/commit/d8b54ea991a709b3df08f5fad92cd6ea160d3ea1))
 
-## [1.1.58](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.57...v1.1.58) (2021-07-17)
+## [1.1.58](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.57...v1.1.58) (2021-07-17)
 
 
 ### Bug Fixes
 
-* asa ([b8672fc](https://github.com/CoCreate-app/CoCreateJS/commit/b8672fc58c07da29c2f263cd5444b6498d9e06c5))
-* init and update demos scripts ([d00f44a](https://github.com/CoCreate-app/CoCreateJS/commit/d00f44a5e620a464c9311d8340af410d0b758b6a))
-* workflows ([b83d9a7](https://github.com/CoCreate-app/CoCreateJS/commit/b83d9a792fb436171e1bf59894fe00ff64c5ad53))
+* asa ([b8672fc](https://github.com/CoCreateJS/CoCreateJS/commit/b8672fc58c07da29c2f263cd5444b6498d9e06c5))
+* init and update demos scripts ([d00f44a](https://github.com/CoCreateJS/CoCreateJS/commit/d00f44a5e620a464c9311d8340af410d0b758b6a))
+* workflows ([b83d9a7](https://github.com/CoCreateJS/CoCreateJS/commit/b83d9a792fb436171e1bf59894fe00ff64c5ad53))
 
-## [1.1.61](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.60...v1.1.61) (2021-07-14)
+## [1.1.61](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.60...v1.1.61) (2021-07-14)
 
 
 ### Bug Fixes
 
-* upgrade all packages ([d103515](https://github.com/CoCreate-app/CoCreateJS/commit/d103515177dd024b3068b31dcbcadacf6794839d))
+* upgrade all packages ([d103515](https://github.com/CoCreateJS/CoCreateJS/commit/d103515177dd024b3068b31dcbcadacf6794839d))
 
-## [1.1.60](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.59...v1.1.60) (2021-07-13)
+## [1.1.60](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.59...v1.1.60) (2021-07-13)
 
 
 ### Bug Fixes
 
-* add yarn lockfile to git ignore ([3c3bd33](https://github.com/CoCreate-app/CoCreateJS/commit/3c3bd334a0df59d0efd502acd46b9042ba54e264))
-* add yarn lockfile to git ignore ([25b78d5](https://github.com/CoCreate-app/CoCreateJS/commit/25b78d5a11e0bc17730fe2ba129de01b7995cc59))
+* add yarn lockfile to git ignore ([3c3bd33](https://github.com/CoCreateJS/CoCreateJS/commit/3c3bd334a0df59d0efd502acd46b9042ba54e264))
+* add yarn lockfile to git ignore ([25b78d5](https://github.com/CoCreateJS/CoCreateJS/commit/25b78d5a11e0bc17730fe2ba129de01b7995cc59))
 
-## [1.1.59](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.58...v1.1.59) (2021-07-13)
+## [1.1.59](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.58...v1.1.59) (2021-07-13)
 
 
 ### Bug Fixes
 
-* no-lockfile ([7bef5f1](https://github.com/CoCreate-app/CoCreateJS/commit/7bef5f10965229890c6f909bc7f6e3c761f8819c))
+* no-lockfile ([7bef5f1](https://github.com/CoCreateJS/CoCreateJS/commit/7bef5f10965229890c6f909bc7f6e3c761f8819c))
 
-## [1.1.58](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.57...v1.1.58) (2021-07-13)
+## [1.1.58](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.57...v1.1.58) (2021-07-13)
 
 
 ### Bug Fixes
 
-* upgrade packages ([c076113](https://github.com/CoCreate-app/CoCreateJS/commit/c076113076c06b7870b2fafd7a6a66b9d94a3f81))
+* upgrade packages ([c076113](https://github.com/CoCreateJS/CoCreateJS/commit/c076113076c06b7870b2fafd7a6a66b9d94a3f81))
 
-## [1.1.57](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.56...v1.1.57) (2021-07-10)
+## [1.1.57](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.56...v1.1.57) (2021-07-10)
 
 
 ### Bug Fixes
 
-* gitignore all logs ([59eeaa0](https://github.com/CoCreate-app/CoCreateJS/commit/59eeaa0ed58312338ec75b6f348b2e94318daf56))
+* gitignore all logs ([59eeaa0](https://github.com/CoCreateJS/CoCreateJS/commit/59eeaa0ed58312338ec75b6f348b2e94318daf56))
 
-## [1.1.56](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.55...v1.1.56) (2021-07-08)
+## [1.1.56](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.55...v1.1.56) (2021-07-08)
 
 
 ### Bug Fixes
 
-* manual workflow ([c79cb83](https://github.com/CoCreate-app/CoCreateJS/commit/c79cb837de1e5da15f86097cf4b60668e950e9fe))
+* manual workflow ([c79cb83](https://github.com/CoCreateJS/CoCreateJS/commit/c79cb837de1e5da15f86097cf4b60668e950e9fe))
 
-## [1.1.55](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.54...v1.1.55) (2021-07-07)
+## [1.1.55](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.54...v1.1.55) (2021-07-07)
 
 
 ### Bug Fixes
 
-* update package versions ([d551832](https://github.com/CoCreate-app/CoCreateJS/commit/d5518320aa9b8df14b5a3b9c403ee6bbfdf2882c))
+* update package versions ([d551832](https://github.com/CoCreateJS/CoCreateJS/commit/d5518320aa9b8df14b5a3b9c403ee6bbfdf2882c))
 
-## [1.1.54](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.53...v1.1.54) (2021-07-04)
+## [1.1.54](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.53...v1.1.54) (2021-07-04)
 
 
 ### Bug Fixes
 
-* use host url as default socket url ([c5049be](https://github.com/CoCreate-app/CoCreateJS/commit/c5049be9fbf8b341a6fa344ce0292348ace643fd))
+* use host url as default socket url ([c5049be](https://github.com/CoCreateJS/CoCreateJS/commit/c5049be9fbf8b341a6fa344ce0292348ace643fd))
 
-## [1.1.53](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.52...v1.1.53) (2021-07-02)
+## [1.1.53](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.52...v1.1.53) (2021-07-02)
 
 
 ### Bug Fixes
 
-* postinstall cli ([f809605](https://github.com/CoCreate-app/CoCreateJS/commit/f809605d36a2aa9cf230d9c2e1a4a35a2b1b79e9))
+* postinstall cli ([f809605](https://github.com/CoCreateJS/CoCreateJS/commit/f809605d36a2aa9cf230d9c2e1a4a35a2b1b79e9))
 
-## [1.1.52](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.51...v1.1.52) (2021-07-01)
+## [1.1.52](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.51...v1.1.52) (2021-07-01)
 
 
 ### Bug Fixes
 
-* test work flow ([77d3e60](https://github.com/CoCreate-app/CoCreateJS/commit/77d3e60a38091d4b434d7eb08e48978531ba47d4))
+* test work flow ([77d3e60](https://github.com/CoCreateJS/CoCreateJS/commit/77d3e60a38091d4b434d7eb08e48978531ba47d4))
 
-## [1.1.51](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.50...v1.1.51) (2021-07-01)
+## [1.1.51](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.50...v1.1.51) (2021-07-01)
 
 
 ### Bug Fixes
 
-* test deployment ([b43f125](https://github.com/CoCreate-app/CoCreateJS/commit/b43f125ad213dec424ebcd16b3915a327e23ba04))
+* test deployment ([b43f125](https://github.com/CoCreateJS/CoCreateJS/commit/b43f125ad213dec424ebcd16b3915a327e23ba04))
 
-## [1.1.50](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.49...v1.1.50) (2021-06-30)
+## [1.1.50](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.49...v1.1.50) (2021-06-30)
 
 
 ### Bug Fixes
 
-* Update readme.md ([55785c1](https://github.com/CoCreate-app/CoCreateJS/commit/55785c175e505f3c84b7191a6c6fc86c0640d376))
+* Update readme.md ([55785c1](https://github.com/CoCreateJS/CoCreateJS/commit/55785c175e505f3c84b7191a6c6fc86c0640d376))
 
-## [1.1.49](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.48...v1.1.49) (2021-06-29)
+## [1.1.49](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.48...v1.1.49) (2021-06-29)
 
 
 ### Bug Fixes
 
-* test deployment ([8aadd5d](https://github.com/CoCreate-app/CoCreateJS/commit/8aadd5db38e732a14a31fe30680043364bcc3e99))
+* test deployment ([8aadd5d](https://github.com/CoCreateJS/CoCreateJS/commit/8aadd5db38e732a14a31fe30680043364bcc3e99))
 
-## [1.1.48](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.47...v1.1.48) (2021-06-29)
+## [1.1.48](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.47...v1.1.48) (2021-06-29)
 
 
 ### Bug Fixes
 
-* test deployment ([7df62c4](https://github.com/CoCreate-app/CoCreateJS/commit/7df62c43b90c101947aa64b4967e4da55fea9eef))
+* test deployment ([7df62c4](https://github.com/CoCreateJS/CoCreateJS/commit/7df62c43b90c101947aa64b4967e4da55fea9eef))
 
-## [1.1.47](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.46...v1.1.47) (2021-06-29)
+## [1.1.47](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.46...v1.1.47) (2021-06-29)
 
 
 ### Bug Fixes
 
-* test automated deployment ([ad47aee](https://github.com/CoCreate-app/CoCreateJS/commit/ad47aeed608494c6df53101833ce374eb49f4c50))
+* test automated deployment ([ad47aee](https://github.com/CoCreateJS/CoCreateJS/commit/ad47aeed608494c6df53101833ce374eb49f4c50))
 
-## [1.1.46](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.45...v1.1.46) (2021-06-29)
+## [1.1.46](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.45...v1.1.46) (2021-06-29)
 
 
 ### Bug Fixes
 
-* test deployment ([2b61c32](https://github.com/CoCreate-app/CoCreateJS/commit/2b61c32fbc42c8c6aaa090fdf0924f978fa5092d))
+* test deployment ([2b61c32](https://github.com/CoCreateJS/CoCreateJS/commit/2b61c32fbc42c8c6aaa090fdf0924f978fa5092d))
 
-## [1.1.45](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.44...v1.1.45) (2021-06-29)
+## [1.1.45](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.44...v1.1.45) (2021-06-29)
 
 
 ### Bug Fixes
 
-* serverside and clientside render intergrations ([1c09f7a](https://github.com/CoCreate-app/CoCreateJS/commit/1c09f7a1b42b13014edfb6051dfda7ccfb9bc146))
+* serverside and clientside render intergrations ([1c09f7a](https://github.com/CoCreateJS/CoCreateJS/commit/1c09f7a1b42b13014edfb6051dfda7ccfb9bc146))
 
-## [1.1.44](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.43...v1.1.44) (2021-06-29)
+## [1.1.44](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.43...v1.1.44) (2021-06-29)
 
 
 ### Bug Fixes
 
-* add logger utility ([234bfc8](https://github.com/CoCreate-app/CoCreateJS/commit/234bfc855c84f5dd0ca1e0d59989defab7a39f4f))
+* add logger utility ([234bfc8](https://github.com/CoCreateJS/CoCreateJS/commit/234bfc855c84f5dd0ca1e0d59989defab7a39f4f))
 
-## [1.1.43](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.42...v1.1.43) (2021-06-25)
+## [1.1.43](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.42...v1.1.43) (2021-06-25)
 
 
 ### Bug Fixes
 
-* latest version numbers applied to all cocreate packages ([da15d6e](https://github.com/CoCreate-app/CoCreateJS/commit/da15d6ea38db43107e709ff5f6906cb512a71586))
+* latest version numbers applied to all cocreate packages ([da15d6e](https://github.com/CoCreateJS/CoCreateJS/commit/da15d6ea38db43107e709ff5f6906cb512a71586))
 
-## [1.1.42](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.41...v1.1.42) (2021-06-24)
+## [1.1.42](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.41...v1.1.42) (2021-06-24)
 
 
 ### Bug Fixes
 
-* package versioningto 1.0.0 ([fe2b9c6](https://github.com/CoCreate-app/CoCreateJS/commit/fe2b9c63fead6a1680c9c50051a595d8cf30dcb4))
+* package versioningto 1.0.0 ([fe2b9c6](https://github.com/CoCreateJS/CoCreateJS/commit/fe2b9c63fead6a1680c9c50051a595d8cf30dcb4))
 
-## [1.1.41](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.40...v1.1.41) (2021-06-24)
+## [1.1.41](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.40...v1.1.41) (2021-06-24)
 
 
 ### Bug Fixes
 
-* add method to turn on and off console.log while in development ([72dbe06](https://github.com/CoCreate-app/CoCreateJS/commit/72dbe064b45669a6f71ea942a87e79efd9e44d1d))
-* update all [@cocreate](https://github.com/cocreate) to use latest versions ([1760438](https://github.com/CoCreate-app/CoCreateJS/commit/176043821fc0ef0b4bcae238be3fb6882b9f15d4))
+* add method to turn on and off console.log while in development ([72dbe06](https://github.com/CoCreateJS/CoCreateJS/commit/72dbe064b45669a6f71ea942a87e79efd9e44d1d))
+* update all [@cocreate](https://github.com/cocreate) to use latest versions ([1760438](https://github.com/CoCreateJS/CoCreateJS/commit/176043821fc0ef0b4bcae238be3fb6882b9f15d4))
 
-## [1.1.40](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.39...v1.1.40) (2021-06-23)
+## [1.1.40](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.39...v1.1.40) (2021-06-23)
 
 
 ### Bug Fixes
 
-* update packge version to latest ([6148ce8](https://github.com/CoCreate-app/CoCreateJS/commit/6148ce8d895b02a9b0bb80d5bc2eb7810ecd2b10))
+* update packge version to latest ([6148ce8](https://github.com/CoCreateJS/CoCreateJS/commit/6148ce8d895b02a9b0bb80d5bc2eb7810ecd2b10))
 
-## [1.1.39](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.38...v1.1.39) (2021-06-23)
+## [1.1.39](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.38...v1.1.39) (2021-06-23)
 
 
 ### Bug Fixes
 
-* update to new crud.save and crud.read ([250775e](https://github.com/CoCreate-app/CoCreateJS/commit/250775e3e7bb9cc61e9afd08af1f2721ecc56d5a))
+* update to new crud.save and crud.read ([250775e](https://github.com/CoCreateJS/CoCreateJS/commit/250775e3e7bb9cc61e9afd08af1f2721ecc56d5a))
 
-## [1.1.38](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.37...v1.1.38) (2021-06-20)
+## [1.1.38](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.37...v1.1.38) (2021-06-20)
 
 
 ### Bug Fixes
 
-* new mutaionObserver init function ([1c8962c](https://github.com/CoCreate-app/CoCreateJS/commit/1c8962c4274a222d06daab250dc750a4dfd1bec4))
+* new mutaionObserver init function ([1c8962c](https://github.com/CoCreateJS/CoCreateJS/commit/1c8962c4274a222d06daab250dc750a4dfd1bec4))
 
-## [1.1.37](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.36...v1.1.37) (2021-06-17)
+## [1.1.37](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.36...v1.1.37) (2021-06-17)
 
 
 ### Bug Fixes
 
-* added header for seo ([6fbe45f](https://github.com/CoCreate-app/CoCreateJS/commit/6fbe45fb06e08691112101258146e38d97c8620e))
-* package.json syntax error ([d589878](https://github.com/CoCreate-app/CoCreateJS/commit/d589878a825e4454ba53aef3593c6435526311d4))
+* added header for seo ([6fbe45f](https://github.com/CoCreateJS/CoCreateJS/commit/6fbe45fb06e08691112101258146e38d97c8620e))
+* package.json syntax error ([d589878](https://github.com/CoCreateJS/CoCreateJS/commit/d589878a825e4454ba53aef3593c6435526311d4))
 
-## [1.1.36](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.35...v1.1.36) (2021-06-08)
+## [1.1.36](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.35...v1.1.36) (2021-06-08)
 
 
 ### Bug Fixes
 
-* lazyLoad ([3420e33](https://github.com/CoCreate-app/CoCreateJS/commit/3420e33e839785553a69eccb763f550383c5f6e2))
+* lazyLoad ([3420e33](https://github.com/CoCreateJS/CoCreateJS/commit/3420e33e839785553a69eccb763f550383c5f6e2))
 
-## [1.1.35](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.34...v1.1.35) (2021-06-08)
+## [1.1.35](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.34...v1.1.35) (2021-06-08)
 
 
 ### Bug Fixes
 
-* update names for readability ([7b1fb07](https://github.com/CoCreate-app/CoCreateJS/commit/7b1fb0793c7c2e587c89c71147085f6615004d03))
+* update names for readability ([7b1fb07](https://github.com/CoCreateJS/CoCreateJS/commit/7b1fb0793c7c2e587c89c71147085f6615004d03))
 
-## [1.1.34](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.33...v1.1.34) (2021-06-07)
+## [1.1.34](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.33...v1.1.34) (2021-06-07)
 
 
 ### Bug Fixes
 
-* test deployment ([3ce1144](https://github.com/CoCreate-app/CoCreateJS/commit/3ce1144412fa125ee74297ce9bd2331aaf01f6f5))
-* test deployment ([e8911e9](https://github.com/CoCreate-app/CoCreateJS/commit/e8911e92ea19af5a5df158573303b6230af98fea))
+* test deployment ([3ce1144](https://github.com/CoCreateJS/CoCreateJS/commit/3ce1144412fa125ee74297ce9bd2331aaf01f6f5))
+* test deployment ([e8911e9](https://github.com/CoCreateJS/CoCreateJS/commit/e8911e92ea19af5a5df158573303b6230af98fea))
 
-## [1.1.33](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.32...v1.1.33) (2021-06-07)
+## [1.1.33](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.32...v1.1.33) (2021-06-07)
 
 
 ### Bug Fixes
 
-* test deployment ([0b63278](https://github.com/CoCreate-app/CoCreateJS/commit/0b63278f9fdf5480fe9d11f396c7de2702a6f89f))
+* test deployment ([0b63278](https://github.com/CoCreateJS/CoCreateJS/commit/0b63278f9fdf5480fe9d11f396c7de2702a6f89f))
 
-## [1.1.32](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.31...v1.1.32) (2021-06-07)
+## [1.1.32](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.31...v1.1.32) (2021-06-07)
 
 
 ### Bug Fixes
 
-* adding manual deployment ([2cff7af](https://github.com/CoCreate-app/CoCreateJS/commit/2cff7af953e9d9588b5dc2888289830c015d59e9))
+* adding manual deployment ([2cff7af](https://github.com/CoCreateJS/CoCreateJS/commit/2cff7af953e9d9588b5dc2888289830c015d59e9))
 
-## [1.1.31](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.30...v1.1.31) (2021-06-07)
+## [1.1.31](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.30...v1.1.31) (2021-06-07)
 
 
 ### Bug Fixes
 
-* update package.json to use @cocreate/packagename latest ([b78ce71](https://github.com/CoCreate-app/CoCreateJS/commit/b78ce71de678a09fbce1e47a732ce51a27f874fd))
+* update package.json to use @cocreate/packagename latest ([b78ce71](https://github.com/CoCreateJS/CoCreateJS/commit/b78ce71de678a09fbce1e47a732ce51a27f874fd))
 
-## [1.1.30](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.29...v1.1.30) (2021-06-06)
+## [1.1.30](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.29...v1.1.30) (2021-06-06)
 
 
 ### Bug Fixes
 
-* remove dom-to-text ([7b5cdbd](https://github.com/CoCreate-app/CoCreateJS/commit/7b5cdbdc6b377e0bae39c66d20cbb2201096ce06))
+* remove dom-to-text ([7b5cdbd](https://github.com/CoCreateJS/CoCreateJS/commit/7b5cdbdc6b377e0bae39c66d20cbb2201096ce06))
 
-## [1.1.29](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.28...v1.1.29) (2021-06-06)
+## [1.1.29](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.28...v1.1.29) (2021-06-06)
 
 
 ### Bug Fixes
 
-* remove console.js ([2aa50e1](https://github.com/CoCreate-app/CoCreateJS/commit/2aa50e181dce194c88a8e0148416d9ed4c769328))
+* remove console.js ([2aa50e1](https://github.com/CoCreateJS/CoCreateJS/commit/2aa50e181dce194c88a8e0148416d9ed4c769328))
 
-## [1.1.28](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.27...v1.1.28) (2021-06-06)
+## [1.1.28](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.27...v1.1.28) (2021-06-06)
 
 
 ### Bug Fixes
 
-* Invalidations for cdn ([db801a8](https://github.com/CoCreate-app/CoCreateJS/commit/db801a834966dda6436069aea9f0e9b37f2f7882))
+* Invalidations for cdn ([db801a8](https://github.com/CoCreateJS/CoCreateJS/commit/db801a834966dda6436069aea9f0e9b37f2f7882))
 
-## [1.1.27](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.26...v1.1.27) (2021-05-08)
+## [1.1.27](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.26...v1.1.27) (2021-05-08)
 
 
 ### Bug Fixes
 
-* add css auto parse and save to docs. ([84d8390](https://github.com/CoCreate-app/CoCreateJS/commit/84d8390b79316f0988b565d2f19ffc0f11240207))
+* add css auto parse and save to docs. ([84d8390](https://github.com/CoCreateJS/CoCreateJS/commit/84d8390b79316f0988b565d2f19ffc0f11240207))
 
-## [1.1.26](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.25...v1.1.26) (2021-04-27)
+## [1.1.26](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.25...v1.1.26) (2021-04-27)
 
 
 ### Bug Fixes
 
-* add host in docs ([75fc2e8](https://github.com/CoCreate-app/CoCreateJS/commit/75fc2e87da20743538391efb4fbd33c56088cb90))
+* add host in docs ([75fc2e8](https://github.com/CoCreateJS/CoCreateJS/commit/75fc2e87da20743538391efb4fbd33c56088cb90))
 
-## [1.1.25](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.24...v1.1.25) (2021-04-27)
+## [1.1.25](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.24...v1.1.25) (2021-04-27)
 
 
 ### Bug Fixes
 
-* Update to readme, demo, added cdn scripts ([aaed666](https://github.com/CoCreate-app/CoCreateJS/commit/aaed666a4dc9e59d1ac1967a874eb492f51897d6))
+* Update to readme, demo, added cdn scripts ([aaed666](https://github.com/CoCreateJS/CoCreateJS/commit/aaed666a4dc9e59d1ac1967a874eb492f51897d6))
 
-## [1.1.24](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.23...v1.1.24) (2021-04-27)
+## [1.1.24](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.23...v1.1.24) (2021-04-27)
 
 
 ### Bug Fixes
 
-* test ci ([5a46fa4](https://github.com/CoCreate-app/CoCreateJS/commit/5a46fa4bf37f0905e835427c232284ec20270ea7))
+* test ci ([5a46fa4](https://github.com/CoCreateJS/CoCreateJS/commit/5a46fa4bf37f0905e835427c232284ec20270ea7))
 
-## [1.1.23](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.22...v1.1.23) (2021-04-27)
+## [1.1.23](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.22...v1.1.23) (2021-04-27)
 
 
 ### Bug Fixes
 
-* test ci ([11e2cab](https://github.com/CoCreate-app/CoCreateJS/commit/11e2cabc551fdb005029ccb96ad59ed8ea7268cf))
+* test ci ([11e2cab](https://github.com/CoCreateJS/CoCreateJS/commit/11e2cabc551fdb005029ccb96ad59ed8ea7268cf))
 
-## [1.1.22](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.21...v1.1.22) (2021-04-27)
+## [1.1.22](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.21...v1.1.22) (2021-04-27)
 
 
 ### Bug Fixes
 
-* test ci ([c54a8c3](https://github.com/CoCreate-app/CoCreateJS/commit/c54a8c3ae7aa49cbf133e111d3956c323043cd5c))
+* test ci ([c54a8c3](https://github.com/CoCreateJS/CoCreateJS/commit/c54a8c3ae7aa49cbf133e111d3956c323043cd5c))
 
-## [1.1.21](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.20...v1.1.21) (2021-04-27)
+## [1.1.21](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.20...v1.1.21) (2021-04-27)
 
 
 ### Bug Fixes
 
-* test ci ([6cb0762](https://github.com/CoCreate-app/CoCreateJS/commit/6cb0762bb4f7ffb0de26e49c091723584b2282dd))
+* test ci ([6cb0762](https://github.com/CoCreateJS/CoCreateJS/commit/6cb0762bb4f7ffb0de26e49c091723584b2282dd))
 
-## [1.1.20](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.19...v1.1.20) (2021-04-27)
+## [1.1.20](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.19...v1.1.20) (2021-04-27)
 
 
 ### Bug Fixes
 
-* test ci ([f1792ed](https://github.com/CoCreate-app/CoCreateJS/commit/f1792ed375ed88cef0f59ed39d5457c9e4ea66f6))
+* test ci ([f1792ed](https://github.com/CoCreateJS/CoCreateJS/commit/f1792ed375ed88cef0f59ed39d5457c9e4ea66f6))
 
-## [1.1.19](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.18...v1.1.19) (2021-04-26)
+## [1.1.19](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.18...v1.1.19) (2021-04-26)
 
 
 ### Bug Fixes
 
-* test deploy with fontawesome ([23ee989](https://github.com/CoCreate-app/CoCreateJS/commit/23ee989dd2c9261f5b03a0ee0bc98777247c28db))
+* test deploy with fontawesome ([23ee989](https://github.com/CoCreateJS/CoCreateJS/commit/23ee989dd2c9261f5b03a0ee0bc98777247c28db))
 
-## [1.1.18](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.17...v1.1.18) (2021-04-26)
+## [1.1.18](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.17...v1.1.18) (2021-04-26)
 
 
 ### Bug Fixes
 
-* test deploy with fontawesome ([35d805d](https://github.com/CoCreate-app/CoCreateJS/commit/35d805de05934f48c821e08587ee5ba97e196201))
+* test deploy with fontawesome ([35d805d](https://github.com/CoCreateJS/CoCreateJS/commit/35d805de05934f48c821e08587ee5ba97e196201))
 
-## [1.1.17](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.16...v1.1.17) (2021-04-26)
+## [1.1.17](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.16...v1.1.17) (2021-04-26)
 
 
 ### Bug Fixes
 
-* test deploy with fontawesome ([f720a11](https://github.com/CoCreate-app/CoCreateJS/commit/f720a113dca2bf1dc26c0c1c7452ad29e7055020))
+* test deploy with fontawesome ([f720a11](https://github.com/CoCreateJS/CoCreateJS/commit/f720a113dca2bf1dc26c0c1c7452ad29e7055020))
 
-## [1.1.16](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.15...v1.1.16) (2021-04-26)
+## [1.1.16](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.15...v1.1.16) (2021-04-26)
 
 
 ### Bug Fixes
 
-* min file ([949fd3f](https://github.com/CoCreate-app/CoCreateJS/commit/949fd3fec1c11da5b52e6c73da0371970dbf28c3))
+* min file ([949fd3f](https://github.com/CoCreateJS/CoCreateJS/commit/949fd3fec1c11da5b52e6c73da0371970dbf28c3))
 
-## [1.1.15](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.14...v1.1.15) (2021-04-26)
+## [1.1.15](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.14...v1.1.15) (2021-04-26)
 
 
 ### Bug Fixes
 
-* crud permissions ([c13d35f](https://github.com/CoCreate-app/CoCreateJS/commit/c13d35f3267aed4be4aa74d8e22560117bb5865e))
+* crud permissions ([c13d35f](https://github.com/CoCreateJS/CoCreateJS/commit/c13d35f3267aed4be4aa74d8e22560117bb5865e))
 
-## [1.1.14](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.13...v1.1.14) (2021-04-25)
+## [1.1.14](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.13...v1.1.14) (2021-04-25)
 
 
 ### Bug Fixes
 
-* add missing social share dependencies ([32dc7a9](https://github.com/CoCreate-app/CoCreateJS/commit/32dc7a9dc7778545e32882d9e8390fe0fd2f82ae))
+* add missing social share dependencies ([32dc7a9](https://github.com/CoCreateJS/CoCreateJS/commit/32dc7a9dc7778545e32882d9e8390fe0fd2f82ae))
 
-## [1.1.13](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.12...v1.1.13) (2021-04-25)
+## [1.1.13](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.12...v1.1.13) (2021-04-25)
 
 
 ### Bug Fixes
 
-* upgrade dependancies and fixed a few minor bugs ([c231b34](https://github.com/CoCreate-app/CoCreateJS/commit/c231b3438f4e16178c609aa2399e0235b4ea1137))
+* upgrade dependancies and fixed a few minor bugs ([c231b34](https://github.com/CoCreateJS/CoCreateJS/commit/c231b3438f4e16178c609aa2399e0235b4ea1137))
 
-## [1.1.12](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.11...v1.1.12) (2021-04-24)
+## [1.1.12](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.11...v1.1.12) (2021-04-24)
 
 
 ### Bug Fixes
 
-* add missing google auth dependency ([b4c6fce](https://github.com/CoCreate-app/CoCreateJS/commit/b4c6fce532f75018814b5d55b3333026eaae220d))
+* add missing google auth dependency ([b4c6fce](https://github.com/CoCreateJS/CoCreateJS/commit/b4c6fce532f75018814b5d55b3333026eaae220d))
 
-## [1.1.11](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.10...v1.1.11) (2021-04-24)
+## [1.1.11](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.10...v1.1.11) (2021-04-24)
 
 
 ### Bug Fixes
 
-* updated docs template and added more plugins ([5772a32](https://github.com/CoCreate-app/CoCreateJS/commit/5772a3292d20fe0bec1538df4cdd823fc720beb1))
+* updated docs template and added more plugins ([5772a32](https://github.com/CoCreateJS/CoCreateJS/commit/5772a3292d20fe0bec1538df4cdd823fc720beb1))
 
-## [1.1.10](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.9...v1.1.10) (2021-04-23)
+## [1.1.10](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.9...v1.1.10) (2021-04-23)
 
 
 ### Bug Fixes
 
-* readme and documentation. Removed securitykeys ([be5e7dc](https://github.com/CoCreate-app/CoCreateJS/commit/be5e7dc6dd5c137608a9a1cb8d05dfd8e9ee6959))
+* readme and documentation. Removed securitykeys ([be5e7dc](https://github.com/CoCreateJS/CoCreateJS/commit/be5e7dc6dd5c137608a9a1cb8d05dfd8e9ee6959))
 
-## [1.1.9](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.8...v1.1.9) (2021-04-23)
+## [1.1.9](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.8...v1.1.9) (2021-04-23)
 
 
 ### Bug Fixes
 
-* removed googleauth as it is breaking build ([af599a3](https://github.com/CoCreate-app/CoCreateJS/commit/af599a3b492fd996c4bca7c77159ea6816ef1083))
+* removed googleauth as it is breaking build ([af599a3](https://github.com/CoCreateJS/CoCreateJS/commit/af599a3b492fd996c4bca7c77159ea6816ef1083))
 
-## [1.1.8](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.7...v1.1.8) (2021-04-23)
+## [1.1.8](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.7...v1.1.8) (2021-04-23)
 
 
 ### Bug Fixes
 
-* test ci ([656b845](https://github.com/CoCreate-app/CoCreateJS/commit/656b845a938bf02386f2f8f0dbe84a8275a5362a))
+* test ci ([656b845](https://github.com/CoCreateJS/CoCreateJS/commit/656b845a938bf02386f2f8f0dbe84a8275a5362a))
 
-## [1.1.7](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.6...v1.1.7) (2021-04-23)
+## [1.1.7](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.6...v1.1.7) (2021-04-23)
 
 
 ### Bug Fixes
 
-* social share lazyload selector ([6710f13](https://github.com/CoCreate-app/CoCreateJS/commit/6710f13e2e9dcb1264fffe2216c0c7f4d75a2713))
+* social share lazyload selector ([6710f13](https://github.com/CoCreateJS/CoCreateJS/commit/6710f13e2e9dcb1264fffe2216c0c7f4d75a2713))
 
-## [1.1.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.5...v1.1.6) (2021-04-22)
+## [1.1.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.5...v1.1.6) (2021-04-22)
 
 
 ### Bug Fixes
 
-* hover lazyload selector added ([982512b](https://github.com/CoCreate-app/CoCreateJS/commit/982512baadabb8b7222c2f5cd1fd1d2cc0576468))
+* hover lazyload selector added ([982512b](https://github.com/CoCreateJS/CoCreateJS/commit/982512baadabb8b7222c2f5cd1fd1d2cc0576468))
 
-## [1.1.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.4...v1.1.5) (2021-04-22)
+## [1.1.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.4...v1.1.5) (2021-04-22)
 
 
 ### Bug Fixes
 
-* css package parser bug resolved ([1c963b8](https://github.com/CoCreate-app/CoCreateJS/commit/1c963b8ad0b614e7124d6f0bff527e111885a3e9))
+* css package parser bug resolved ([1c963b8](https://github.com/CoCreateJS/CoCreateJS/commit/1c963b8ad0b614e7124d6f0bff527e111885a3e9))
 
-## [1.1.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.3...v1.1.4) (2021-04-22)
+## [1.1.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.3...v1.1.4) (2021-04-22)
 
 
 ### Bug Fixes
 
-* add @cocreate/fonte-awesome package ([af30b63](https://github.com/CoCreate-app/CoCreateJS/commit/af30b630eb508ba659bfd89b0e1db496cff76407))
+* add @cocreate/fonte-awesome package ([af30b63](https://github.com/CoCreateJS/CoCreateJS/commit/af30b630eb508ba659bfd89b0e1db496cff76407))
 
-## [1.1.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.2...v1.1.3) (2021-04-22)
+## [1.1.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.2...v1.1.3) (2021-04-22)
 
 
 ### Bug Fixes
 
-* packge dependencies ([f375e88](https://github.com/CoCreate-app/CoCreateJS/commit/f375e883221c8533a9fcd5b5993a6c8ac10266d4))
+* packge dependencies ([f375e88](https://github.com/CoCreateJS/CoCreateJS/commit/f375e883221c8533a9fcd5b5993a6c8ac10266d4))
 
-## [1.1.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.1...v1.1.2) (2021-04-22)
+## [1.1.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.1...v1.1.2) (2021-04-22)
 
 
 ### Bug Fixes
 
-* readme and deply to cdn ([f800eff](https://github.com/CoCreate-app/CoCreateJS/commit/f800effe7f02c613e05ec50de552526e83b90bc9))
+* readme and deply to cdn ([f800eff](https://github.com/CoCreateJS/CoCreateJS/commit/f800effe7f02c613e05ec50de552526e83b90bc9))
 
-## [1.1.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.1.0...v1.1.1) (2021-04-22)
+## [1.1.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.1.0...v1.1.1) (2021-04-22)
 
 
 ### Bug Fixes
 
-* add google-auth package ([3bf00b4](https://github.com/CoCreate-app/CoCreateJS/commit/3bf00b4b66a30c217a612bb86203ba72cc355d56))
+* add google-auth package ([3bf00b4](https://github.com/CoCreateJS/CoCreateJS/commit/3bf00b4b66a30c217a612bb86203ba72cc355d56))
 
-# [1.1.0](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.20...v1.1.0) (2021-04-22)
+# [1.1.0](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.20...v1.1.0) (2021-04-22)
 
 
 ### Features
 
-* add prism, stripe, sendgrid plugin ([051cd87](https://github.com/CoCreate-app/CoCreateJS/commit/051cd8711023d6565714b2cee21f0a18da342af0))
+* add prism, stripe, sendgrid plugin ([051cd87](https://github.com/CoCreateJS/CoCreateJS/commit/051cd8711023d6565714b2cee21f0a18da342af0))
 
-## [1.0.20](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.19...v1.0.20) (2021-04-19)
+## [1.0.20](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.19...v1.0.20) (2021-04-19)
 
 
 ### Bug Fixes
 
-* ci and build process ([9e31ef5](https://github.com/CoCreate-app/CoCreateJS/commit/9e31ef5211d76b3e267a4586c6bc3914299620ca))
-* npm publish and cdn deployment ([c43f2b4](https://github.com/CoCreate-app/CoCreateJS/commit/c43f2b4e1f2cac96651c58823ca6ceeb482f387c))
+* ci and build process ([9e31ef5](https://github.com/CoCreateJS/CoCreateJS/commit/9e31ef5211d76b3e267a4586c6bc3914299620ca))
+* npm publish and cdn deployment ([c43f2b4](https://github.com/CoCreateJS/CoCreateJS/commit/c43f2b4e1f2cac96651c58823ca6ceeb482f387c))
 
-## [1.0.19](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.18...v1.0.19) (2021-04-12)
+## [1.0.19](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.18...v1.0.19) (2021-04-12)
 
 
 ### Bug Fixes
 
-* add message-client ([9e8b452](https://github.com/CoCreate-app/CoCreateJS/commit/9e8b452ee779d3fcae28f4faf1f1e613a9303452))
+* add message-client ([9e8b452](https://github.com/CoCreateJS/CoCreateJS/commit/9e8b452ee779d3fcae28f4faf1f1e613a9303452))
 
-## [1.0.18](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.17...v1.0.18) (2021-04-12)
+## [1.0.18](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.17...v1.0.18) (2021-04-12)
 
 
 ### Bug Fixes
 
-* add message-client ([09662da](https://github.com/CoCreate-app/CoCreateJS/commit/09662daa8104b5502d84393cb560b8dc1c9f1582))
+* add message-client ([09662da](https://github.com/CoCreateJS/CoCreateJS/commit/09662daa8104b5502d84393cb560b8dc1c9f1582))
 
-## [1.0.17](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.16...v1.0.17) (2021-04-12)
+## [1.0.17](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.16...v1.0.17) (2021-04-12)
 
 
 ### Bug Fixes
 
-* credintials for ci deployment ([7f7c2f6](https://github.com/CoCreate-app/CoCreateJS/commit/7f7c2f63970c291c5bb8e3ef27a7eacb151f98bf))
+* credintials for ci deployment ([7f7c2f6](https://github.com/CoCreateJS/CoCreateJS/commit/7f7c2f63970c291c5bb8e3ef27a7eacb151f98bf))
 
-## [1.0.16](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.15...v1.0.16) (2021-04-12)
+## [1.0.16](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.15...v1.0.16) (2021-04-12)
 
 
 ### Bug Fixes
 
-* deploy latest ([d7509b6](https://github.com/CoCreate-app/CoCreateJS/commit/d7509b64e6f3d5982ead61bfe219053ff6b1da95))
+* deploy latest ([d7509b6](https://github.com/CoCreateJS/CoCreateJS/commit/d7509b64e6f3d5982ead61bfe219053ff6b1da95))
 
-## [1.0.15](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.14...v1.0.15) (2021-04-03)
+## [1.0.15](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.14...v1.0.15) (2021-04-03)
 
 
 ### Bug Fixes
 
-* ci ([193e8a6](https://github.com/CoCreate-app/CoCreateJS/commit/193e8a6528d2dc0931df7ca56998128512807e80))
-* Css mime working when deployed to cdn ([7457123](https://github.com/CoCreate-app/CoCreateJS/commit/74571233dc276ec93d8c1889e99aef24d9f02d24))
+* ci ([193e8a6](https://github.com/CoCreateJS/CoCreateJS/commit/193e8a6528d2dc0931df7ca56998128512807e80))
+* Css mime working when deployed to cdn ([7457123](https://github.com/CoCreateJS/CoCreateJS/commit/74571233dc276ec93d8c1889e99aef24d9f02d24))
 
-## [1.0.14](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.13...v1.0.14) (2021-04-03)
+## [1.0.14](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.13...v1.0.14) (2021-04-03)
 
 
 ### Bug Fixes
 
-* css mime ([499051b](https://github.com/CoCreate-app/CoCreateJS/commit/499051be72c9d2a4702c5a329462bb00a495de69))
+* css mime ([499051b](https://github.com/CoCreateJS/CoCreateJS/commit/499051be72c9d2a4702c5a329462bb00a495de69))
 
-## [1.0.13](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.12...v1.0.13) (2021-04-03)
+## [1.0.13](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.12...v1.0.13) (2021-04-03)
 
 
 ### Bug Fixes
 
-* css mime ([7c9f265](https://github.com/CoCreate-app/CoCreateJS/commit/7c9f2654190325d1eece6a63b3fc11cd1a97a7aa))
+* css mime ([7c9f265](https://github.com/CoCreateJS/CoCreateJS/commit/7c9f2654190325d1eece6a63b3fc11cd1a97a7aa))
 
-## [1.0.12](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.11...v1.0.12) (2021-04-02)
+## [1.0.12](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.11...v1.0.12) (2021-04-02)
 
 
 ### Bug Fixes
 
-* production build ([70cd2cd](https://github.com/CoCreate-app/CoCreateJS/commit/70cd2cdaf64a3745dffb1a50d8a6df8606f9cc99))
-* production build ([d3bdd79](https://github.com/CoCreate-app/CoCreateJS/commit/d3bdd7944d882dbea1177ad1e0cfd8e0ba702886))
+* production build ([70cd2cd](https://github.com/CoCreateJS/CoCreateJS/commit/70cd2cdaf64a3745dffb1a50d8a6df8606f9cc99))
+* production build ([d3bdd79](https://github.com/CoCreateJS/CoCreateJS/commit/d3bdd7944d882dbea1177ad1e0cfd8e0ba702886))
 
-## [1.0.11](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.10...v1.0.11) (2021-04-02)
+## [1.0.11](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.10...v1.0.11) (2021-04-02)
 
 
 ### Bug Fixes
 
-* production compile ([7878fca](https://github.com/CoCreate-app/CoCreateJS/commit/7878fca1947b40b83763905e7196fa5f4caa3e4d))
+* production compile ([7878fca](https://github.com/CoCreateJS/CoCreateJS/commit/7878fca1947b40b83763905e7196fa5f4caa3e4d))
 
-## [1.0.10](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.9...v1.0.10) (2021-04-02)
+## [1.0.10](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.9...v1.0.10) (2021-04-02)
 
 
 ### Bug Fixes
 
-* Replace @cocreate/socket with socket-client ([2ea2791](https://github.com/CoCreate-app/CoCreateJS/commit/2ea27910a49d1d582338d56dd48f0a96c5fc5b64))
+* Replace @cocreate/socket with socket-client ([2ea2791](https://github.com/CoCreateJS/CoCreateJS/commit/2ea27910a49d1d582338d56dd48f0a96c5fc5b64))
 
-## [1.0.9](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.8...v1.0.9) (2021-04-01)
+## [1.0.9](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.8...v1.0.9) (2021-04-01)
 
 
 ### Bug Fixes
 
-* css upload with mime type ([dbc8f8d](https://github.com/CoCreate-app/CoCreateJS/commit/dbc8f8d1dcaf378272915f3c4a08854aa9c10d01))
+* css upload with mime type ([dbc8f8d](https://github.com/CoCreateJS/CoCreateJS/commit/dbc8f8d1dcaf378272915f3c4a08854aa9c10d01))
 
-## [1.0.8](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.7...v1.0.8) (2021-04-01)
+## [1.0.8](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.7...v1.0.8) (2021-04-01)
 
 
 ### Bug Fixes
 
-* mime type for cdn ([83caad7](https://github.com/CoCreate-app/CoCreateJS/commit/83caad7259309322ffc961bbac2a135427699752))
+* mime type for cdn ([83caad7](https://github.com/CoCreateJS/CoCreateJS/commit/83caad7259309322ffc961bbac2a135427699752))
 
-## [1.0.7](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.6...v1.0.7) (2021-04-01)
+## [1.0.7](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.6...v1.0.7) (2021-04-01)
 
 
 ### Bug Fixes
 
-* css compile ([c4df6f4](https://github.com/CoCreate-app/CoCreateJS/commit/c4df6f42fabd082af22a0d011bf95d020b1ec487))
+* css compile ([c4df6f4](https://github.com/CoCreateJS/CoCreateJS/commit/c4df6f42fabd082af22a0d011bf95d020b1ec487))
 
-## [1.0.6](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.5...v1.0.6) (2021-04-01)
+## [1.0.6](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.5...v1.0.6) (2021-04-01)
 
 
 ### Bug Fixes
 
-* css bundle improvements ([e3d7905](https://github.com/CoCreate-app/CoCreateJS/commit/e3d7905c662ea2e47ad5ec737b88ee362915718d))
+* css bundle improvements ([e3d7905](https://github.com/CoCreateJS/CoCreateJS/commit/e3d7905c662ea2e47ad5ec737b88ee362915718d))
 
-## [1.0.5](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.4...v1.0.5) (2021-04-01)
+## [1.0.5](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.4...v1.0.5) (2021-04-01)
 
 
 ### Bug Fixes
 
-* ci work flow ([3164b76](https://github.com/CoCreate-app/CoCreateJS/commit/3164b762e28900273e46065e950a823f9b877174))
+* ci work flow ([3164b76](https://github.com/CoCreateJS/CoCreateJS/commit/3164b762e28900273e46065e950a823f9b877174))
 
-## [1.0.4](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.3...v1.0.4) (2021-04-01)
+## [1.0.4](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.3...v1.0.4) (2021-04-01)
 
 
 ### Bug Fixes
 
-* css bundle ([41d9563](https://github.com/CoCreate-app/CoCreateJS/commit/41d9563000e55b0befa5baa3fc6c42a37c5db067))
+* css bundle ([41d9563](https://github.com/CoCreateJS/CoCreateJS/commit/41d9563000e55b0befa5baa3fc6c42a37c5db067))
 
-## [1.0.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.2...v1.0.3) (2021-03-31)
+## [1.0.3](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.2...v1.0.3) (2021-03-31)
 
 
 ### Bug Fixes
 
-* css mime type not loading ([6817f0f](https://github.com/CoCreate-app/CoCreateJS/commit/6817f0f3ae58c14ab493de45ee135a85e9dfcc52))
+* css mime type not loading ([6817f0f](https://github.com/CoCreateJS/CoCreateJS/commit/6817f0f3ae58c14ab493de45ee135a85e9dfcc52))
 
-## [1.0.2](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.1...v1.0.2) (2021-03-31)
+## [1.0.2](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.1...v1.0.2) (2021-03-31)
 
 
 ### Bug Fixes
 
-* production build ([f0037ec](https://github.com/CoCreate-app/CoCreateJS/commit/f0037ecefdcce7e06338f691f2f6f2465701b9b0))
+* production build ([f0037ec](https://github.com/CoCreateJS/CoCreateJS/commit/f0037ecefdcce7e06338f691f2f6f2465701b9b0))
 
-## [1.0.1](https://github.com/CoCreate-app/CoCreateJS/compare/v1.0.0...v1.0.1) (2021-03-30)
+## [1.0.1](https://github.com/CoCreateJS/CoCreateJS/compare/v1.0.0...v1.0.1) (2021-03-30)
 
 
 ### Bug Fixes
 
-* main src/index.js ([9f3954a](https://github.com/CoCreate-app/CoCreateJS/commit/9f3954ad761d86a5740eac127d745ea0afd83646))
-* workflow automation ([de5faa0](https://github.com/CoCreate-app/CoCreateJS/commit/de5faa04da1f90656cd6a5df1fc926c3f97e48d6))
+* main src/index.js ([9f3954a](https://github.com/CoCreateJS/CoCreateJS/commit/9f3954ad761d86a5740eac127d745ea0afd83646))
+* workflow automation ([de5faa0](https://github.com/CoCreateJS/CoCreateJS/commit/de5faa04da1f90656cd6a5df1fc926c3f97e48d6))
 
 # 1.0.0 (2021-03-29)
 
 
 ### Features
 
-* Initial Release ([52d5468](https://github.com/CoCreate-app/CoCreateJS/commit/52d54687e98e33ab4f587d85581b30330104d5b0))
+* Initial Release ([52d5468](https://github.com/CoCreateJS/CoCreateJS/commit/52d54687e98e33ab4f587d85581b30330104d5b0))

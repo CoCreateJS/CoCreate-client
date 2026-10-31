@@ -1,19 +1,19 @@
 # Contributing to CoCreateJS
 
-This project is work of [many contributors](https://github.com/CoCreate-app/CoCreateJS/graphs/contributors).
-You're encouraged to submit [pull requests](https://github.com/CoCreate-app/CoCreateJS/pulls),
-[propose features and discuss issues](https://github.com/CoCreate-app/CoCreateJS/issues).
+This project is work of [many contributors](https://github.com/CoCreateJS/CoCreateJS/graphs/contributors).
+You're encouraged to submit [pull requests](https://github.com/CoCreateJS/CoCreateJS/pulls),
+[propose features and discuss issues](https://github.com/CoCreateJS/CoCreateJS/issues).
 
 In the examples below, substitute your Github username for `contributor` in URLs.
 
 ## Fork the Project
 
-Fork the [project on Github](https://github.com/CoCreate-app/CoCreateJS) and check out your copy.
+Fork the [project on Github](https://github.com/CoCreateJS/CoCreateJS) and check out your copy.
 
 ```
 git CoCreateJS https://github.com/contributor/CoCreateJS.git
 cd CoCreateJS
-git remote add upstream https://github.com/CoCreate-app/CoCreateJS.git
+git remote add upstream https://github.com/CoCreateJS/CoCreateJS.git
 ```
 
 ## Create a Topic Branch
@@ -75,7 +75,7 @@ git push origin my-feature-branch
 
 ## Make a Pull Request
 
-Go to [https://github.com/CoCreate-app/CoCreateJS](https://github.com/CoCreate-app/CoCreateJS) and select your feature branch.
+Go to [https://github.com/CoCreateJS/CoCreateJS](https://github.com/CoCreateJS/CoCreateJS) and select your feature branch.
 Click the 'Pull Request' button and fill out the form. Pull requests are usually reviewed within a few days.
 
 ## Rebase

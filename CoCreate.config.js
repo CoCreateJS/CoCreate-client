@@ -3,9 +3,9 @@ module.exports = {
     key: "",
     host: {
         $branch: {
-            main: "wss://cocreate.app",
-            dev: "wss://dev.cocreate.app",
-            test: "wss://test.cocreate.app"
+            main: "wss://CoCreateJS.com",
+            dev: "wss://dev.CoCreateJS.com",
+            test: "wss://test.CoCreateJS.com"
         }
     },
     directories: [
@@ -471,7 +471,7 @@ module.exports = {
         },
         website: {
             path: "../CoCreate-website",
-            repo: "github.com/CoCreate-app/CoCreate-website.git",
+            repo: "github.com/CoCreateJS/CoCreate-website.git",
             exclude: ["git"]
         }
     }
