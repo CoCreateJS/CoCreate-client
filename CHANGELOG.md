@@ -1,3 +1,28 @@
+# [1.80.0](https://github.com/CoCreateJS/CoCreate-client/compare/v1.79.3...v1.80.0) (2026-11-01)
+
+
+### Bug Fixes
+
+* add Deno specific entries to .gitignore ([24db69a](https://github.com/CoCreateJS/CoCreate-client/commit/24db69af9246ba1429701ac0eb0779f7a91adcb7))
+* bump dependencie versions ([98afef9](https://github.com/CoCreateJS/CoCreate-client/commit/98afef9b66da680ede71a6a6d715783498f5ab7a))
+* bump versions ([ce1b75a](https://github.com/CoCreateJS/CoCreate-client/commit/ce1b75a9dca56a2bdebf4a515f94de9101d2c0c0))
+* refactor webpack configuration to use ES modules and improve build process ([19f046c](https://github.com/CoCreateJS/CoCreate-client/commit/19f046c38813494bc74b9091a286aa85003fed2f))
+* remove deprecated allowScripts entry for @cocreate/acme ([e2197d9](https://github.com/CoCreateJS/CoCreate-client/commit/e2197d93d1ded97c64fefed9ef0227e26e6fee63))
+* remove uuid module and its dependencies from configuration ([2aeab79](https://github.com/CoCreateJS/CoCreate-client/commit/2aeab791c5420ab37bfbbcaf66f8703318d22be2))
+* update .gitignore to remove trailing slash from node_modules entry ([a7808ba](https://github.com/CoCreateJS/CoCreate-client/commit/a7808ba81f2ee41152b475c18e73c31cd4a457a4))
+* update @cocreate/elements, @cocreate/plugins, @cocreate/render, and @cocreate/utils dependencies to latest versions ([5079983](https://github.com/CoCreateJS/CoCreate-client/commit/5079983272e4025bf93dd3214355deb905aa5abe))
+* update app repository path in CoCreate.config.js and bump @cocreate/dnd dependency version ([7a98af6](https://github.com/CoCreateJS/CoCreate-client/commit/7a98af6eed8987a3f65db9a5852d216e9447c0d0))
+* update dependencies to latest versions for improved stability and performance ([618cc69](https://github.com/CoCreateJS/CoCreate-client/commit/618cc696b829ba63ea9817f16c012f933cd276b5))
+* update git urls ([6f45130](https://github.com/CoCreateJS/CoCreate-client/commit/6f451302ab36397f13939abd8f0cd0a255514677))
+* update GitHub Actions workflow to use latest action versions and improve package.json syncing ([b84731e](https://github.com/CoCreateJS/CoCreate-client/commit/b84731ede73ebd07f57e19a7de6f15c4f7527af8))
+* update module output path to CoCreate.index.js for consistency across configuration ([ab5edc5](https://github.com/CoCreateJS/CoCreate-client/commit/ab5edc5c6b4c2da65d366d26657cfb76a329b719))
+
+
+### Features
+
+* add initial CoCreate configuration setup for window object ([56ae0d5](https://github.com/CoCreateJS/CoCreate-client/commit/56ae0d513c8a6f1b77b19a2d9b8984c33aa055b0))
+* add Prism language autoloading ([510ac3b](https://github.com/CoCreateJS/CoCreate-client/commit/510ac3b00222b3688102e2bae130c4acd651eaf9))
+
 ## [1.79.3](https://github.com/CoCreate-app/CoCreateJS/compare/v1.79.2...v1.79.3) (2026-07-19)
 
 
