@@ -571,9 +571,9 @@ module.exports = {
      * @property {string[]} [exclude] - Array of strings used to exclude the project from specific CLI commands (e.g., ["git"] or ["fs/webpack"]).
      */
     projects: {
-        CoCreateJS: {
-            path: "../CoCreateJS",
-            repo: "gitlab.com/cocreatejs/CoCreateJS.git",
+        client: {
+            path: "../CoCreate-client",
+            repo: "github.com/CoCreateJS/CoCreate-client.git",
             exclude: ["git"]
         },
         app: {
