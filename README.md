@@ -1,7 +1,7 @@
 # CoCreateJS
 
 [![npm](https://img.shields.io/npm/v/@cocreate/client?style=flat-square)](https://www.npmjs.com/package/@cocreate/client)
-[![GitHub release](https://img.shields.io/github/v/release/CoCreate-app/CoCreateJS?style=flat-square)](https://github.com/CoCreate-app/CoCreateJS/releases)
+[![GitHub release](https://img.shields.io/github/v/release/CoCreate-app/CoCreateJS?style=flat-square)](https://github.com/CoCreateJS/CoCreate-client/releases)
 [![License](https://img.shields.io/github/license/CoCreate-app/CoCreateJS?style=flat-square)](./LICENSE)
 
 An open-source, modular JavaScript runtime for building realtime, offline-first, data-driven applications with declarative HTML, headless JavaScript, or both.
@@ -37,19 +37,19 @@ The result is a progressive runtime: a page can begin as ordinary HTML, gain rea
 
 ## What the client provides
 
-| Capability | What it enables |
-| --- | --- |
-| Declarative data | Bind HTML elements to collections, objects, and nested keys |
-| Unified CRUD | Create, read, update, delete, filter, and synchronize through one payload convention |
-| Realtime sockets | Exchange application messages and receive live data updates over WebSockets |
-| Collaborative editing | Synchronize changes, cursors, selections, and CRDT-backed state |
-| Offline-first storage | Work with IndexedDB, local storage, cache, queued operations, and PWA behavior |
-| Components and rendering | Load HTML sources, render templates, filter collections, and update the DOM |
-| Any API | Build provider-neutral requests from HTML or JavaScript while credentials remain on the server |
-| Abstract plugins | Load and operate first-party or third-party libraries through a shared AST configuration model |
-| Files and media | Upload, download, import, export, and manage files through standard actions |
-| Application behavior | Compose actions, validation, conditional logic, calculations, state, and events |
-| Lazy loading | Load modules when their selectors appear instead of initializing the entire runtime upfront |
+| Capability               | What it enables                                                                                |
+| ------------------------ | ---------------------------------------------------------------------------------------------- |
+| Declarative data         | Bind HTML elements to collections, objects, and nested keys                                    |
+| Unified CRUD             | Create, read, update, delete, filter, and synchronize through one payload convention           |
+| Realtime sockets         | Exchange application messages and receive live data updates over WebSockets                    |
+| Collaborative editing    | Synchronize changes, cursors, selections, and CRDT-backed state                                |
+| Offline-first storage    | Work with IndexedDB, local storage, cache, queued operations, and PWA behavior                 |
+| Components and rendering | Load HTML sources, render templates, filter collections, and update the DOM                    |
+| Any API                  | Build provider-neutral requests from HTML or JavaScript while credentials remain on the server |
+| Abstract plugins         | Load and operate first-party or third-party libraries through a shared AST configuration model |
+| Files and media          | Upload, download, import, export, and manage files through standard actions                    |
+| Application behavior     | Compose actions, validation, conditional logic, calculations, state, and events                |
+| Lazy loading             | Load modules when their selectors appear instead of initializing the entire runtime upfront    |
 
 ## Declarative data binding
 
@@ -57,15 +57,12 @@ The `array`, `object`, and `key` attributes describe where an element's value li
 
 ```html
 <input
-    array="contacts"
-    object="639b39fd138632d1d886ccf5"
-    key="profile.name"
-    placeholder="Contact name" />
+	array="contacts"
+	object="639b39fd138632d1d886ccf5"
+	key="profile.name"
+	placeholder="Contact name" />
 
-<h1
-    array="contacts"
-    object="639b39fd138632d1d886ccf5"
-    key="profile.name"></h1>
+<h1 array="contacts" object="639b39fd138632d1d886ccf5" key="profile.name"></h1>
 ```
 
 Both elements address the same value. CoCreateJS modules can read it, update it, persist it, render it elsewhere, and synchronize it with connected clients.
@@ -80,14 +77,14 @@ The CRUD client uses self-contained payloads instead of database-specific calls.
 import crud from "@cocreate/crud-client";
 
 const result = await crud.send({
-    method: "object.read",
-    array: "contacts",
-    storage: ["indexeddb", "mongodb"],
-    filter: {
-        query: { status: "active" },
-        limit: 25,
-        sort: { "modified.on": -1 }
-    }
+	method: "object.read",
+	array: "contacts",
+	storage: ["indexeddb", "mongodb"],
+	filter: {
+		query: { status: "active" },
+		limit: 25,
+		sort: { "updated.on": -1 }
+	}
 });
 ```
 
@@ -115,19 +112,11 @@ Applications can use the declarative layer or communicate through the socket cli
 The API client turns a form or container into a provider-neutral request surface. An endpoint and HTTP method describe the operation; provider-prefixed keys describe the payload.
 
 ```html
-<form
-    api="stripe"
-    stripe-endpoint="create-customer"
-    stripe-method="post">
-    <input stripe-key="email" type="email" />
-    <input
-        stripe-key="metadata.workspace"
-        value="production"
-        hidden />
+<form api="stripe" stripe-endpoint="create-customer" stripe-method="post">
+	<input stripe-key="email" type="email" />
+	<input stripe-key="metadata.workspace" value="production" hidden />
 
-    <button actions="stripe.create-customer">
-        Create customer
-    </button>
+	<button actions="stripe.create-customer">Create customer</button>
 </form>
 ```
 
@@ -141,8 +130,8 @@ CoCreate Plugins provides an abstract bridge between DOM elements, external Java
 
 ```html
 <div
-    id="calendar"
-    plugin='{
+	id="calendar"
+	plugin='{
         "FullCalendar": {
             "Calendar": [
                 "$this",
@@ -153,8 +142,7 @@ CoCreate Plugins provides an abstract bridge between DOM elements, external Java
             ]
         },
         "FullCalendar.render": []
-    }'>
-</div>
+    }'></div>
 ```
 
 The runtime loads the configured resources, creates the plugin instance on the element, and makes its methods and values available to the same element pipeline used elsewhere in CoCreateJS.
@@ -251,7 +239,7 @@ You can also load a built bundle directly:
 Clone the repository and install its dependencies:
 
 ```sh
-git clone https://github.com/CoCreate-app/CoCreateJS.git
+git clone https://github.com/CoCreateJS/CoCreateJS.git
 cd CoCreateJS
 npm install
 ```
@@ -278,13 +266,13 @@ The generated browser bundle is written to `src/dist`.
 - [Demo source](./demo/)
 - [CoCreate Server](https://github.com/CoCreateJS/CoCreate-server)
 - [Changelog](./CHANGELOG.md)
-- [Releases](https://github.com/CoCreate-app/CoCreateJS/releases)
+- [Releases](https://github.com/CoCreateJS/CoCreate-client/releases)
 
 ## Contributing
 
 CoCreateJS is built as an ecosystem of small, composable packages. Contributions to the runtime, individual modules, documentation, and examples are welcome.
 
-Read the [contribution guide](./CONTRIBUTING.md), then open an [issue](https://github.com/CoCreate-app/CoCreateJS/issues) or [pull request](https://github.com/CoCreate-app/CoCreateJS/pulls).
+Read the [contribution guide](./CONTRIBUTING.md), then open an [issue](https://github.com/CoCreateJS/CoCreateJS/issues) or [pull request](https://github.com/CoCreateJS/CoCreateJS/pulls).
 
 ## License
 
