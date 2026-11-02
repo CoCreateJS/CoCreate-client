@@ -1,6 +1,6 @@
 # CoCreateJS
 
-[![npm](https://img.shields.io/npm/v/@cocreate/cocreatejs?style=flat-square)](https://www.npmjs.com/package/@cocreate/cocreatejs)
+[![npm](https://img.shields.io/npm/v/@cocreate/client?style=flat-square)](https://www.npmjs.com/package/@cocreate/client)
 [![GitHub release](https://img.shields.io/github/v/release/CoCreate-app/CoCreateJS?style=flat-square)](https://github.com/CoCreateJS/CoCreateJS/releases)
 [![License](https://img.shields.io/github/license/CoCreate-app/CoCreateJS?style=flat-square)](./LICENSE)
 
@@ -8,7 +8,7 @@ An open-source, modular JavaScript runtime for building realtime, offline-first,
 
 CoCreateJS gives standard HTML a direct connection to data, actions, APIs, sockets, storage, components, and third-party plugins. Start with a few attributes, use the same capabilities programmatically, or combine them with the framework and architecture you already have.
 
-This repository contains `@cocreate/cocreatejs`, the optional browser-side runtime. It works especially well with [CoCreate Server](https://github.com/CoCreateJS/CoCreate-server), the scalable server runtime behind the wider CoCreate ecosystem, but neither side locks you into the other.
+This repository contains `@cocreate/client`, the optional browser-side runtime. It works especially well with [CoCreate Server](https://github.com/CoCreateJS/CoCreate-server), the scalable server runtime behind the wider CoCreate ecosystem, but neither side locks you into the other.
 
 ![CoCreateJS](./CoCreateJS.png)
 
@@ -213,19 +213,19 @@ CoCreateJS remains the browser runtime; CoCreate Server owns server execution an
 Install the complete client runtime:
 
 ```sh
-npm install @cocreate/cocreatejs
+npm install @cocreate/client
 ```
 
 Or with Yarn:
 
 ```sh
-yarn add @cocreate/cocreatejs
+yarn add @cocreate/client
 ```
 
 Import it as a browser-side dependency:
 
 ```js
-import "@cocreate/cocreatejs";
+import "@cocreate/client";
 ```
 
 You can also load a built bundle directly:

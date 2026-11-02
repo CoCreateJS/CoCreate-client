@@ -66,6 +66,28 @@ module.exports = {
     ],
 
     /**
+     * @namespace projects
+     * @description Standalone apps, environments, or platforms integrated with the Poly Repo CLI.
+     * * The Poly Repo CLI (initiated via the 'coc' command) merges the repo details from 'projects' and 'modules' 
+     * (excluding 'plugins') to execute cross-repository actions seamlessly.
+     * * @property {string} path - Local relative workspace path. Defines the workspace tree structure, determining where the repository is cloned in a new environment so the CLI can locate it during operations.
+     * @property {string} repo - Git repository URL.
+     * @property {string[]} [exclude] - Array of strings used to exclude the project from specific CLI commands (e.g., ["git"] or ["fs/webpack"]).
+     */
+    projects: {
+        client: {
+            path: "../CoCreate-client",
+            repo: "github.com/CoCreateJS/CoCreate-client.git",
+            exclude: ["git"]
+        },
+        app: {
+            path: "../CoCreate-app",
+            repo: "github.com/cocreatejs/CoCreate-app.git",
+            exclude: ["git"]
+        }
+    },
+
+    /**
      * @property {string} moduleOutputPath
      * @description Defines the destination file path where the build system (e.g., ModuleGenerator Webpack plugin) 
      * will save the dynamically generated module entry file. This file contains the automated import and lazy-loading logic.
@@ -306,10 +328,6 @@ module.exports = {
         "scrollbar": {
             path: "../CoCreate-modules/scrollbar",
             repo: "github.com/cocreatejs/CoCreate-scrollbar.git"
-        },
-        webpack: {
-            path: "../CoCreate-plugins/webpack",
-            repo: "github.com/cocreatejs/CoCreate-webpack.git"
         }
     },
 
@@ -323,6 +341,10 @@ module.exports = {
      * seamlessly whitelisted, configured, and initialized dynamically via HTML attributes or inline scripts.
      */
     plugins: {
+        webpack: {
+            path: "../CoCreate-plugins/webpack",
+            repo: "github.com/CoCreateJS/Webpack.git"
+        },
         Toastify: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/toastify-js", crossOrigin: "anonymous" }],
             css: ["https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"]
@@ -436,32 +458,6 @@ module.exports = {
         Anime: {
             js: [{ src: "https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js", crossOrigin: "anonymous" }]
         }
-    },
-
-    /**
-     * @namespace projects
-     * @description Standalone apps, environments, or platforms integrated with the Poly Repo CLI.
-     * * The Poly Repo CLI (initiated via the 'coc' command) merges the repo details from 'projects' and 'modules' 
-     * (excluding 'plugins') to execute cross-repository actions seamlessly.
-     * * @property {string} path - Local relative workspace path. Defines the workspace tree structure, determining where the repository is cloned in a new environment so the CLI can locate it during operations.
-     * @property {string} repo - Git repository URL.
-     * @property {string[]} [exclude] - Array of strings used to exclude the project from specific CLI commands (e.g., ["git"] or ["fs/webpack"]).
-     */
-    projects: {
-        client: {
-            path: "../CoCreate-client",
-            repo: "github.com/CoCreateJS/CoCreate-client.git",
-            exclude: ["git"]
-        },
-        app: {
-            path: "../CoCreate-app",
-            repo: "github.com/cocreatejs/CoCreate-app.git",
-            exclude: ["git"]
-        },
-        website: {
-            path: "../CoCreate-website",
-            repo: "github.com/CoCreateJS/CoCreate-website.git",
-            exclude: ["git"]
-        }
     }
+
 };
