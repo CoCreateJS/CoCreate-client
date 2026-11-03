@@ -264,12 +264,6 @@ module.exports = {
             path: "../CoCreate-modules/search",
             repo: "github.com/cocreatejs/CoCreate-search.git"
         },
-        elementConfig: {
-            import: "@cocreate/element-config",
-            selector: "[config-query]",
-            path: "../CoCreate-modules/element-config",
-            repo: "github.com/cocreatejs/CoCreate-element-config.git"
-        },
         validation: {
             import: "@cocreate/validation",
             selector: "[actions*='validate'], [required]",

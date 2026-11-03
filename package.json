@@ -57,7 +57,6 @@
     "@cocreate/crud-client": "^1.37.0",
     "@cocreate/css-parser": "^1.20.0",
     "@cocreate/cursors": "^1.28.0",
-    "@cocreate/element-config": "^1.15.0",
     "@cocreate/element-prototype": "^1.35.0",
     "@cocreate/elements": "^1.46.0",
     "@cocreate/events": "^1.34.0",
