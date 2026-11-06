@@ -306,7 +306,7 @@ dependency("observer", import(/* webpackChunkName: "observer" */ "@cocreate/obse
 lazyLoad("indexeddb", "[storage*='indexeddb']", () => import(/* webpackChunkName: "indexeddb" */ "@cocreate/indexeddb"));
 lazyLoad("localstorage", "[storage*='localstorage'], [localstorage-set], [localstorage-get]", () => import(/* webpackChunkName: "localstorage" */ "@cocreate/local-storage"));
 dependency("config", import(/* webpackChunkName: "config" */ "@cocreate/config"));
-lazyLoad("socket", "[socket='true']", () => import(/* webpackChunkName: "socket" */ "@cocreate/socket-client"));
+lazyLoad("socket", "[socket='true']", () => import(/* webpackChunkName: "socket" */ "@cocreate/socket"));
 dependency("events", import(/* webpackChunkName: "events" */ "@cocreate/events"));
 lazyLoad("crud", "[crud='true'], [database], [array]", () => import(/* webpackChunkName: "crud" */ "@cocreate/crud-client"));
 lazyLoad("crdt", "[crdt='true']", () => import(/* webpackChunkName: "crdt" */ "@cocreate/crdt"));

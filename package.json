@@ -77,11 +77,11 @@
     "@cocreate/resize": "^1.18.0",
     "@cocreate/scroll": "^1.18.0",
     "@cocreate/search": "^1.13.0",
-    "@cocreate/socket-client": "^1.43.0",
     "@cocreate/state": "^1.29.0",
     "@cocreate/users": "^1.47.0",
     "@cocreate/utils": "^1.54.0",
     "@cocreate/validation": "^1.19.0",
-    "webpack": "^5.109.1"
+    "webpack": "^5.109.1",
+    "@cocreate/socket": "^2.0.1"
   }
 }

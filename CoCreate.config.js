@@ -136,10 +136,10 @@ module.exports = {
             repo: "github.com/cocreatejs/CoCreate-config.git"
         },
         socket: {
-            import: "@cocreate/socket-client",
+            import: "@cocreate/socket",
             selector: "[socket='true']",
-            path: "../CoCreate-modules/socket-client",
-            repo: "github.com/cocreatejs/CoCreate-socket-client.git"
+            path: "../CoCreate-modules/socket",
+            repo: "github.com/CoCreateJS/socket.git"
         },
         events: {
             import: "@cocreate/events",
