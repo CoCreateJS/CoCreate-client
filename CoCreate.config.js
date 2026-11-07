@@ -147,10 +147,10 @@ module.exports = {
             repo: "github.com/cocreatejs/CoCreate-events.git"
         },
         crud: {
-            import: "@cocreate/crud-client",
+            import: "@cocreate/crud/client",
             selector: "[crud='true'], [database], [array]",
-            path: "../CoCreate-modules/crud-client",
-            repo: "github.com/cocreatejs/CoCreate-crud-client.git"
+            path: "../CoCreate-modules/crud",
+            repo: "github.com/cocreatejs/crud-server.git"
         },
         crdt: {
             import: "@cocreate/crdt",

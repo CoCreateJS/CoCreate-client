@@ -54,7 +54,7 @@
     "@cocreate/clipboard": "^1.5.0",
     "@cocreate/config": "^1.21.0",
     "@cocreate/crdt": "^1.32.0",
-    "@cocreate/crud-client": "^1.37.0",
+    "@cocreate/crud": "^2.0.0",
     "@cocreate/css-parser": "^1.20.0",
     "@cocreate/cursors": "^1.28.0",
     "@cocreate/element-prototype": "^1.35.0",
